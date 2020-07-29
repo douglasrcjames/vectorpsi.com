@@ -14,22 +14,36 @@ class Header extends Component {
                             alt="logo"
                             src={require("../../assets/images/logos/logo512.png")}
                         />
-                        <span className="nav-l-text">Doug's React Boiler</span>
+                        <span className="nav-l-text">Vector Process Solutions</span>
                     </Link>
                     <div className="nav-links">
                         <NavLink 
                             exact
-                            to="/" 
+                            to="/products" 
                             className="nav-link" 
                             activeClassName="nav-select">
-                            Home
+                            Products
                         </NavLink>
                         <NavLink 
                             exact
-                            to="/about" 
+                            to="/industries" 
                             className="nav-link" 
                             activeClassName="nav-select">
-                            About
+                            Industries
+                        </NavLink>
+                        <NavLink 
+                            exact
+                            to="/about-us" 
+                            className="nav-link" 
+                            activeClassName="nav-select">
+                            About Us
+                        </NavLink>
+                        <NavLink 
+                            exact
+                            to="/resources" 
+                            className="nav-link" 
+                            activeClassName="nav-select">
+                            Resources
                         </NavLink>
                     </div>
                     
