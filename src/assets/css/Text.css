@@ -120,10 +120,16 @@ h3 {
     white-space: normal !important;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     h1 {
         font-size: 2em;
     }
+    h1:before {
+        bottom: -10px;
+        width: 150px;
+        height: 2px;
+        background: #4FBFE0;
+      }
     h2 {
         font-size: 1.6em;
     }

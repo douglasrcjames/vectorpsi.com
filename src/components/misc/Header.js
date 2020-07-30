@@ -1,52 +1,90 @@
 import React, { Component } from 'react'
-import { NavLink, Link, withRouter } from "react-router-dom";
-import "../../assets/css/Header.css";
+import '../../assets/css/Header.css'
+import MediaQuery from "react-responsive";
+import { NavLink, withRouter } from 'react-router-dom';
 
 class Header extends Component {
+    constructor(props) {
+        super(props)
+        this.toggler = React.createRef();
+        this.state = {
+             menuOpen: false
+        }
+    }
+
+    toggleMenu(){
+        this.toggler.current.checked = !this.state.menuOpen;
+        this.setState({menuOpen: !this.state.menuOpen})
+    }
+    
     render() {
+        const menuArray = ['Products', 'Industries', 'About Us', 'Resources']
         return (
-            <header>
-                <nav className="nav-container">
-                    <Link to="/" className="">
-                        {/* TODO: update name & logo */}
+            <header className="nav-wrapper">
+                <nav role="navigation" className="p-container">
+                    <div className="nav-logo">
                         <img
-                            className="nav-logo"
-                            alt="logo"
+                            className="responsive xsmall"
+                            alt="company logo"
                             src={require("../../assets/images/logos/logo512.png")}
-                        />
-                        <span className="nav-l-text">Vector Process Solutions</span>
-                    </Link>
-                    <div className="nav-links">
+                            />
                         <NavLink 
                             exact
-                            to="/products" 
-                            className="nav-link" 
-                            activeClassName="nav-select">
-                            Products
-                        </NavLink>
-                        <NavLink 
-                            exact
-                            to="/industries" 
-                            className="nav-link" 
-                            activeClassName="nav-select">
-                            Industries
-                        </NavLink>
-                        <NavLink 
-                            exact
-                            to="/about-us" 
-                            className="nav-link" 
-                            activeClassName="nav-select">
-                            About Us
-                        </NavLink>
-                        <NavLink 
-                            exact
-                            to="/resources" 
-                            className="nav-link" 
-                            activeClassName="nav-select">
-                            Resources
+                            className="nav-logo-font"
+                            activeClassName="active-logo-font"
+                            to="/">
+                                Vector Process Solutions
                         </NavLink>
                     </div>
-                    
+                    <MediaQuery minWidth={1001}>
+                        <div className="nav-links">
+                            <ul>
+                                {  menuArray.map((val, index)=>{
+                                        return (
+                                            <li key={index}>
+                                                <NavLink 
+                                                    exact
+                                                    activeClassName="active"
+                                                    to={`/${val.split(" ").join("-").toLowerCase()}`}>
+                                                    {val}
+                                                    <span></span>
+                                                    <span></span>
+                                                </NavLink>
+                                            </li>
+                                        )
+                                    })
+                                }
+                            </ul>
+                        </div>
+                    </MediaQuery>
+                    <MediaQuery maxWidth={1000}>
+                        <div className="menu-wrap">
+                            <input type="checkbox" ref={this.toggler} onClick={() => this.toggleMenu()} className="toggler"/>
+                            <div className="hamburger"><div></div></div>
+                            <div className="menu">
+                                <div>
+                                    <div>
+                                        <ul>
+                                            {  menuArray.map((val, index)=>{
+                                                    return (
+                                                        <li key={index}>
+                                                            <NavLink 
+                                                                onClick={() => this.toggleMenu()} 
+                                                                exact
+                                                                // activeClassName="active"
+                                                                to={`/${val.split(" ").join("-").toLowerCase()}`}>
+                                                                {val}
+                                                            </NavLink>
+                                                        </li>
+                                                    )
+                                                })
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </MediaQuery>
                 </nav>
             </header>
         )

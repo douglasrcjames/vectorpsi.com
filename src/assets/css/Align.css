@@ -147,7 +147,7 @@ body {
 /* 
 * Responsive Width
 */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .s-width {
         width: 90% !important;
     }
@@ -161,7 +161,7 @@ body {
     }
 }
 
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 1001px) {
     .s-width {
         width: 25% !important;
     }
