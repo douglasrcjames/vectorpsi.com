@@ -105,6 +105,7 @@ export default class ContactForm extends Component {
                                 <Row className="m-margin-b">
                                     <Col xs={12}>
                                         <button 
+                                            className="custom-btn btn-12"
                                             type="submit" 
                                             disabled={!props.dirty && !props.isSubmitting}>
                                                 Submit

@@ -97,14 +97,22 @@ h1 {
     font-family: "CormorantGaramond-Bold";
 }
 
-  h1:before {
+h1:before {
     position: absolute;
     content: "";
     bottom: -20px;
     width: 150px;
     height: 2px;
     background: #4FBFE0;
-  }
+}
+
+
+h1.no-line:before {
+    width: 0px;
+    height: 0px;
+    background: none;
+}
+
 
 h2 {
     font-size: 2.5em;
@@ -124,15 +132,24 @@ h3 {
     h1 {
         font-size: 2em;
     }
+
     h1:before {
         bottom: -10px;
         width: 150px;
         height: 2px;
         background: #4FBFE0;
       }
+
+    h1.no-line:before {
+        width: 0px;
+        height: 0px;
+        background: none;
+    }
+
     h2 {
         font-size: 1.6em;
     }
+
     h3 {
         font-size: 1em;
     }
@@ -159,6 +176,12 @@ a {
     text-decoration: none;
     font-family: "CormorantGaramond-Medium";
     cursor: pointer;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 100;
+    font-family: "CormorantGaramond-Medium";
 }
 
 b {

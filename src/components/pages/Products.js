@@ -35,7 +35,7 @@ export default class Products extends Component {
                                     </p>
                                     <div className="center-text">
                                         <Link to="/products/control-valves">
-                                            <button class="custom-btn btn-11">View products</button>
+                                            <button className="custom-btn btn-11">View products</button>
                                         </Link>
                                     </div>
                                 </Col>
@@ -67,7 +67,7 @@ export default class Products extends Component {
                                     </p>
                                     <div className="center-text">
                                         <Link to="/products/isometric">
-                                            <button class="custom-btn btn-11">View products</button>
+                                            <button className="custom-btn btn-11">View products</button>
                                         </Link>
                                     </div>
                                 </Col>
@@ -100,7 +100,7 @@ export default class Products extends Component {
                                     </p>
                                     <div className="center-text">
                                         <Link to="/products/flow">
-                                            <button class="custom-btn btn-11">View products</button>
+                                            <button className="custom-btn btn-11">View products</button>
                                         </Link>
                                     </div>
                                 </Col>
@@ -132,7 +132,7 @@ export default class Products extends Component {
                                     </p>
                                     <div className="center-text">
                                         <Link to="/products/level">
-                                            <button class="custom-btn btn-11">View products</button>
+                                            <button className="custom-btn btn-11">View products</button>
                                         </Link>
                                     </div>
                                 </Col>
@@ -162,7 +162,7 @@ export default class Products extends Component {
                                     </p>
                                     <div className="center-text">
                                         <Link to="/products/pressure">
-                                            <button class="custom-btn btn-11">View products</button>
+                                            <button className="custom-btn btn-11">View products</button>
                                         </Link>
                                     </div>
                                 </Col>
@@ -189,7 +189,7 @@ export default class Products extends Component {
                                     </p>
                                     <div className="center-text">
                                         <Link to="/products/temperature">
-                                            <button class="custom-btn btn-11">View products</button>
+                                            <button className="custom-btn btn-11">View products</button>
                                         </Link>
                                     </div>
                                 </Col>
@@ -212,7 +212,7 @@ export default class Products extends Component {
                                     </p>
                                     <div className="center-text">
                                         <Link to="/products/automation">
-                                            <button class="custom-btn btn-11">View products</button>
+                                            <button className="custom-btn btn-11">View products</button>
                                         </Link>
                                     </div>
                                 </Col>
@@ -235,7 +235,7 @@ export default class Products extends Component {
                                     </p>
                                     <div className="center-text">
                                         <Link to="/products/filtration">
-                                            <button class="custom-btn btn-11">View products</button>
+                                            <button className="custom-btn btn-11">View products</button>
                                         </Link>
                                     </div>
                                 </Col>

@@ -261,6 +261,17 @@ hr {
     content: none;
 }
 
+/* Slick slider */
+.slick-initialized .slick-slide {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+} 
+
+.slick-track {
+    padding: 0;
+}
+
 
 
 
