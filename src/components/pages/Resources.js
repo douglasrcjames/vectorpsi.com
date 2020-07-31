@@ -5,7 +5,7 @@ export default class Resources extends Component {
         return (
             <div className="wrapper">
                 <h1>Resources</h1>
-                <p>download links and announcements from key manufacturers showing their new representation</p>
+                <p>More info coming soon, such as download links and announcements from key manufacturers showing their new representation.</p>
             </div>
         )
     }

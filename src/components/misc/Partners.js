@@ -6,8 +6,7 @@ export default class Partners extends Component {
         super(props)
     
         this.state = {
-            partnersFirstHalf: [],
-            partnersSecondHalf: []
+            partnersArray: [],
         }
     }
 
@@ -26,7 +25,7 @@ export default class Partners extends Component {
             )
         } else {
             return (
-                <div>
+                <div className="slider-container">
                     <div className="m-margin-b">
                         <Slider {...settings1}>
                             {this.state.partnersArray.map((partner, index) => (
@@ -81,7 +80,7 @@ const settings1 = {
     infinite: true,
     arrows: false,
     pauseOnHover: false,
-    slidesToShow: 4,
+    slidesToShow: 0,
     slidesToScroll: 1,
     rtl: true,
     initialSlide: 0,
@@ -133,50 +132,42 @@ const settings1 = {
   }
 
 
-//    {/* <p>
-//                     Badger Meter – www.badgermeter.com
-//                     Spifil - http://spifil.com/en/
-//                     Azbil North America – www.us.azbil.com
-//                     Questtec Solutions - https://www.questtecsolutions.com/
-//                     Warren Controls - http://www.warrencontrols.com/
-//                     Cameron - https://www.products.slb.com/valves
-
 //                     Pending Final Approval
 //                     IMI Critical Engineering - http://www.imi-critical.com/Pages/default.aspx
 //                     Clearguard - http://clearguard.com/
 //                     Bray International - https://bray.com/
 //                     Rexa - https://www.rexa.com/
 //                     Andronaco - https://www.andronaco.com/
-//                 </p> */}
+
 
 const partners = [
     {
-        webUrl: `https://www.adl.org/`,
+        webUrl: `https://www.us.azbil.com`,
         picPath: require("../../assets/images/external-logos/azbil.png"),
         picSize: "small"
     },
     {
-        webUrl: `https://www.alz.org/`,
+        webUrl: `https://www.badgermeter.com`,
         picPath: require("../../assets/images/external-logos/badger-meter.png"),
         picSize: "large"
     },
     {
-        webUrl: `https://democracymonth.org/`,
+        webUrl: `https://www.products.slb.com/valves`,
         picPath: require("../../assets/images/external-logos/cameron.png"),
         picSize: "medium"
     },
     {
-        webUrl: `http://attolloprep.org/`,
+        webUrl: `https://www.questtecsolutions.com/`,
         picPath: require("../../assets/images/external-logos/questtec.png"),
         picSize: "medium"
     },
     {
-        webUrl: `https://www.benderjccgw.org/`,
+        webUrl: `http://spifil.com/en/`,
         picPath: require("../../assets/images/external-logos/spifil.png"),
         picSize: "medium"
     },
     {
-        webUrl: `https://bipartisanpolicy.org/`,
+        webUrl: `http://www.warrencontrols.com/`,
         picPath: require("../../assets/images/external-logos/warren-controls.png"),
         picSize: "medium"
     },

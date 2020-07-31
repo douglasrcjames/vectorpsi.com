@@ -22,20 +22,13 @@ class Header extends Component {
         return (
             <header className="nav-wrapper">
                 <nav role="navigation" className="p-container">
-                    <div className="nav-logo">
+                    <NavLink to="/">
                         <img
-                            className="responsive xsmall"
+                            className="responsive nav-logo"
                             alt="company logo"
                             src={require("../../assets/images/logos/logo512.png")}
                             />
-                        <NavLink 
-                            exact
-                            className="nav-logo-font"
-                            activeClassName="active-logo-font"
-                            to="/">
-                                Vector Process Solutions
-                        </NavLink>
-                    </div>
+                    </NavLink>
                     <MediaQuery minWidth={1001}>
                         <div className="nav-links">
                             <ul>

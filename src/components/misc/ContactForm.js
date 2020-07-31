@@ -102,7 +102,7 @@ export default class ContactForm extends Component {
                                         )}
                                     </Col>
                                 </Row>
-                                <Row className="m-margin-b">
+                                <Row className="m-margin-b center-text">
                                     <Col xs={12}>
                                         <button 
                                             className="custom-btn btn-12"

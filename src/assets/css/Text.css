@@ -2,6 +2,9 @@
 /*
 // TODO: you can update all or some of these colors and their declarations throughout the app, but mainly the primary and secondary colors likely
 
+Primary red: #C82127
+Secondary blue: #75BEC3
+
 Blue: #4FBFE0
 Dark: #3B8FA8
 Light: #72CCE6
@@ -41,51 +44,47 @@ Light: #D6D6D6
 
 // TODO: update font and declarations around app
 
-Font: CormorantGaramond & PinyonScript
+Font: Comfortaa & BuiltTitling
 
 */
 /*//*//*//*//*//*//*//*/
 
-/* @font-face {
-    font-family: "CormorantGaramond-Light";
-    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf);
+@font-face {
+    font-family: "Comfortaa-Light";
+    src: url(../fonts/comfortaa/Comfortaa-Light.ttf);
 }
 @font-face {
-    font-family: "CormorantGaramond-Regular";
-    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf);
+    font-family: "Comfortaa-Regular";
+    src: url(../fonts/comfortaa/Comfortaa-Regular.ttf);
 }
 @font-face {
-    font-family: "CormorantGaramond-Medium";
-    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf);
+    font-family: "Comfortaa-Medium";
+    src: url(../fonts/comfortaa/Comfortaa-Medium.ttf);
 }
 @font-face {
-    font-family: "CormorantGaramond-SemiBold";
-    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-SemiBold.ttf);
+    font-family: "Comfortaa-SemiBold";
+    src: url(../fonts/comfortaa/Comfortaa-SemiBold.ttf);
 }
 @font-face {
-    font-family: "CormorantGaramond-Italic";
-    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Italic.ttf);
-}
-@font-face {
-    font-family: "CormorantGaramond-Bold";
-    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf);
+    font-family: "Comfortaa-Bold";
+    src: url(../fonts/comfortaa/Comfortaa-Bold.ttf);
 }
 
 @font-face {
-    font-family: "PinyonScript-Regular";
-    src: url(../fonts/Pinyon_Script/PinyonScript-Regular.ttf);
-} */
-
-.cormorant-garamond-regular {
-    font-family: "CormorantGaramond-Regular" !important;
+    font-family: "BuiltTitling-Bold";
+    src: url(../fonts/built-titling/built-titling-bd.ttf);
 }
 
-.cormorant-garamond-medium {
-    font-family: "CormorantGaramond-Medium" !important;
+.comfortaa-regular {
+    font-family: "Comfortaa-Regular" !important;
 }
 
-.cormorant-garamond-bold {
-    font-family: "CormorantGaramond-Bold" !important;
+.comfortaa-medium {
+    font-family: "Comfortaa-Medium" !important;
+}
+
+.comfortaa-bold {
+    font-family: "Comfortaa-Bold" !important;
 }
 
 /* 
@@ -94,7 +93,8 @@ Font: CormorantGaramond & PinyonScript
 h1 {
     position: relative;
     font-size: 3em;
-    font-family: "CormorantGaramond-Bold";
+    letter-spacing: 0.04em;
+    font-family: "BuiltTitling-Bold";
 }
 
 h1:before {
@@ -103,7 +103,7 @@ h1:before {
     bottom: -20px;
     width: 150px;
     height: 2px;
-    background: #4FBFE0;
+    background: #C82127;
 }
 
 
@@ -116,14 +116,16 @@ h1.no-line:before {
 
 h2 {
     font-size: 2.5em;
-    font-family: "CormorantGaramond-Bold";
+    font-family: "BuiltTitling-Bold";
+    letter-spacing: 0.04em;
 }
 
 h3 {
     font-size: 1.5em;
+    letter-spacing: 0.04em;
     padding: 0px !important;
     margin: 0px !important;
-    font-family: "CormorantGaramond-Bold";
+    font-family: "BuiltTitling-Bold";
     word-wrap: break-word !important;
     white-space: normal !important;
 }
@@ -131,13 +133,14 @@ h3 {
 @media screen and (max-width: 1000px) {
     h1 {
         font-size: 2em;
+        letter-spacing: 0.03em;
     }
 
     h1:before {
         bottom: -10px;
         width: 150px;
         height: 2px;
-        background: #4FBFE0;
+        background: #C82127;
       }
 
     h1.no-line:before {
@@ -148,64 +151,66 @@ h3 {
 
     h2 {
         font-size: 1.6em;
+        letter-spacing: 0.03em;
     }
 
     h3 {
         font-size: 1em;
+        letter-spacing: 0.03em;
     }
 }
 
 h4 {
-    font-family: "CormorantGaramond-Bold";
+    font-family: "BuiltTitling-Bold";
 }
 
 h5 {
-    font-family: "CormorantGaramond-Bold";
+    font-family: "BuiltTitling-Bold";
 }
 
 /* 
 * Body
 */
 p {
-    font-family: "CormorantGaramond-Medium" !important;
+    font-family: "Comfortaa-Medium" !important;
     line-height: 1.6;
     font-size: 16;
 }
 
 a {
     text-decoration: none;
-    font-family: "CormorantGaramond-Medium";
+    font-family: "Comfortaa-Medium";
     cursor: pointer;
 }
 
 label {
     font-size: 18px;
-    font-weight: 100;
-    font-family: "CormorantGaramond-Medium";
+    
+    font-family: "Comfortaa-Bold";
 }
 
 b {
-    font-family: "CormorantGaramond-Bold";
+    font-family: "Comfortaa-Bold";
 }
 
 i {
-    font-family: "CormorantGaramond-Italic";
+    font-family: "Comfortaa-Regular";
 }
 
 ul,
 ol,
 li {
-    font-family: "CormorantGaramond-Medium";
+    font-family: "Comfortaa-Medium";
     line-height: 1.6;
     font-size: 16;
 }
 
 div {
-    font-family: "CormorantGaramond-Medium";
+    font-family: "Comfortaa-Medium";
 }
 
 span {
-    font-family: "CormorantGaramond-Medium";
+    font-family: "Comfortaa-Medium";
 }
 
 
