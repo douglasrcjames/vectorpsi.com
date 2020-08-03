@@ -9,7 +9,7 @@ export default class AboutUs extends Component {
             <div className="wrapper m-padding-t">
                 <h1>About Us</h1>
                 <p>
-                    Lorem ex consequat amet magna nisi fugiat et. Fugiat veniam reprehenderit commodo dolore mollit nulla consectetur occaecat fugiat incididunt exercitation do. 
+                Our headquarters is in Danville, CA. We have 15 years experience in the field. Lorem ex consequat amet magna nisi fugiat et. Fugiat veniam reprehenderit commodo dolore mollit nulla consectetur occaecat fugiat incididunt exercitation do. 
                     Voluptate excepteur quis tempor sit do magna aliquip in mollit. Id sit amet excepteur consectetur dolor non anim labore. Fugiat incididunt velit Lorem est. 
                     Ut ad culpa cupidatat tempor ut aliquip dolore aliqua laboris. Proident ex excepteur velit do eu incididunt eu cupidatat. Voluptate ut laboris magna dolor mollit ut esse laborum consectetur. 
                     Excepteur consequat ea qui aute ullamco duis adipisicing culpa ex esse commodo Lorem elit. Proident laboris et mollit laboris quis cupidatat excepteur aliqua dolor eiusmod eu ad. 
@@ -17,7 +17,7 @@ export default class AboutUs extends Component {
                     Voluptate excepteur quis tempor sit do magna aliquip in mollit. Id sit amet excepteur consectetur dolor non anim labore. Fugiat incididunt velit Lorem est. 
                     Ut ad culpa cupidatat tempor ut aliquip dolore aliqua laboris. Proident ex excepteur velit do eu incididunt eu cupidatat. Voluptate ut laboris magna dolor mollit ut esse laborum consectetur. 
                     Excepteur consequat ea qui aute ullamco duis adipisicing culpa ex esse commodo Lorem elit. Proident laboris et mollit laboris quis cupidatat excepteur aliqua dolor eiusmod eu ad. 
-                    Our headquarters is in Danville, CA. We have 15 years experience in the field.
+                    
                 </p>
 
                 <p>

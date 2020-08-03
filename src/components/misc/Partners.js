@@ -29,12 +29,12 @@ export default class Partners extends Component {
                     <div className="m-margin-b">
                         <Slider {...settings1}>
                             {this.state.partnersArray.map((partner, index) => (
-                                <div key={index} className="m-padding">
+                                <div key={index}>
                                      <a 
                                         href={partner.webUrl}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        >        
+                                        >
                                         <img
                                             className={`responsive ${partner.picSize}`}
                                             alt="partner logo"
@@ -80,7 +80,7 @@ const settings1 = {
     infinite: true,
     arrows: false,
     pauseOnHover: false,
-    slidesToShow: 0,
+    slidesToShow: 4,
     slidesToScroll: 1,
     rtl: true,
     initialSlide: 0,
@@ -144,12 +144,12 @@ const partners = [
     {
         webUrl: `https://www.us.azbil.com`,
         picPath: require("../../assets/images/external-logos/azbil.png"),
-        picSize: "small"
+        picSize: "medium"
     },
     {
         webUrl: `https://www.badgermeter.com`,
         picPath: require("../../assets/images/external-logos/badger-meter.png"),
-        picSize: "large"
+        picSize: "medium"
     },
     {
         webUrl: `https://www.products.slb.com/valves`,
@@ -164,40 +164,10 @@ const partners = [
     {
         webUrl: `http://spifil.com/en/`,
         picPath: require("../../assets/images/external-logos/spifil.png"),
-        picSize: "medium"
-    },
-    {
-        webUrl: `http://www.warrencontrols.com/`,
-        picPath: require("../../assets/images/external-logos/warren-controls.png"),
-        picSize: "medium"
-    },
-    {
-        webUrl: `https://www.adl.org/`,
-        picPath: require("../../assets/images/external-logos/azbil.png"),
         picSize: "small"
     },
     {
-        webUrl: `https://www.alz.org/`,
-        picPath: require("../../assets/images/external-logos/badger-meter.png"),
-        picSize: "large"
-    },
-    {
-        webUrl: `https://democracymonth.org/`,
-        picPath: require("../../assets/images/external-logos/cameron.png"),
-        picSize: "medium"
-    },
-    {
-        webUrl: `http://attolloprep.org/`,
-        picPath: require("../../assets/images/external-logos/questtec.png"),
-        picSize: "medium"
-    },
-    {
-        webUrl: `https://www.benderjccgw.org/`,
-        picPath: require("../../assets/images/external-logos/spifil.png"),
-        picSize: "medium"
-    },
-    {
-        webUrl: `https://bipartisanpolicy.org/`,
+        webUrl: `http://www.warrencontrols.com/`,
         picPath: require("../../assets/images/external-logos/warren-controls.png"),
         picSize: "medium"
     },

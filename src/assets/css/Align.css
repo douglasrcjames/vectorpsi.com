@@ -329,6 +329,10 @@ body {
     padding: 0 0 10% 0;
 }
 
+.xl-padding {
+    padding: 15%;
+}
+
 
 /* 
 *  Margin

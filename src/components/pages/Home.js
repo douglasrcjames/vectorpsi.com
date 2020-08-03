@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import MediaQuery from 'react-responsive'
 import Partners from '../misc/Partners';
-import ProductsView from './products/ProductsView';
+import Categories from './products/Categories';
 
 export default class Home extends Component {
     render() {
@@ -40,7 +40,7 @@ export default class Home extends Component {
             <div className="l-container">
                 <h1>Products</h1>
                 <br/>
-                <ProductsView />
+                <Categories />
               
                 <h1>Companies Committed</h1>
                 <Partners />

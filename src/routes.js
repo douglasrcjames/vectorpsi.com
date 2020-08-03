@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Route, Switch, withRouter } from "react-router-dom";
-
 import withTracker from './components/misc/WithTracker';
 import { Page404 } from "./components/misc/Page404";
 
@@ -10,29 +9,47 @@ import AboutUs from './components/pages/AboutUs';
 import Industries from './components/pages/Industries';
 import Products from './components/pages/products/Products';
 import Resources from './components/pages/Resources';
-import ControlValves from './components/pages/products/ControlValves';
-import Isolation from './components/pages/products/Isolation';
-import Flow from './components/pages/products/Flow';
-import Level from './components/pages/products/Level';
-import Pressure from './components/pages/products/Pressure';
-import Temperature from './components/pages/products/Temperature';
-import Automation from './components/pages/products/Automation';
-import Filtration from './components/pages/products/Filtration';
+
+import Category from './components/pages/products/Category';
+import Product from './components/pages/products/Product';
+import { categories, products, controlValves, isolation, flow, level, pressure, temperature, automation, filtration } from './utils/constants'
 
 class Routes extends Component {
+    whichCategory(name){
+        if(name === "Control Valves"){
+            return controlValves
+        } else if(name === "Isolation"){
+            return isolation
+        } else if(name === "Flow"){
+            return flow
+        } else if(name === "Level"){
+            return level
+        } else if(name === "Pressure"){
+            return pressure
+        } else if(name === "Temperature"){
+            return temperature
+        } else if(name === "Automation"){
+            return automation
+        } else if(name === "Filtration"){
+            return filtration
+        }
+    }
     render() {
         return (
             <Switch>
                 <Route exact path="/" component={withTracker(Home)} />
                 <Route exact path="/products" component={withTracker(Products)} />
-                <Route exact path="/products/control-valves" component={withTracker(ControlValves)} />
-                <Route exact path="/products/isolation" component={withTracker(Isolation)} />
-                <Route exact path="/products/flow" component={withTracker(Flow)} />
-                <Route exact path="/products/level" component={withTracker(Level)} />
-                <Route exact path="/products/pressure" component={withTracker(Pressure)} />
-                <Route exact path="/products/temperature" component={withTracker(Temperature)} />
-                <Route exact path="/products/automation" component={withTracker(Automation)} />
-                <Route exact path="/products/filtration" component={withTracker(Filtration)} />
+                {  
+                    categories.map((category, i) => {
+                        return (<Route key={i} exact path={`/products/${category.name.split(" ").join("-").toLowerCase()}`} component={() => <Category name={category.name} categoryArray={this.whichCategory(category.name)} />} />)
+                    })  
+                } 
+                {  
+                    products.map((product, i) => {
+                        return (<Route key={i} exact path={`/products/${product.category}/${product.name.split(" ").join("-").toLowerCase()}`} component={() => <Product name={product.name} description={product.description} picPath={product.picPath} />} />)
+                    })  
+                } 
+
                 <Route exact path="/industries" component={withTracker(Industries)} />
                 <Route exact path="/about-us" component={withTracker(AboutUs)} />
                 <Route exact path="/resources" component={withTracker(Resources)} />
@@ -41,5 +58,7 @@ class Routes extends Component {
         )
     }
 }
+
+
 
 export default withRouter(Routes);

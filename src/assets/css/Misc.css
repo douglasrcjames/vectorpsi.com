@@ -279,6 +279,13 @@ hr {
     overflow: hidden;
 }
 
+.slick-slide {
+    padding: 0 15px;
+  }
+  
+  .slick-list {
+    margin: 0 2em;
+  }
 
 
 
