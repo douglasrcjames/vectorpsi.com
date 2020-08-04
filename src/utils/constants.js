@@ -40,7 +40,7 @@ export const controlValves = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'control-valves'
+        category: 'Control Valves'
     },
     {
         name: 'Product 2',
@@ -48,7 +48,7 @@ export const controlValves = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'control-valves'
+        category: 'Control Valves'
     },
     {
         name: 'Product 3',
@@ -56,7 +56,7 @@ export const controlValves = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'control-valves'
+        category: 'Control Valves'
     },
 ]
 
@@ -67,7 +67,7 @@ export const isolation = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'isolation'
+        category: 'Isolation'
     },
     {
         name: 'Product 5',
@@ -75,7 +75,7 @@ export const isolation = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'isolation'
+        category: 'Isolation'
     },
     {
         name: 'Product 6',
@@ -83,7 +83,7 @@ export const isolation = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'isolation'
+        category: 'Isolation'
     },
 ]
 
@@ -94,7 +94,7 @@ export const flow = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'flow'
+        category: 'Flow'
     },
     {
         name: 'Product 8',
@@ -102,7 +102,7 @@ export const flow = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'flow'
+        category: 'Flow'
     },
     {
         name: 'Product 9',
@@ -110,7 +110,7 @@ export const flow = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'flow'
+        category: 'Flow'
     },
 ]
 
@@ -121,7 +121,7 @@ export const level = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'level'
+        category: 'Level'
     },
     {
         name: 'Product 11',
@@ -129,7 +129,7 @@ export const level = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'level'
+        category: 'Level'
     },
     {
         name: 'Product 12',
@@ -137,7 +137,7 @@ export const level = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'level'
+        category: 'Level'
     },
 ]
 
@@ -148,7 +148,7 @@ export const pressure = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'pressure'
+        category: 'Pressure'
     },
     {
         name: 'Product 14',
@@ -156,7 +156,7 @@ export const pressure = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'pressure'
+        category: 'Pressure'
     },
     {
         name: 'Product 15',
@@ -164,7 +164,7 @@ export const pressure = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'pressure'
+        category: 'Pressure'
     },
 ]
 
@@ -175,7 +175,7 @@ export const temperature = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'temperature'
+        category: 'Temperature'
     },
     {
         name: 'Product 17',
@@ -183,7 +183,7 @@ export const temperature = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'temperature'
+        category: 'Temperature'
     },
     {
         name: 'Product 18',
@@ -191,7 +191,7 @@ export const temperature = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'temperature'
+        category: 'Temperature'
     },
 ]
 
@@ -202,7 +202,7 @@ export const automation = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'automation'
+        category: 'Automation'
     },
     {
         name: 'Product 20',
@@ -210,7 +210,7 @@ export const automation = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'automation'
+        category: 'Automation'
     },
     {
         name: 'Product 21',
@@ -218,7 +218,7 @@ export const automation = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'automation'
+        category: 'Automation'
     },
 ]
 
@@ -229,7 +229,7 @@ export const filtration = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'filtration'
+        category: 'Filtration'
     },
     {
         name: 'Product 23',
@@ -237,7 +237,7 @@ export const filtration = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'filtration'
+        category: 'Filtration'
     },
     {
         name: 'Product 24',
@@ -245,7 +245,7 @@ export const filtration = [
         description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. 
         Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. 
         Aliquip pariatur occaecat tempor reprehenderit.`,
-        category: 'filtration'
+        category: 'Filtration'
     },
 ]
 

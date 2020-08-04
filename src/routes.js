@@ -46,7 +46,19 @@ class Routes extends Component {
                 } 
                 {  
                     products.map((product, i) => {
-                        return (<Route key={i} exact path={`/products/${product.category}/${product.name.split(" ").join("-").toLowerCase()}`} component={() => <Product name={product.name} description={product.description} picPath={product.picPath} />} />)
+                        return (
+                            <Route 
+                                key={i} 
+                                exact path={`/products/${product.category}/${product.name.split(" ").join("-").toLowerCase()}`} 
+                                component={() => 
+                                    <Product 
+                                        name={product.name} 
+                                        description={product.description} 
+                                        category={product.category} 
+                                        picPath={product.picPath} />
+                                    } 
+                                />
+                        )
                     })  
                 } 
 
