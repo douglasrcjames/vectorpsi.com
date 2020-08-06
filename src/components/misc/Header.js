@@ -20,7 +20,8 @@ class Header extends Component {
     render() {
         const menuArray = ['Products', 'Industries', 'About Us', 'Resources']
         return (
-            <header className="nav-wrapper">
+            <div className="nav-height">
+<header className="nav-wrapper">
                 <nav role="navigation" className="p-container">
                     <NavLink to="/">
                         <img
@@ -80,6 +81,8 @@ class Header extends Component {
                     </MediaQuery>
                 </nav>
             </header>
+            </div>
+            
         )
     }
 }

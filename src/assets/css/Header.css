@@ -1,6 +1,9 @@
 .nav-wrapper {
-    padding: 0 0 60px 0;
-    position: relative;
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background-color: white;
 }
 
 .nav-links {
