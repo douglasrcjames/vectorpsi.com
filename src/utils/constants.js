@@ -25,11 +25,11 @@ export const categories = [
     },
     {
         name: 'Automation',
-        picPath: require("../assets/images/products/isolation/GeneralTwinSeal.png")
+        picPath: require("../assets/images/products/automation/autorodders.png")
     },
     {
         name: 'Filtration',
-        picPath: require("../assets/images/products/isolation/GeneralTwinSeal.png")
+        picPath: require("../assets/images/products/filtration/oil-and-gas-spifil.png")
     },
 ]
 
@@ -226,7 +226,7 @@ export const temperature = [
 export const automation = [
     {
         name: 'Clearguard Autorodder',
-        picPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+        picPath: require("../assets/images/products/automation/autorodders.png"),
         description: `Prevents partially plugged tapping points and ports, improving safety, efficiency and process measurement accuracy.`,
         link: `http://clearguard.com/`,
         category: 'Automation'
@@ -236,8 +236,8 @@ export const automation = [
 export const filtration = [
     {
         name: 'Oil & Gas Filtration',
-        picPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-        description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. Aliquip pariatur occaecat tempor reprehenderit.`,
+        picPath: require("../assets/images/products/filtration/oil-and-gas-spifil.png"),
+        description: `Filter element that facilitates the water condensation in the environment, working as a demister for moisture particles, and coalescing this particles into droplets. It is ideal for areas with high relative humidity. It is used in gas compression modules, in the metallurgic industry, pharmaceutical and electric industry, among other applications.`,
         link: `http://spifil.com/en/industry/#div-petroleo`,
         category: 'Filtration'
     },

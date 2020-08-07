@@ -29,10 +29,9 @@ export default class AboutUs extends Component {
 
                 <h2>Mission Statement</h2>
                 <p>
-                    Ipsum quis proident nostrud quis aute enim occaecat ut. Sit eu velit ullamco nulla laborum Lorem amet culpa aute ex aliqua cupidatat esse. 
-                    Sit fugiat ut nisi laboris sunt exercitation dolor ipsum. Nulla reprehenderit pariatur et velit ut consequat Lorem duis non aliquip. 
-                    Nisi eu velit minim fugiat occaecat cupidatat laboris amet fugiat pariatur. Magna laborum voluptate aliqua pariatur fugiat exercitation 
-                    elit nostrud. Nostrud cupidatat esse irure nulla eiusmod amet culpa deserunt aute adipisicing deserunt fugiat.
+                    Vector Process Solutions shall strive to be the market leader in flow control and automation. We will maintain an emphasis on technical expertise and 
+                    strong customer relations to create deep penetration into our target industries. Profitable operations are to be achieved using ethical,
+                    forward thinking growth strategies, while never losing focus of the needs of our customers.
                 </p>
             </div>
             <div className="wrapper no-padding">

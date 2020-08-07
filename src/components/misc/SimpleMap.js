@@ -54,7 +54,7 @@ class SimpleMap extends Component {
                                 }}
                                 title={`Vector Process Solutions' Headquarters`}
                                 name={'HQ'}
-                                position={{lat: 37.820939, lng: -121.9999928}} />
+                                position={{lat: 37.768520, lng: -121.960630}} />
                 </Map>
             </div>
         )

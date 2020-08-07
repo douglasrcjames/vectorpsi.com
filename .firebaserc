@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "vectorpsi-com"
+  },
+  "targets": {
+    "vectorpsi-com": {
+      "hosting": {
+        "test": [
+          "vectorpsi-test"
+        ],
+        "live": [
+          "vectorpsi-com"
+        ]
+      }
+    }
   }
 }

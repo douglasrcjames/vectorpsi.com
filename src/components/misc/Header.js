@@ -21,66 +21,66 @@ class Header extends Component {
         const menuArray = ['Products', 'Industries', 'About Us', 'Resources']
         return (
             <div className="nav-height">
-<header className="nav-wrapper">
-                <nav role="navigation" className="p-container">
-                    <NavLink to="/">
-                        <img
-                            className="responsive nav-logo"
-                            alt="company logo"
-                            src={require("../../assets/images/logos/logo512.png")}
-                            />
-                    </NavLink>
-                    <MediaQuery minWidth={1001}>
-                        <div className="nav-links">
-                            <ul>
-                                {  menuArray.map((val, index)=>{
-                                        return (
-                                            <li key={index}>
-                                                <NavLink 
-                                                    exact
-                                                    activeClassName="active"
-                                                    to={`/${val.split(" ").join("-").toLowerCase()}`}>
-                                                    {val}
-                                                    <span></span>
-                                                    <span></span>
-                                                </NavLink>
-                                            </li>
-                                        )
-                                    })
-                                }
-                            </ul>
-                        </div>
-                    </MediaQuery>
-                    <MediaQuery maxWidth={1000}>
-                        <div className="menu-wrap">
-                            <input type="checkbox" ref={this.toggler} onClick={() => this.toggleMenu()} className="toggler"/>
-                            <div className="hamburger"><div></div></div>
-                            <div className="menu">
-                                <div>
+                <header className="nav-wrapper">
+                    <nav role="navigation" className="p-container">
+                        <NavLink to="/">
+                            <img
+                                className="responsive nav-logo"
+                                alt="company logo"
+                                src={require("../../assets/images/logos/logo-v3.png")}
+                                />
+                        </NavLink>
+                        <MediaQuery minWidth={1001}>
+                            <div className="nav-links">
+                                <ul>
+                                    {  menuArray.map((val, index)=>{
+                                            return (
+                                                <li key={index}>
+                                                    <NavLink 
+                                                        exact
+                                                        activeClassName="active"
+                                                        to={`/${val.split(" ").join("-").toLowerCase()}`}>
+                                                        {val}
+                                                        <span></span>
+                                                        <span></span>
+                                                    </NavLink>
+                                                </li>
+                                            )
+                                        })
+                                    }
+                                </ul>
+                            </div>
+                        </MediaQuery>
+                        <MediaQuery maxWidth={1000}>
+                            <div className="menu-wrap">
+                                <input type="checkbox" ref={this.toggler} onClick={() => this.toggleMenu()} className="toggler"/>
+                                <div className="hamburger"><div></div></div>
+                                <div className="menu">
                                     <div>
-                                        <ul>
-                                            {  menuArray.map((val, index)=>{
-                                                    return (
-                                                        <li key={index}>
-                                                            <NavLink 
-                                                                onClick={() => this.toggleMenu()} 
-                                                                exact
-                                                                // activeClassName="active"
-                                                                to={`/${val.split(" ").join("-").toLowerCase()}`}>
-                                                                {val}
-                                                            </NavLink>
-                                                        </li>
-                                                    )
-                                                })
-                                            }
-                                        </ul>
+                                        <div>
+                                            <ul>
+                                                {  menuArray.map((val, index)=>{
+                                                        return (
+                                                            <li key={index}>
+                                                                <NavLink 
+                                                                    onClick={() => this.toggleMenu()} 
+                                                                    exact
+                                                                    // activeClassName="active"
+                                                                    to={`/${val.split(" ").join("-").toLowerCase()}`}>
+                                                                    {val}
+                                                                </NavLink>
+                                                            </li>
+                                                        )
+                                                    })
+                                                }
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </MediaQuery>
-                </nav>
-            </header>
+                        </MediaQuery>
+                    </nav>
+                </header>
             </div>
             
         )

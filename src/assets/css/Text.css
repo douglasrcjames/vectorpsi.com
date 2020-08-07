@@ -5,7 +5,7 @@
 Primary red: #C82127
 Secondary blue: #75BEC3
 
-Blue: #4FBFE0
+Blue: #2E3192
 Dark: #3B8FA8
 Light: #72CCE6
 Xlight: #B9E5F3
@@ -71,8 +71,12 @@ Font: Comfortaa & BuiltTitling
 }
 
 @font-face {
-    font-family: "BuiltTitling-Bold";
-    src: url(../fonts/built-titling/built-titling-bd.ttf);
+    font-family: "Mont-ExtraLight";
+    src: url(../fonts/mont/Mont-ExtraLight.otf);
+}
+@font-face {
+    font-family: "Mont-Heavy";
+    src: url(../fonts/mont/Mont-Heavy.otf);
 }
 
 .comfortaa-regular {
@@ -94,7 +98,7 @@ h1 {
     position: relative;
     font-size: 3em;
     letter-spacing: 0.04em;
-    font-family: "BuiltTitling-Bold";
+    font-family: "Mont-Heavy";
 }
 
 h1:before {
@@ -115,8 +119,8 @@ h1.no-line:before {
 
 
 h2 {
-    font-size: 2.5em;
-    font-family: "BuiltTitling-Bold";
+    font-size: 2.25em;
+    font-family: "Mont-Heavy";
     letter-spacing: 0.04em;
 }
 
@@ -125,7 +129,7 @@ h3 {
     letter-spacing: 0.04em;
     padding: 0px !important;
     margin: 0px !important;
-    font-family: "BuiltTitling-Bold";
+    font-family: "Mont-Heavy";
     word-wrap: break-word !important;
     white-space: normal !important;
 }
@@ -161,11 +165,11 @@ h3 {
 }
 
 h4 {
-    font-family: "BuiltTitling-Bold";
+    font-family: "Mont-Heavy";
 }
 
 h5 {
-    font-family: "BuiltTitling-Bold";
+    font-family: "Mont-Heavy";
 }
 
 /* 
@@ -267,7 +271,7 @@ span {
     color: #B9E5F3 !important;
 }
 .blue {
-    color: #4FBFE0 !important;
+    color: #2E3192 !important;
 }
 .light-blue {
     color: #72CCE6 !important;
@@ -333,7 +337,7 @@ span {
 
 /* Hover color */
 .text-hover:hover {
-    color: #4FBFE0  !important;
+    color: #2E3192  !important;
     cursor: pointer;
 }
 
