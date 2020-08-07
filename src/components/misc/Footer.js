@@ -12,9 +12,14 @@ export default class Footer extends Component {
     render() {
         return (
             <footer>
+                <div className="s-padding-t-b">
+                    <hr />
+                    <br/>
+                </div>
+                
                 <div className="f-container">
                     <div>
-                        <a href="https://www.douglasrcjames.com" target="_blank" rel="noopener noreferrer"><i className="fas fa-tools"/> by douglasrcjames</a> 
+                        <a className="blue" href="https://www.douglasrcjames.com" target="_blank" rel="noopener noreferrer"><i className="fas fa-tools"/> by douglasrcjames</a> 
                     </div>
                     <div>
                         &copy;

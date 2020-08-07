@@ -95,9 +95,9 @@ Font: Comfortaa & BuiltTitling
 * Heading
 */
 h1 {
+    color: #2E3192;
     position: relative;
     font-size: 3em;
-    letter-spacing: 0.04em;
     font-family: "Mont-Heavy";
 }
 
@@ -121,12 +121,10 @@ h1.no-line:before {
 h2 {
     font-size: 2.25em;
     font-family: "Mont-Heavy";
-    letter-spacing: 0.04em;
 }
 
 h3 {
     font-size: 1.5em;
-    letter-spacing: 0.04em;
     padding: 0px !important;
     margin: 0px !important;
     font-family: "Mont-Heavy";
@@ -137,7 +135,6 @@ h3 {
 @media screen and (max-width: 1000px) {
     h1 {
         font-size: 2em;
-        letter-spacing: 0.03em;
     }
 
     h1:before {
@@ -155,12 +152,10 @@ h3 {
 
     h2 {
         font-size: 1.6em;
-        letter-spacing: 0.03em;
     }
 
     h3 {
         font-size: 1em;
-        letter-spacing: 0.03em;
     }
 }
 
