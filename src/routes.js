@@ -49,12 +49,13 @@ class Routes extends Component {
                         return (
                             <Route 
                                 key={i} 
-                                exact path={`/products/${product.category}/${product.name.split(" ").join("-").toLowerCase()}`} 
+                                exact path={`/products/${product.category.split(" ").join("-").toLowerCase()}/${product.name.split(" ").join("-").toLowerCase()}`} 
                                 component={() => 
                                     <Product 
                                         name={product.name} 
                                         description={product.description} 
                                         category={product.category} 
+                                        link={product.link}
                                         picPath={product.picPath} />
                                     } 
                                 />

@@ -49,7 +49,8 @@ class SimpleMap extends Component {
                                 label={{
                                     text:`HQ`,
                                     fontWeight:'', 
-                                    fontSize:'12px', color:'#FFFFFF'
+                                    fontSize:'12px', 
+                                    color:'#FFFFFF'
                                 }}
                                 title={`Vector Process Solutions' Headquarters`}
                                 name={'HQ'}

@@ -6,10 +6,10 @@ export default class Industries extends Component {
         return (
             <div className="wrapper">
                 <h1>Industries</h1>
-                <p>
+                {/* <p>
                     We are proud to be serving nine industries of
                     Refining, Power Generation, Midstream O&amp;G, Chemical, Pharmaceutical, Engineering, Pulp &amp; Paper, Food &amp; Beverage, and Aerospace.
-                </p>
+                </p> */}
                 <Grid fluid>
                     <Row className="m-margin-t-b">
                         <Col sm={12} md={4} lg={2}>

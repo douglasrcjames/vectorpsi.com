@@ -9,9 +9,9 @@ export default class Product extends Component {
                 <Link to={`/products/${this.props.category.split(" ").join("-").toLowerCase()}`}>
                     <button className="custom-btn btn-15"><i className="fas fa-arrow-left"/> Back to {this.props.category} products </button>
                 </Link>
-                <p>{this.props.description}</p>
+                <p className="pre-wrap">{this.props.description}</p>
                 <div className="center-text">
-                    <button className="custom-btn btn-11">Go to manufacturers site</button>
+                    <a href={this.props.link} target="_blank" rel="noopener noreferrer"><button className="custom-btn btn-11">Go to manufacturers site</button></a>
                     <br/>
                     <img src={this.props.picPath} alt="product" className="large responsive" />
                 </div>

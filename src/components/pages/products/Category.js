@@ -21,7 +21,7 @@ export default class Category extends Component {
                                 <Row start="xs" className="s-margin-l">
                                     <Col>
                                         <h2>{product.name}</h2>
-                                        <p>
+                                        <p className="pre-wrap">
                                             {product.description}
                                         </p>
                                         <div className="center-text">

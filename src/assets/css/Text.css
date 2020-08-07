@@ -398,6 +398,9 @@ span {
     padding: 10px;
 }
 
+.pre-wrap {
+    white-space: pre-wrap;
+}
 
 
 

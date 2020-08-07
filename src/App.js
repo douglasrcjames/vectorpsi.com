@@ -21,6 +21,10 @@ import ScrollToTop from "./components/misc/ScrollToTop";
 
 function App() {
   return (
+    // <div className="wrapper">
+    //   <h1>Vector Process Solutions, Inc</h1>
+    //   <p>Our website is currently under construction, check back soon! Contact <u>apennell@vectorpsi.com</u> for any questions.</p>
+    // </div>
     <Router history={history}>
       <ScrollToTop>
         <Header />
