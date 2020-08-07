@@ -35,7 +35,7 @@ export default class AboutUs extends Component {
             </div>
             <div className="wrapper no-padding">
                 <h2>Areas Served</h2>
-                <p>We proudly serve the greater Nevada, California, and Texas areas.</p>
+                <p>We are headquartered in Danville, CA and proudly serve Northern California and Northern Nevada</p>
             </div>
             <SimpleMap />
             <div className="wrapper no-padding">
