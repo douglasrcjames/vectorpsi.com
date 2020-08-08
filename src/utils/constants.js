@@ -44,7 +44,7 @@ export const controlValves = [
     {
         name: 'Warren Control Valves',
         picPath: require("../assets/images/products/control-valves/warren-control-valves.png"),
-        description: `Deserunt et ullamco consequat ea. Veniam ullamco ad magna commodo amet exercitation quis sunt fugiat culpa sint ad sunt. Lorem non ut Lorem adipisicing laborum cupidatat laborum nostrud magna dolore ea mollit dolor id. Mollit eiusmod ex officia tempor qui. Aliquip pariatur occaecat tempor reprehenderit.`,
+        description: `Linear and rotary 2 way and 3 way globe control valves up to 12” for the commercial and industrial markets. Electric and pneumatic actuators allow us to serve our customer needs.`,
         link: `http://www.warrencontrols.com/products/type/2/industrial_control_valve`,
         category: 'Control Valves'
     },
@@ -168,7 +168,7 @@ export const level = [
     },
     {
         name: 'Non Contact Microwave for liquids and solids',
-        picPath: require("../assets/images/products/level/Non-Contact-Microwave.png"),
+        picPath: require("../assets/images/products/level/microwave.png"),
         description: `Azbil compact level transmitters feature higher performance for all kinds of fine powder, and bulk solids as well as liquid applications. They can be specified for optimal performance in high temperature, high pressure, corrosive, steam, airborne dust, and turbulence conditions.`,
         link: `https://us.azbil.com/category/industrial-automation/level-management/`,
         category: 'Level'
@@ -237,7 +237,7 @@ export const filtration = [
     {
         name: 'Oil & Gas Filtration',
         picPath: require("../assets/images/products/filtration/oil-and-gas-spifil.png"),
-        description: `Filter element that facilitates the water condensation in the environment, working as a demister for moisture particles, and coalescing this particles into droplets. It is ideal for areas with high relative humidity. It is used in gas compression modules, in the metallurgic industry, pharmaceutical and electric industry, among other applications.`,
+        description: `At SPIFIL Group, we create and deliver the ecological answer to your filtration needs. Our staff is highly prepared and motivated; we design and manufacture our products following high quality standards, and provide an exceptional technical service. We treasure more than 20 years of expertise in the field.`,
         link: `http://spifil.com/en/industry/#div-petroleo`,
         category: 'Filtration'
     },

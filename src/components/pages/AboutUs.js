@@ -9,22 +9,17 @@ export default class AboutUs extends Component {
             <div className="wrapper m-padding-t">
                 <h1>About Us</h1>
                 <p>
-                    Our headquarters is in Danville, CA. We have 15 years experience in the field. Lorem ex consequat amet magna nisi fugiat et. Fugiat veniam reprehenderit commodo dolore mollit nulla consectetur occaecat fugiat incididunt exercitation do. 
-                    Voluptate excepteur quis tempor sit do magna aliquip in mollit. Id sit amet excepteur consectetur dolor non anim labore. Fugiat incididunt velit Lorem est. 
-                    Ut ad culpa cupidatat tempor ut aliquip dolore aliqua laboris. Proident ex excepteur velit do eu incididunt eu cupidatat. Voluptate ut laboris magna dolor mollit ut esse laborum consectetur. 
-                    Excepteur consequat ea qui aute ullamco duis adipisicing culpa ex esse commodo Lorem elit. Proident laboris et mollit laboris quis cupidatat excepteur aliqua dolor eiusmod eu ad. 
-                    Lorem ex consequat amet magna nisi fugiat et. Fugiat veniam reprehenderit commodo dolore mollit nulla consectetur occaecat fugiat incididunt exercitation do. 
-                    Voluptate excepteur quis tempor sit do magna aliquip in mollit. Id sit amet excepteur consectetur dolor non anim labore. Fugiat incididunt velit Lorem est. 
-                    Ut ad culpa cupidatat tempor ut aliquip dolore aliqua laboris. Proident ex excepteur velit do eu incididunt eu cupidatat. Voluptate ut laboris magna dolor mollit ut esse laborum consectetur. 
-                    Excepteur consequat ea qui aute ullamco duis adipisicing culpa ex esse commodo Lorem elit. Proident laboris et mollit laboris quis cupidatat excepteur aliqua dolor eiusmod eu ad. 
-                    
+                    Vector Process Solutions is a manufacturer’s representative covering the industrial markets of
+                    Northern CA and Northern NV. Our focus is to provide strong, engineered solutions for flow
+                    control, automation and instrumentation needs.
                 </p>
-
                 <p>
-                    Lorem ex consequat amet magna nisi fugiat et. Fugiat veniam reprehenderit commodo dolore mollit nulla consectetur occaecat fugiat incididunt exercitation do. 
-                    Voluptate excepteur quis tempor sit do magna aliquip in mollit. Id sit amet excepteur consectetur dolor non anim labore. Fugiat incididunt velit Lorem est. 
-                    Ut ad culpa cupidatat tempor ut aliquip dolore aliqua laboris. Proident ex excepteur velit do eu incididunt eu cupidatat. Voluptate ut laboris magna dolor mollit ut esse laborum consectetur. 
-                    Excepteur consequat ea qui aute ullamco duis adipisicing culpa ex esse commodo Lorem elit. Proident laboris et mollit laboris quis cupidatat excepteur aliqua dolor eiusmod eu ad. 
+                    Adam Pennell, President of Vector Process Solutions, has 15 years of experience in industrial
+                    sales. With a B.S. in Engineering from the Colorado School of Mines and a minor in
+                    Economics, his primary sales expertise has been in actuation and control valves. He has
+                    consistently been a sales and growth leader in the industry and is valued as a peer and
+                    technical resource by his customers.
+                    
                 </p>
 
                 <h2>Mission Statement</h2>
@@ -35,8 +30,8 @@ export default class AboutUs extends Component {
                 </p>
             </div>
             <div className="wrapper no-padding">
-                <h2>Areas Served</h2>
-                <p>We are headquartered in Danville, CA and proudly serve Northern California and Northern Nevada</p>
+                <h2 className="m-margin-t">Areas Served</h2>
+                <p className="s-margin-b">Strategically located in the Bay Area, Vector covers all industrial markets in Northern CA and Northern NV.</p>
             </div>
             <SimpleMap />
             <div className="wrapper no-padding">
