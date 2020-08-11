@@ -171,5 +171,15 @@ const partners = [
         picPath: require("../../assets/images/external-logos/warren-controls.png"),
         picSize: "medium"
     },
+    {
+        webUrl: `http://clearguard.com/`,
+        picPath: require("../../assets/images/external-logos/clearguard.png"),
+        picSize: "medium"
+    },
+    {
+        webUrl: `https://www.vortekinst.com/`,
+        picPath: require("../../assets/images/external-logos/vortek.png"),
+        picSize: "medium"
+    }
 ]
 

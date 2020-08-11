@@ -1,19 +1,23 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid'
+import { Helmet } from 'react-helmet'
 
 export default class Industries extends Component {
     render() {
         return (
             <div className="wrapper">
+                <Helmet>
+                    <title>Industries | Vector PSI</title>
+                </Helmet>
                 <h1>Industries</h1>
                 {/* <p>
                     We are proud to be serving nine industries of
                     Refining, Power Generation, Midstream O&amp;G, Chemical, Pharmaceutical, Engineering, Pulp &amp; Paper, Food &amp; Beverage, and Aerospace.
                 </p> */}
                 <Grid fluid>
-                    <Row className="m-margin-t-b">
+                    <Row className="s-margin-t-b">
                         <Col sm={12} md={4} lg={2}>
-                            <img src={require("../../assets/images/industries/refining.png")} alt="product" className="large responsive rounded" />
+                            <img src={require("../../assets/images/industries/refining.png")} alt="product" className="xmedium responsive rounded" />
                         </Col>
                         
                         <Col sm={12} md={8} lg={10} >
@@ -27,9 +31,9 @@ export default class Industries extends Component {
                             </Row>
                         </Col>
                     </Row>
-                    <Row className="m-margin-t-b">
+                    <Row className="s-margin-t-b">
                         <Col sm={12} md={4} lg={2}>
-                            <img src={require("../../assets/images/industries/power-generation.png")} alt="product" className="large responsive rounded" />
+                            <img src={require("../../assets/images/industries/power-generation.png")} alt="product" className="xmedium responsive rounded" />
                         </Col>
                         
                         <Col sm={12} md={8} lg={10} >
@@ -43,9 +47,9 @@ export default class Industries extends Component {
                             </Row>
                         </Col>
                     </Row>
-                    <Row className="m-margin-t-b">
+                    <Row className="s-margin-t-b">
                         <Col sm={12} md={4} lg={2}>
-                            <img src={require("../../assets/images/industries/oil-and-gas.png")} alt="product" className="large responsive rounded" />
+                            <img src={require("../../assets/images/industries/oil-and-gas.png")} alt="product" className="xmedium responsive rounded" />
                         </Col>
                         
                         <Col sm={12} md={8} lg={10} >
@@ -59,9 +63,9 @@ export default class Industries extends Component {
                             </Row>
                         </Col>
                     </Row>
-                    <Row className="m-margin-t-b">
+                    <Row className="s-margin-t-b">
                         <Col sm={12} md={4} lg={2}>
-                            <img src={require("../../assets/images/industries/chemical.png")} alt="product" className="large responsive rounded" />
+                            <img src={require("../../assets/images/industries/chemical.png")} alt="product" className="xmedium responsive rounded" />
                         </Col>
                         
                         <Col sm={12} md={8} lg={10} >
@@ -75,9 +79,9 @@ export default class Industries extends Component {
                             </Row>
                         </Col>
                     </Row>
-                    <Row className="m-margin-t-b">
+                    <Row className="s-margin-t-b">
                         <Col sm={12} md={4} lg={2}>
-                            <img src={require("../../assets/images/industries/pharma.png")} alt="product" className="large responsive rounded" />
+                            <img src={require("../../assets/images/industries/pharma.png")} alt="product" className="xmedium responsive rounded" />
                         </Col>
                         
                         <Col sm={12} md={8} lg={10} >
@@ -91,9 +95,9 @@ export default class Industries extends Component {
                             </Row>
                         </Col>
                     </Row>
-                    <Row className="m-margin-t-b">
+                    <Row className="s-margin-t-b">
                         <Col sm={12} md={4} lg={2}>
-                            <img src={require("../../assets/images/industries/engineering.png")} alt="product" className="large responsive rounded" />
+                            <img src={require("../../assets/images/industries/engineering.png")} alt="product" className="xmedium responsive rounded" />
                         </Col>
                         
                         <Col sm={12} md={8} lg={10} >
@@ -107,9 +111,9 @@ export default class Industries extends Component {
                             </Row>
                         </Col>
                     </Row>
-                    <Row className="m-margin-t-b">
+                    <Row className="s-margin-t-b">
                         <Col sm={12} md={4} lg={2}>
-                            <img src={require("../../assets/images/industries/pulp-paper.png")} alt="product" className="large responsive rounded" />
+                            <img src={require("../../assets/images/industries/pulp-paper.png")} alt="product" className="xmedium responsive rounded" />
                         </Col>
                         
                         <Col sm={12} md={8} lg={10} >
@@ -123,9 +127,9 @@ export default class Industries extends Component {
                             </Row>
                         </Col>
                     </Row>
-                    <Row className="m-margin-t-b">
+                    <Row className="s-margin-t-b">
                         <Col sm={12} md={4} lg={2}>
-                            <img src={require("../../assets/images/industries/food-and-beverage.png")} alt="product" className="large responsive rounded" />
+                            <img src={require("../../assets/images/industries/food-and-beverage.png")} alt="product" className="xmedium responsive rounded" />
                         </Col>
                         
                         <Col sm={12} md={8} lg={10} >
@@ -139,9 +143,9 @@ export default class Industries extends Component {
                             </Row>
                         </Col>
                     </Row>
-                    <Row className="m-margin-t-b">
+                    <Row className="s-margin-t-b">
                         <Col sm={12} md={4} lg={2}>
-                            <img src={require("../../assets/images/industries/aerospace.png")} alt="product" className="large responsive rounded" />
+                            <img src={require("../../assets/images/industries/aerospace.png")} alt="product" className="xmedium responsive rounded" />
                         </Col>
                         
                         <Col sm={12} md={8} lg={10} >

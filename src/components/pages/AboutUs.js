@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
 import ContactForm from '../misc/ContactForm';
 import SimpleMap from '../misc/SimpleMap';
+import { Helmet } from 'react-helmet';
 
 export default class AboutUs extends Component {
     render() {
         return (
             <>
-            <div className="wrapper m-padding-t">
+            <div className="top-wrapper">
+                <Helmet>
+                    <title>About Us | Vector PSI</title>
+                </Helmet>
                 <h1>About Us</h1>
                 <p>
                     Vector Process Solutions is a manufacturer’s representative covering the industrial markets of
@@ -30,7 +34,7 @@ export default class AboutUs extends Component {
                 </p>
             </div>
             <div className="wrapper no-padding">
-                <h2 className="m-margin-t">Areas Served</h2>
+                <h2 className="s-margin-t">Areas Served</h2>
                 <p className="s-margin-b">Strategically located in the Bay Area, Vector covers all industrial markets in Northern CA and Northern NV.</p>
             </div>
             <SimpleMap />

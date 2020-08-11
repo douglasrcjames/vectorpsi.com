@@ -42,7 +42,7 @@ export const onMessageCreated = functions.firestore.document('messages/{messageI
         // Pack it
         const mailOptions = {
             from: `drcj.dev@gmail.com`,
-            to: 'douglasrcjames@gmail.com, drcj.dev@gmail.com',
+            to: 'apennell@vectorpsi.com, drcj.dev@gmail.com',
             replyTo: `${newValue.email}`,
             subject: `New vectorpsi.com contact from ${newValue.name}`,
             text: newValue.message,

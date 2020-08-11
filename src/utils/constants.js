@@ -1,7 +1,7 @@
 export const categories = [
     {
-        name: 'Control Valves',
-        picPath: require("../assets/images/products/control-valves/Research-Control-Valves.png")
+        name: 'Control',
+        picPath: require("../assets/images/products/control/Research-Control-Valves.png")
     },
     {
         name: 'Isolation',
@@ -33,27 +33,27 @@ export const categories = [
     },
 ]
 
-export const controlValves = [
+export const control = [
     {
         name: 'Research Control Valves',
-        picPath: require("../assets/images/products/control-valves/Research-Control-Valves.png"),
+        picPath: require("../assets/images/products/control/Research-Control-Valves.png"),
         description: `Processing plants, research facilities and government agencies worldwide rely on Research Control® Valves from Badger Meter for repeatable performance and durability. Built for applications two inches or smaller, our globe, angle and sanitary valves are integral components in systems ranging from petrochemical processing to pharmaceutical manufacturing.`,
         link: `https://www.badgermeter.com/flow-instrumentation/brands/research-control-valve/?page=2&amp;brands=research-control-valve&amp;sizeuniturlpart=millimeter&amp;temperatureuniturlpart=celsius&amp;pressureuniturlpart=bar`,
-        category: 'Control Valves'
+        category: 'Control'
     },
     {
         name: 'Warren Control Valves',
-        picPath: require("../assets/images/products/control-valves/warren-control-valves.png"),
+        picPath: require("../assets/images/products/control/warren-control-valves.png"),
         description: `Linear and rotary 2 way and 3 way globe control valves up to 12” for the commercial and industrial markets. Electric and pneumatic actuators allow us to serve our customer needs.`,
         link: `http://www.warrencontrols.com/products/type/2/industrial_control_valve`,
-        category: 'Control Valves'
+        category: 'Control'
     },
     {
         name: 'Azbil Control Valves',
-        picPath: require("../assets/images/products/control-valves/azbil-control-valves.png"),
+        picPath: require("../assets/images/products/control/azbil-control-valves.png"),
         description: `ACTIVAL, high performance control valve, realizes maximum energy efficiency, cost savings, and resource savings in HVAC facilities. Azbil, serves Building Automation for more than 110 years. ACTIVAL represents our rich experiences in this field as a control valve. Wide variety of lineup best matched for your needs.`,
         link: `https://us.azbil.com/actival/`,
-        category: 'Control Valves'
+        category: 'Control'
     },
 ]
 
@@ -68,11 +68,7 @@ export const isolation = [
     {
         name: 'WKM Pow-R-Seal',
         picPath: require("../assets/images/products/isolation/WKM-Pow-R-Seal.png"),
-        description: `60 years of worldwide service in oil, gas, chemicals, water, slurry, and multiproduct applications has established the Pow-R-Seal double expanding gate valve as one of the most trusted gate valves, especially where safety and seal reliability are critical.
-
-        The positive, mechanical seating force of the lock-in-place seals holds with zero leakage through conditions of vibration, pressure change, and temperature excursion. The rigid, cast steel body resists pipeline bending moments.
-        
-        TFE seals on both faces of the valve provide drop-tight sealing even at low differential pressure, while metal-to-metal contact between the seals and gate mechanism provides fire-safe shutoff. Optional all-metal seals also are available for service up to 1,000 degF [538 degC], where leakage rates comply with API Spec 6D, Supplement 2.`,
+        description: `60 years of worldwide service in oil, gas, chemicals, water, slurry, and multiproduct applications has established the Pow-R-Seal double expanding gate valve as one of the most trusted gate valves, especially where safety and seal reliability are critical. The positive, mechanical seating force of the lock-in-place seals holds with zero leakage through conditions of vibration, pressure change, and temperature excursion. The rigid, cast steel body resists pipeline bending moments. TFE seals on both faces of the valve provide drop-tight sealing even at low differential pressure, while metal-to-metal contact between the seals and gate mechanism provides fire-safe shutoff..`,
         link: `https://www.products.slb.com/valves/gate-valves/wkm-pow-r-seal-double-expanding-gate-valve`,
         category: 'Isolation'
     },
@@ -243,4 +239,4 @@ export const filtration = [
     },
 ]
 
-export const products = controlValves.concat(isolation, flow, level, pressure, temperature, automation, filtration);
+export const products = control.concat(isolation, flow, level, pressure, temperature, automation, filtration);

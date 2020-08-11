@@ -74,6 +74,28 @@ Paragraph: Charis Regular
     src: url(../fonts/mont/Mont-Heavy.otf);
 }
 
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url(../fonts/open_sans/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url(../fonts/open_sans/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url(../fonts/open_sans/OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url(../fonts/open_sans/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: "OpenSans-Extra-Bold";
+    src: url(../fonts/open_sans/OpenSans-ExtraBold.ttf);
+}
+
+
 .charis-regular {
     font-family: "Charis-Regular" !important;
 }
@@ -110,8 +132,8 @@ h1.no-line:before {
 
 
 h2 {
-    font-size: 2.25em;
-    font-family: "Mont-Heavy";
+    font-size: 2em;
+    font-family: "OpenSans-Bold";
 }
 
 h3 {
@@ -387,6 +409,20 @@ span {
 
 .pre-wrap {
     white-space: pre-wrap;
+}
+
+.hero-h1 {
+    font-size: 3.3em;
+    font-family: "Mont-Heavy";
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .hero-h1 {
+        font-size: 2em;
+    }
 }
 
 

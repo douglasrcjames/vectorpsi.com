@@ -1,11 +1,15 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
 export default class Category extends Component {
     render() {
         return (
             <div className="wrapper">
+                <Helmet>
+                    <title>Products - {this.props.name} | Vector PSI</title>
+                </Helmet>
                 <h1>{this.props.name}</h1>
                 <Link to={`/products/`}>
                     <button className="custom-btn btn-15"><i className="fas fa-arrow-left"/> Back to all products</button>
@@ -21,7 +25,7 @@ export default class Category extends Component {
                                 <Row start="xs" className="s-margin-l">
                                     <Col>
                                         <h2>{product.name}</h2>
-                                        <p className="pre-wrap">
+                                        <p>
                                             {product.description}
                                         </p>
                                         <div className="center-text">

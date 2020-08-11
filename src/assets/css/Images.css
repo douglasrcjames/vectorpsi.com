@@ -19,6 +19,12 @@ img.medium {
     max-width: 150px;
 }
 
+img.xmedium {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+}
+
 img.large {
     width: 100%;
     height: auto;
@@ -32,8 +38,6 @@ img.large {
         max-width: 200px;
     }
 }
-
-
 
 img.xlarge {
     width: 100%;
@@ -108,7 +112,7 @@ img.xl-em {
     background-color: rgba(0, 0, 0, 0.95);
     border-radius: 5px;
     line-height: 1.5;
-    max-width: 50%;
+    max-width: 75%;
     padding: 1rem 2rem;
     position: absolute;
     top: 50%;

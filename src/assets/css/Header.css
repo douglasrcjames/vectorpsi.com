@@ -13,32 +13,37 @@
 .nav-logo-group {
   float: left;
   padding: 5px 0 0 0;
+  display: flex;
+  align-items: center;
 }
 
 .nav-logo {
     width: 100px;
-    padding: 10px 0px 10px 15px;
-    vertical-align: middle;
+    padding: 5px 0px 5px 10px;
 }
 
 .nav-logo-font {
+  padding-top: 10px;
+}
+
+.nav-logo-font span {
   padding: 0 0 0 5px;
-  font-size: 1.6em;
+  line-height: 18px;
+  text-align: center;
+  font-size: 1.4em;
   color: #3D3F96;
   font-family: "Mont-Heavy";
 }
 
-.active .nav-logo-font {
-  color: #C92C3D;
-}
-
-.nav-logo-font:hover {
-  color: #C92C3D;
+.nav-logo-font br {
+  display: block; /* makes it have a width */
+  content: ""; /* clears default height */
+  margin-top: -5px; /* change this to whatever height you want it */
 }
 
 @media screen and (max-width: 1000px) {
     .nav-logo-font {
-        font-size: 1.4em;
+        font-size: 0.8em;
     }
 
     .nav-logo {

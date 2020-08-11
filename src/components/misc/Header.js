@@ -28,7 +28,15 @@ class Header extends Component {
                                 alt="company logo"
                                 src={require("../../assets/images/logos/icon.png")}
                                 />
-                            <span className="nav-logo-font">VECTOR PSI</span>
+                            <span className="nav-logo-font center-text display-inline-block">
+                                <span>
+                                    VECTOR PROCESS
+                                </span>
+                                <br/>
+                                <span>
+                                    SOLUTIONS
+                                </span>
+                            </span>
                         </NavLink>
                         <MediaQuery minWidth={1001}>
                             <div className="nav-links">
@@ -37,7 +45,6 @@ class Header extends Component {
                                             return (
                                                 <li key={index}>
                                                     <NavLink 
-                                                        exact
                                                         activeClassName="active"
                                                         to={`/${val.split(" ").join("-").toLowerCase()}`}>
                                                         {val}

@@ -12,7 +12,7 @@ export default class Categories extends Component {
                         <Col sm={12} md={6} lg={4} className="center-text" key={index}>
                             <img src={category.picPath} alt="product type" className="small responsive" />
                             <h2 className="no-padding s-margin-t">{category.name}</h2>
-                            <Link to={`/products/${category.name.split(" ").join("-").toLowerCase()}`}>
+                            <Link to={`/products/${category.name.toLowerCase()}`}>
                                 <button className="custom-btn btn-11">View products</button>
                             </Link>
                         </Col>

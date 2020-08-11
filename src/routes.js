@@ -12,12 +12,12 @@ import Resources from './components/pages/Resources';
 
 import Category from './components/pages/products/Category';
 import Product from './components/pages/products/Product';
-import { categories, products, controlValves, isolation, flow, level, pressure, temperature, automation, filtration } from './utils/constants'
+import { categories, products, control, isolation, flow, level, pressure, temperature, automation, filtration } from './utils/constants'
 
 class Routes extends Component {
     whichCategory(name){
-        if(name === "Control Valves"){
-            return controlValves
+        if(name === "Control"){
+            return control
         } else if(name === "Isolation"){
             return isolation
         } else if(name === "Flow"){
@@ -41,7 +41,7 @@ class Routes extends Component {
                 <Route exact path="/products" component={withTracker(Products)} />
                 {  
                     categories.map((category, i) => {
-                        return (<Route key={i} exact path={`/products/${category.name.split(" ").join("-").toLowerCase()}`} component={() => <Category name={category.name} categoryArray={this.whichCategory(category.name)} />} />)
+                        return (<Route key={i} exact path={`/products/${category.name.toLowerCase()}`} component={() => <Category name={category.name} categoryArray={this.whichCategory(category.name)} />} />)
                     })  
                 } 
                 {  
@@ -49,7 +49,7 @@ class Routes extends Component {
                         return (
                             <Route 
                                 key={i} 
-                                exact path={`/products/${product.category.split(" ").join("-").toLowerCase()}/${product.name.split(" ").join("-").toLowerCase()}`} 
+                                exact path={`/products/${product.category.toLowerCase()}/${product.name.split(" ").join("-").toLowerCase()}`} 
                                 component={() => 
                                     <Product 
                                         name={product.name} 
