@@ -45,7 +45,7 @@ class SimpleMap extends Component {
                     >
                         <Polygon
                             paths={overlayArea}
-                            strokeColor="#E3352B"
+                            strokeColor="#C92C3D"
                             strokeOpacity={0.8}
                             strokeWeight={2}
                             fillColor="#EE8680"

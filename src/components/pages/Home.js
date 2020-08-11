@@ -5,8 +5,8 @@ import Categories from './products/Categories';
 
 export default class Home extends Component {
     render() {
-        // var HeroSkylineVideo = `https://firebasestorage.googleapis.com/v0/b/vectorpsi-com.appspot.com/o/site%2Findustrial-skyline-slow.mp4?alt=media&token=6b32107d-512d-41a7-97b6-ffe67c0817f5`;
-        var HeroPipesVideo = `https://firebasestorage.googleapis.com/v0/b/vectorpsi-com.appspot.com/o/site%2F181004_21_WATERDEVELOPMENT_17.mp4?alt=media&token=1ffaba1d-a5ec-446f-bdad-6395a6f318fe`;
+        var HeroSkylineVideo = `https://firebasestorage.googleapis.com/v0/b/vectorpsi-com.appspot.com/o/site%2Findustrial-skyline-slow.mp4?alt=media&token=6b32107d-512d-41a7-97b6-ffe67c0817f5`;
+        // var HeroPipesVideo = `https://firebasestorage.googleapis.com/v0/b/vectorpsi-com.appspot.com/o/site%2F181004_21_WATERDEVELOPMENT_17.mp4?alt=media&token=1ffaba1d-a5ec-446f-bdad-6395a6f318fe`;
         return (
             <>
             <MediaQuery minWidth={901}>
@@ -17,8 +17,8 @@ export default class Home extends Component {
                         muted
                         className="bg-media"
                         >
-                        <source src={HeroPipesVideo} type="video/mp4" />
-                        <source src={HeroPipesVideo} type="video/ogg" />
+                        <source src={HeroSkylineVideo} type="video/mp4" />
+                        <source src={HeroSkylineVideo} type="video/ogg" />
                         Your browser does not support the video tag.
                     </video>
                     <div className="overlay-modal center-text">

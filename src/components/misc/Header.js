@@ -20,15 +20,15 @@ class Header extends Component {
     render() {
         const menuArray = ['Products', 'Industries', 'About Us', 'Resources']
         return (
-            <div className="nav-height">
                 <header className="nav-wrapper">
                     <nav role="navigation" className="p-container">
-                        <NavLink to="/">
+                        <NavLink to="/" exact className="nav-logo-group" activeClassName="active">
                             <img
                                 className="responsive nav-logo"
                                 alt="company logo"
-                                src={require("../../assets/images/logos/logo-v3.png")}
+                                src={require("../../assets/images/logos/icon.png")}
                                 />
+                            <span className="nav-logo-font">VECTOR PSI</span>
                         </NavLink>
                         <MediaQuery minWidth={1001}>
                             <div className="nav-links">
@@ -81,7 +81,7 @@ class Header extends Component {
                         </MediaQuery>
                     </nav>
                 </header>
-            </div>
+
             
         )
     }

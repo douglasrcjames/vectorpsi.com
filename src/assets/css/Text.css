@@ -1,15 +1,21 @@
-/*//*/ /*/ Colors /*/ /*//*/
+/*//*/ /*/ Branding Guidelines /*/ /*//*/
+
+/* Colors */
 /*
-// TODO: you can update all or some of these colors and their declarations throughout the app, but mainly the primary and secondary colors likely
+Primary:
+Red: #C92C3D
+Blue: #3D3F96 
 
-Primary red: #C82127
-Secondary blue: #75BEC3
+Secondary:
+Red: #D45664
+Light Red: #EEBBC1
 
-Blue: #2E3192
-Dark: #3B8FA8
-Light: #72CCE6
-Xlight: #B9E5F3
-xxlight: #DCF2F9
+Blue: #6465AB
+Light Blue: #C1C1DD
+
+Teal: #00B5C9
+Light Teal: #99E1E9
+Xlight Teal: #CCF0F4
 
 Yellow: #FDBB30
 Dark: #BE8C24
@@ -17,12 +23,7 @@ Light: #FDC959
 Xlight: #FEE4AC
 xxlight: #FFF1D6
 
-Pink: #F9BFBC
-Dark: #BB8F8D
-Light: #FBD9D7
-Xlight: #FEF2F2
-
-Red: #E3352B
+Red: #C92C3D
 Dark: #AA2820
 Light: #EE8680
 Xlight: #F9D7D5
@@ -38,36 +39,30 @@ Light: #8FC981
 Xlight: #D6F5CC
 
 Grey: #A1A1A1
-Dark: #6B6B6B
+Dark: #757474
 Light: #D6D6D6
-
-
-// TODO: update font and declarations around app
-
-Font: Comfortaa & BuiltTitling
-
 */
+
+/* Fonts: */
+/* 
+Headline: Mont-Heavy
+Subheader: Open Sans
+Paragraph: Charis Regular
+*/
+
 /*//*//*//*//*//*//*//*/
 
 @font-face {
-    font-family: "Comfortaa-Light";
-    src: url(../fonts/comfortaa/Comfortaa-Light.ttf);
+    font-family: "Charis-Regular";
+    src: url(../fonts/charis_sil/CharisSILR.ttf);
 }
 @font-face {
-    font-family: "Comfortaa-Regular";
-    src: url(../fonts/comfortaa/Comfortaa-Regular.ttf);
+    font-family: "Charis-Bold";
+    src: url(../fonts/charis_sil/CharisSILB.ttf);
 }
 @font-face {
-    font-family: "Comfortaa-Medium";
-    src: url(../fonts/comfortaa/Comfortaa-Medium.ttf);
-}
-@font-face {
-    font-family: "Comfortaa-SemiBold";
-    src: url(../fonts/comfortaa/Comfortaa-SemiBold.ttf);
-}
-@font-face {
-    font-family: "Comfortaa-Bold";
-    src: url(../fonts/comfortaa/Comfortaa-Bold.ttf);
+    font-family: "Charis-Italic";
+    src: url(../fonts/charis_sil/CharisSILI.ttf);
 }
 
 @font-face {
@@ -79,23 +74,19 @@ Font: Comfortaa & BuiltTitling
     src: url(../fonts/mont/Mont-Heavy.otf);
 }
 
-.comfortaa-regular {
-    font-family: "Comfortaa-Regular" !important;
+.charis-regular {
+    font-family: "Charis-Regular" !important;
 }
 
-.comfortaa-medium {
-    font-family: "Comfortaa-Medium" !important;
-}
-
-.comfortaa-bold {
-    font-family: "Comfortaa-Bold" !important;
+.charis-bold {
+    font-family: "Charis-Bold" !important;
 }
 
 /* 
 * Heading
 */
 h1 {
-    color: #2E3192;
+    color: #3D3F96;
     position: relative;
     font-size: 3em;
     font-family: "Mont-Heavy";
@@ -107,7 +98,7 @@ h1:before {
     bottom: -20px;
     width: 150px;
     height: 2px;
-    background: #C82127;
+    background: #C92C3D;
 }
 
 
@@ -141,7 +132,7 @@ h3 {
         bottom: -10px;
         width: 150px;
         height: 2px;
-        background: #C82127;
+        background: #C92C3D;
       }
 
     h1.no-line:before {
@@ -171,45 +162,45 @@ h5 {
 * Body
 */
 p {
-    font-family: "Comfortaa-Medium" !important;
+    font-family: "Charis-Regular" !important;
     line-height: 1.6;
     font-size: 16;
 }
 
 a {
     text-decoration: none;
-    font-family: "Comfortaa-Medium";
+    font-family: "Charis-Regular";
     cursor: pointer;
 }
 
 label {
     font-size: 18px;
     
-    font-family: "Comfortaa-Bold";
+    font-family: "Charis-Bold";
 }
 
 b {
-    font-family: "Comfortaa-Bold";
+    font-family: "Charis-Bold";
 }
 
 i {
-    font-family: "Comfortaa-Regular";
+    font-family: "Charis-Italic";
 }
 
 ul,
 ol,
 li {
-    font-family: "Comfortaa-Medium";
+    font-family: "Charis-Regular";
     line-height: 1.6;
     font-size: 16;
 }
 
 div {
-    font-family: "Comfortaa-Medium";
+    font-family: "Charis-Regular";
 }
 
 span {
-    font-family: "Comfortaa-Medium";
+    font-family: "Charis-Regular";
 }
 
 
@@ -252,7 +243,7 @@ span {
 
 /* Grey */
 .dark-grey {
-    color: #6B6B6B !important;
+    color: #757474 !important;
 }
 .grey {
     color: #A1A1A1 !important;
@@ -266,7 +257,7 @@ span {
     color: #B9E5F3 !important;
 }
 .blue {
-    color: #2E3192 !important;
+    color: #3D3F96 !important;
 }
 .light-blue {
     color: #72CCE6 !important;
@@ -332,12 +323,12 @@ span {
 
 /* Hover color */
 .text-hover:hover {
-    color: #2E3192  !important;
+    color: #3D3F96  !important;
     cursor: pointer;
 }
 
 .text-hover-red:hover {
-    color: #E3352B  !important;
+    color: #C92C3D  !important;
     cursor: pointer;
 }
 

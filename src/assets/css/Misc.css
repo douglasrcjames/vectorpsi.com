@@ -4,23 +4,23 @@
 .s-border {
     border-style: solid;
     border-width: 1px;
-    border-color: #2E3192;
+    border-color: #3D3F96;
 }
 
 .m-border {
     border-style: solid;
     border-width: 3px;
-    border-color: #2E3192;
+    border-color: #3D3F96;
 }
 
 .l-border {
     border-style: solid;
     border-width: 5px;
-    border-color: #2E3192;
+    border-color: #3D3F96;
 }
 
 .left-border {
-    border-left: 6px solid #2E3192;
+    border-left: 6px solid #3D3F96;
     padding: 10px 0px 10px 5px;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .background-blue {
-    background: #2E3192
+    background: #3D3F96
 }
 
 .background-white {
@@ -96,7 +96,7 @@ table caption {
     font-size: 1.5em;
     font-weight: bolder;
     margin: .5em 0 .75em;
-    color: #2E3192;
+    color: #3D3F96;
     text-align: left;
 }
 
@@ -208,7 +208,7 @@ tbody tr:hover {
 }
 
 #skinny-scroll::-webkit-scrollbar-thumb {
-	background-color: #2E3192;
+	background-color: #3D3F96;
 }
 
 /* 
@@ -259,6 +259,10 @@ hr {
 
 .content-none { 
     content: none;
+}
+
+.vertical-align-middle {
+    vertical-align: middle;
 }
 
 /* Slick slider */
