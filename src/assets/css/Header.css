@@ -255,7 +255,7 @@
   
   .menu-wrap .hamburger {
     position: absolute;
-    top: -7px;
+    top: -14px;
     right: -1px;
     z-index: 1;
     width: 30px;
@@ -299,6 +299,7 @@
   /* Toggler Animation */
   .menu-wrap .toggler:checked + .hamburger > div {
     transform: rotate(135deg);
+    background: white;
   }
   
   /* Turns Lines Into X */

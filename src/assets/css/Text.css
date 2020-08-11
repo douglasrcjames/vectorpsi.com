@@ -95,9 +95,9 @@ h1 {
 h1:before {
     position: absolute;
     content: "";
-    bottom: -20px;
+    bottom: -5px;
     width: 150px;
-    height: 2px;
+    height: 3px;
     background: #C92C3D;
 }
 
@@ -129,10 +129,7 @@ h3 {
     }
 
     h1:before {
-        bottom: -10px;
-        width: 150px;
-        height: 2px;
-        background: #C92C3D;
+        width: 100px;
       }
 
     h1.no-line:before {
