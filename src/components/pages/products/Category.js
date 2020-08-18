@@ -10,10 +10,10 @@ export default class Category extends Component {
                 <Helmet>
                     <title>Products - {this.props.name} | Vector PSI</title>
                 </Helmet>
-                <h1>{this.props.name}</h1>
                 <Link to={`/products/`}>
                     <button className="custom-btn btn-15"><i className="fas fa-arrow-left"/> Back to all products</button>
                 </Link>
+                <h1 className="s-margin-t-b">{this.props.name}</h1>
                 <Grid fluid>
                     {this.props.categoryArray.map((product, index) => (
                         <Row className="m-margin-t-b" key={index}>

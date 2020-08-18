@@ -147,12 +147,13 @@ h3 {
 
 @media screen and (max-width: 1000px) {
     h1 {
-        font-size: 2em;
+        font-size: 2em !important;
+        line-height: 32px !important;
     }
 
     h1:before {
         width: 100px;
-      }
+    }
 
     h1.no-line:before {
         width: 0px;
@@ -161,13 +162,15 @@ h3 {
     }
 
     h2 {
-        font-size: 1.6em;
+        font-size: 1.6em !important;
+        line-height: 28px !important;
     }
-
     h3 {
-        font-size: 1em;
+        font-size: 1em !important;
+        line-height: 25px !important;
     }
 }
+
 
 h4 {
     font-family: "Mont-Heavy";
