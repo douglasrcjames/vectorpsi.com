@@ -35,7 +35,7 @@ class SimpleMap extends Component {
         ]
         
         return (
-            <div style={{ position: 'relative', width: '100vw', height: '40vh' }}>
+            <div style={{ position: 'relative', width: '100%', height: '40vh' }}>
                 <Map
                     google={this.props.google}
                     zoom={5.5}

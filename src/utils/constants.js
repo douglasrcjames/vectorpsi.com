@@ -1,35 +1,35 @@
 export const categories = [
     {
         name: 'Control',
-        picPath: require("../assets/images/products/control/Research-Control-Valves.png")
+        picPath: require("../assets/images/products/control/Research-Control-Valves-thumb.png")
     },
     {
         name: 'Isolation',
-        picPath: require("../assets/images/products/isolation/GeneralTwinSeal.png")
+        picPath: require("../assets/images/products/isolation/GeneralTwinSeal-thumb.png")
     },
     {
         name: 'Flow',
-        picPath: require("../assets/images/products/flow/vortex-flow-meter.png")
+        picPath: require("../assets/images/products/flow/vortex-flow-meter-thumb.png")
     },
     {
         name: 'Level',
-        picPath: require("../assets/images/products/level/Large-Chamber-Gauge.png")
+        picPath: require("../assets/images/products/level/Large-Chamber-Gauge-thumb.png")
     },
     {
         name: 'Pressure',
-        picPath: require("../assets/images/products/pressure/Gauge-Pressure-Transmitter.png")
+        picPath: require("../assets/images/products/pressure/Differential-Pressure-Transmitter-thumb.png")
     },
     {
         name: 'Temperature',
-        picPath: require("../assets/images/products/temperature/RTD.png")
+        picPath: require("../assets/images/products/temperature/RTD-thumb.png")
     },
     {
         name: 'Automation',
-        picPath: require("../assets/images/products/automation/autorodders.png")
+        picPath: require("../assets/images/products/automation/autorodders-thumb.png")
     },
     {
         name: 'Filtration',
-        picPath: require("../assets/images/products/filtration/oil-and-gas-spifil.png")
+        picPath: require("../assets/images/products/filtration/oil-and-gas-spifil-thumb.png")
     },
 ]
 
@@ -84,7 +84,7 @@ export const isolation = [
 export const flow = [
     {
         name: 'Vortex Flow Meter',
-        picPath: require("../assets/images/products/flow/vortex-flow-meter.png"),
+        picPath: require("../assets/images/products/flow/vortex-flow-meter-thumb.png"),
         description: `The Azbil AX2200 In-Line and the AX2300 Insertion Vortex Flow Meters provide a reliable solution for process flow measurement. From a single entry point in the pipeline, AX2000 Series meters offer precise measurements of mass or volumetric flow rates. Multivariable functionality from a single meter ensure optimal cost savings and simple installations.`,
         link: `https://us.azbil.com/category/industrial-automation/vortex-flow-meters/`,
         category: 'Flow'

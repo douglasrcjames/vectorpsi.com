@@ -1,5 +1,6 @@
 import React from 'react';
 import { Router } from 'react-router-dom';
+import { ToastProvider } from 'react-toast-notifications'
 
 import history from './history';
 import Routes from "./routes";
@@ -25,13 +26,16 @@ function App() {
     //   <h1>Vector Process Solutions, Inc</h1>
     //   <p>Our website is currently under construction, check back soon! Contact <u>apennell@vectorpsi.com</u> for any questions.</p>
     // </div>
-    <Router history={history}>
-      <ScrollToTop>
-        <Header />
-        <Routes />
-        <Footer />
-      </ScrollToTop>
-    </Router>
+    <ToastProvider placement="top-center" autoDismiss={true}>
+      <Router history={history}>
+        <ScrollToTop>
+          <Header />
+          <Routes />
+          <Footer />
+        </ScrollToTop>
+      </Router>
+    </ToastProvider>
+    
   );
 }
 

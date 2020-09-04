@@ -16,8 +16,9 @@
     "react-helmet": "^6.1.0",
     "react-responsive": "^8.1.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.2",
+    "react-scripts": "^3.4.3",
     "react-slick": "^0.27.2-beta-1",
+    "react-toast-notifications": "^2.4.0",
     "yup": "^0.29.1"
   },
   "scripts": {
