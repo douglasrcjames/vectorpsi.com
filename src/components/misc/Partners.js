@@ -180,6 +180,45 @@ const partners = [
         webUrl: `https://www.vortekinst.com/`,
         picPath: require("../../assets/images/external-logos/vortek.png"),
         picSize: "medium"
+    },
+    {
+        webUrl: `https://www.rexa.com/`,
+        picPath: require("../../assets/images/external-logos/rexa.png"),
+        picSize: "medium"
+    },
+    {
+        webUrl: `http://www.imi-critical.com/Pages/default.aspx`,
+        picPath: require("../../assets/images/external-logos/imi.png"),
+        picSize: "small"
+    },
+    {
+        webUrl: `https://www.andronaco.com/`,
+        picPath: require("../../assets/images/external-logos/andronaco.png"),
+        picSize: "medium"
+    },
+    {
+        webUrl: `https://reotemp.com/`,
+        picPath: require("../../assets/images/external-logos/reotemp-instruments.png"),
+        picSize: "medium"
+    },
+    {
+        webUrl: `https://www.dft-valves.com/`,
+        picPath: require("../../assets/images/external-logos/dft.png"),
+        picSize: "medium"
+    },
+    {
+        webUrl: `https://www.delvalflow.com/`,
+        picPath: require("../../assets/images/external-logos/delval.png"),
+        picSize: "small"
+    },
+    {
+        webUrl: `https://www.contdisc.com/`,
+        picPath: require("../../assets/images/external-logos/contdisc.png"),
+        picSize: "small"
+    },    {
+        webUrl: `https://www.controlair.com/`,
+        picPath: require("../../assets/images/external-logos/controlair.png"),
+        picSize: "xmedium"
     }
 ]
 
