@@ -16,12 +16,8 @@ export const categories = [
         picPath: require("../assets/images/products/level/Large-Chamber-Gauge-thumb.png")
     },
     {
-        name: 'Pressure',
+        name: 'Instrumentation',
         picPath: require("../assets/images/products/pressure/Differential-Pressure-Transmitter-thumb.png")
-    },
-    {
-        name: 'Temperature',
-        picPath: require("../assets/images/products/temperature/RTD-thumb.png")
     },
     {
         name: 'Automation',
@@ -31,9 +27,42 @@ export const categories = [
         name: 'Filtration',
         picPath: require("../assets/images/products/filtration/oil-and-gas-spifil-thumb.png")
     },
+    {
+        name: 'Piping Systems',
+        picPath: require("../assets/images/products/filtration/oil-and-gas-spifil-thumb.png")
+    },
+    {
+        name: 'Tanks & Pumps',
+        picPath: require("../assets/images/products/filtration/oil-and-gas-spifil-thumb.png")
+    },
+    {
+        name: 'System Accessories',
+        picPath: require("../assets/images/products/filtration/oil-and-gas-spifil-thumb.png")
+    },
 ]
 
-export const control = [
+export const controlProducts = [
+    {
+        name: 'IMI-CCI Portfolio',
+        picPath: require("../assets/images/products/control/IMI-Truflo-C-Rex.png"),
+        description: `Our portfolio of control valves fall into three broad classes based on the severity of the application they serve: general service; semi-severe and severe service. Our portfolio includes several proven technology platforms, including BTG, ABJ®, DRAG®, Zikesch, IMI Bopp & Reuther and the valve technology acquired from Sulzer® Ltd. These technologies allow customers to balance the ease of installation against noise abatement, reliability and control. Our portfolio of pneumatic, hydraulic and electric actuators, also enhances control functions. ​`,
+        link: `http://www.imi-critical.com/products/Pages/Controls.aspx`,
+        category: 'Control'
+    },
+    {
+        name: 'IMI-Truflo C-Rex',
+        picPath: require("../assets/images/products/control/IMI-Truflo-C-Rex.png"),
+        description: `Our Ball Valves are designed as a solution for critical service applications, combining the advantages of main critical service valve designs while eliminating their weakness or design limitations. This makes them ideal to meet the most stringent requirements in critical applications such as oil and gas, chemical, petrochemical, mining, liquified natural gas (LNG).`,
+        link: `http://www.imi-critical.com/products/Pages/Product-C-Rex-Valve.aspx`,
+        category: 'Control'
+    },
+    {
+        name: 'DFT Control Valves',
+        picPath: require("../assets/images/products/control/hi-100.png"),
+        description: `The HI-100® features an in-line Straight-thru, venturi flow design. The seating element, a spherical ball, is contained by a cage that positions it relative to the downstream seat by means of linear stem travel. There are no close clearances between the moving parts (i.e. cage, ball and seat). These features enable the valve to operate smoothly and efficiently at high or low temperatures, and/or in fluids carrying suspended particles such as slurries. The Quick Change Trim feature permits in-line replacement of the internal trim (ball, stem, cage, seats, seat retainer cartridge and wear bushings). Interchangeability of the upstream and downstream seats and wear bushings extends the life of the valve, allowing for reduced operating costs when compared to competition.`,
+        link: `https://catalog.dft-valves.com/item/control-and-block-valves/dft-hi-100-severe-service-control-valve/dft-sup-sup-hi-100-control-valve`,
+        category: 'Control'
+    },
     {
         name: 'Research Control Valves',
         picPath: require("../assets/images/products/control/Research-Control-Valves.png"),
@@ -57,7 +86,7 @@ export const control = [
     },
 ]
 
-export const isolation = [
+export const isolationProducts = [
     {
         name: 'General Twin Seal',
         picPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -81,7 +110,7 @@ export const isolation = [
     },
 ]
 
-export const flow = [
+export const flowProducts = [
     {
         name: 'Vortex Flow Meter',
         picPath: require("../assets/images/products/flow/vortex-flow-meter-thumb.png"),
@@ -133,7 +162,7 @@ export const flow = [
     },
 ]
 
-export const level = [
+export const levelProducts = [
     {
         name: 'Reflex and Transparent Glass Gauges',
         picPath: require("../assets/images/products/level/Large-Chamber-Gauge.png"),
@@ -171,55 +200,52 @@ export const level = [
     },
 ]
 
-export const pressure = [
+export const instrumentationProducts = [
     {
         name: 'Gauge Pressure Transmitter',
         picPath: require("../assets/images/products/pressure/Gauge-Pressure-Transmitter.png"),
         description: `The Advanced Gauge Pressure Transmitter is a microprocessor based smart transmitter that features high performance and excellent stability.  Capable of measuring gas, liquid, vapor, and liquid levels, it transmits 4 to 20 mA DC analog and and digital signals according to the measured pressure.  It can also execute two-way communications between the communicator, thus facilitating self diagnosis, range setting , and automatic zero adjustment.`,
         link: `https://us.azbil.com/product-series/at9000-advanced-transmitter-for-gauge-pressure/`,
-        category: 'Pressure'
+        category: 'Instrumentation'
     },
     {
         name: 'Differential Pressure Transmitter',
         picPath: require("../assets/images/products/pressure/Differential-Pressure-Transmitter.png"),
         description: `Users of the AT9000 Gauge Pressure transmitters can select either In-Line (Direct Mount) or Dual-Head style to fit their needs. Available ranges include -14.7 to 500 psig, -14.7 to 2000 psig and -14.7 to 6000 psig.`,
         link: `https://us.azbil.com/product-series/at9000-advanced-transmitter-for-differential-pressure/`,
-        category: 'Pressure'
+        category: 'Instrumentation'
     },
     {
         name: 'Direct Mount Transmitter',
         picPath: require("../assets/images/products/pressure/Direct-Mount-Transmitter.png"),
         description: `Users of the AT9000 Gauge Pressure transmitters can select either In-Line (Direct Mount) or Dual-Head style to fit their needs. Available ranges include -14.7 to 500 psig, -14.7 to 2000 psig and -14.7 to 6000 psig.`,
         link: `https://us.azbil.com/product-series/at9000-advanced-direct-mount-pressure-transmitter/`,
-        category: 'Pressure'
+        category: 'Instrumentation'
     },
     {
         name: 'Remote Seals',
         picPath: require("../assets/images/products/pressure/remote-seals.png"),
         description: `Paired with the Advanced Pressure Transmitter, Azbil North America is able to provide an extensive line of Remote Diaphragm Seals. From cryogenic to high-temperature applications, we can draw upon decades of experience designing and manufacturing remote diaphragm seals for process control to find a transmitter/remote seal system that fits your needs.`,
         link: `https://us.azbil.com/product-series/at9000-advanced-pressure-transmitter-with-remote-diaphragm-seals/`,
-        category: 'Pressure'
+        category: 'Instrumentation'
     },
-]
-
-export const temperature = [
     {
         name: 'Advanced Temperature Transmitter',
         picPath: require("../assets/images/products/temperature/Advanced-Temperature-Transmitter.png"),
         description: `Azbil’s ATT082 Advanced Temperature Transmitter provides a high level of functionality, versatility and safety for the most critical applications in your operation. The ATT082 can operate as a single or dual input device. In the dual input mode you can select between dual measurements, hot sensor back-up, differential temperature measurement, sensor drift detection or average temperature. It is certified by TUV to IEC1508 for use in Safety Instrumented Systems.`,
         link: `https://us.azbil.com/product-series/att082-advanced-temperature-transmitter/`,
-        category: 'Temperature'
+        category: 'Instrumentation'
     },
     {
         name: 'RTD’s',
         picPath: require("../assets/images/products/temperature/RTD.png"),
         description: `The SPC625A is a platinum resistance temperature detector that uses a JIS JPt100ohm element, while the SPC625B uses a JIS Pt100ohm element. This is a screw-in temperature detector with a stainless steel protection tube. It is mainly used to detect the temperature of gas, liquid, and steam.`,
         link: `https://us.azbil.com/product-series/spc625a-platinum-resistance-temperature-detector/`,
-        category: 'Temperature'
+        category: 'Instrumentation'
     },
 ]
 
-export const automation = [
+export const automationProducts = [
     {
         name: 'Clearguard Autorodder',
         picPath: require("../assets/images/products/automation/autorodders.png"),
@@ -229,7 +255,7 @@ export const automation = [
     },
 ]
 
-export const filtration = [
+export const filtrationProducts = [
     {
         name: 'Oil & Gas Filtration',
         picPath: require("../assets/images/products/filtration/oil-and-gas-spifil.png"),
@@ -239,4 +265,110 @@ export const filtration = [
     },
 ]
 
-export const products = control.concat(isolation, flow, level, pressure, temperature, automation, filtration);
+export const pipingSystemsProducts = [
+    {
+        name: 'Product 1',
+        picPath: require("../assets/images/products/filtration/oil-and-gas-spifil.png"),
+        description: `At SPIFIL Group, we create and deliver the ecological answer to your filtration needs. Our staff is highly prepared and motivated; we design and manufacture our products following high quality standards, and provide an exceptional technical service. We treasure more than 20 years of expertise in the field.`,
+        link: `http://spifil.com/en/industry/#div-petroleo`,
+        category: 'Piping Systems'
+    },
+]
+
+export const tanksPumpsProducts = [
+    {
+        name: 'Product 1',
+        picPath: require("../assets/images/products/filtration/oil-and-gas-spifil.png"),
+        description: `At SPIFIL Group, we create and deliver the ecological answer to your filtration needs. Our staff is highly prepared and motivated; we design and manufacture our products following high quality standards, and provide an exceptional technical service. We treasure more than 20 years of expertise in the field.`,
+        link: `http://spifil.com/en/industry/#div-petroleo`,
+        category: 'Tanks & Pumps'
+    },
+]
+
+export const systemAccessoriesProducts = [
+    {
+        name: 'Product 1',
+        picPath: require("../assets/images/products/filtration/oil-and-gas-spifil.png"),
+        description: `At SPIFIL Group, we create and deliver the ecological answer to your filtration needs. Our staff is highly prepared and motivated; we design and manufacture our products following high quality standards, and provide an exceptional technical service. We treasure more than 20 years of expertise in the field.`,
+        link: `http://spifil.com/en/industry/#div-petroleo`,
+        category: 'System Accessories'
+    },
+]
+
+
+
+// Sub companies
+export const controlSubCompanies = [
+    {
+        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+    },
+    {
+        picPath: require("../assets/images/external-logos/sub-companies/control/imi-truflo.png"),
+    },
+    {
+        picPath: require("../assets/images/external-logos/sub-companies/control/RCV.png"),
+    },
+    {
+        picPath: require("../assets/images/external-logos/warren-controls.png"),
+    },
+    {
+        picPath: require("../assets/images/external-logos/dft.png"),
+    },
+]
+
+export const isolationSubCompanies = [
+    {
+        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+    },
+]
+
+export const flowSubCompanies = [
+    {
+        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+    },
+]
+
+export const levelSubCompanies = [
+    {
+        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+    },
+]
+
+export const instrumentationSubCompanies = [
+    {
+        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+    },
+]
+
+export const automationSubCompanies = [
+    {
+        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+    },
+]
+
+export const filtrationSubCompanies = [
+    {
+        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+    },
+]
+
+export const pipingSystemsSubCompanies = [
+    {
+        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+    },
+]
+
+export const tanksPumpsSubCompanies = [
+    {
+        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+    },
+]
+
+export const systemAccessoriesSubCompanies = [
+    {
+        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+    },
+]
+
+
+export const allProducts = controlProducts.concat(isolationProducts, flowProducts, levelProducts, instrumentationProducts, automationProducts, filtrationProducts);

@@ -39,6 +39,19 @@ export default class Category extends Component {
                         </Row>
                     ))}
                 </Grid>
+                <h2 className="center-text">Product Manufacturers</h2>
+                {this.props.subCompaniesArray && (
+                    <Grid fluid>
+                        <Row center="xs">
+                            {this.props.subCompaniesArray.map((company, index) => (
+                                <Col sm={12} md={4} lg={2} className="center-text" key={index}>
+                                    <img src={company.picPath} alt="company" className="xmedium responsive" />
+                                </Col>
+                            ))}
+                        </Row>
+                    </Grid>
+                )}
+               
             </div>
         )
     }

@@ -12,28 +12,82 @@ import Resources from './components/pages/Resources';
 
 import Category from './components/pages/products/Category';
 import Product from './components/pages/products/Product';
-import { categories, products, control, isolation, flow, level, pressure, temperature, automation, filtration } from './utils/constants'
+import { 
+    categories, 
+    allProducts, 
+    controlProducts, 
+    isolationProducts, 
+    flowProducts, 
+    levelProducts, 
+    instrumentationProducts, 
+    automationProducts, 
+    filtrationProducts, 
+    pipingSystemsProducts, 
+    tanksPumpsProducts, 
+    systemAccessoriesProducts,
+    // Sub companies
+    controlSubCompanies, 
+    isolationSubCompanies, 
+    flowSubCompanies, 
+    levelSubCompanies, 
+    instrumentationSubCompanies, 
+    automationSubCompanies, 
+    filtrationSubCompanies, 
+    pipingSystemsSubCompanies, 
+    tanksPumpsSubCompanies, 
+    systemAccessoriesSubCompanies
+ } from './utils/constants'
 
 class Routes extends Component {
-    whichCategory(name){
+    whichCategory4Products(name){
         if(name === "Control"){
-            return control
+            return controlProducts
         } else if(name === "Isolation"){
-            return isolation
+            return isolationProducts
         } else if(name === "Flow"){
-            return flow
+            return flowProducts
         } else if(name === "Level"){
-            return level
-        } else if(name === "Pressure"){
-            return pressure
-        } else if(name === "Temperature"){
-            return temperature
+            return levelProducts
+        } else if(name === "Instrumentation"){
+            return instrumentationProducts
         } else if(name === "Automation"){
-            return automation
+            return automationProducts
         } else if(name === "Filtration"){
-            return filtration
-        }
+            return filtrationProducts
+        } else if(name === "Piping Systems"){
+            return pipingSystemsProducts
+        } else if(name === "Tanks & Pumps"){
+            return tanksPumpsProducts
+        } else if(name === "System Accessories"){
+            return systemAccessoriesProducts
+        } 
     }
+    
+
+    whichCategory4SubCompanies(name){
+        if(name === "Control"){
+            return controlSubCompanies
+        } else if(name === "Isolation"){
+            return isolationSubCompanies
+        } else if(name === "Flow"){
+            return flowSubCompanies
+        } else if(name === "Level"){
+            return levelSubCompanies
+        } else if(name === "Instrumentation"){
+            return instrumentationSubCompanies
+        } else if(name === "Automation"){
+            return automationSubCompanies
+        } else if(name === "Filtration"){
+            return filtrationSubCompanies
+        } else if(name === "Piping Systems"){
+            return pipingSystemsSubCompanies
+        } else if(name === "Tanks & Pumps"){
+            return tanksPumpsSubCompanies
+        } else if(name === "System Accessories"){
+            return systemAccessoriesSubCompanies
+        } 
+    }
+
     render() {
         return (
             <Switch>
@@ -41,11 +95,23 @@ class Routes extends Component {
                 <Route exact path="/products" component={withTracker(Products)} />
                 {  
                     categories.map((category, i) => {
-                        return (<Route key={i} exact path={`/products/${category.name.toLowerCase()}`} component={() => <Category name={category.name} categoryArray={this.whichCategory(category.name)} />} />)
+                        return (
+                            <Route 
+                                key={i} 
+                                exact 
+                                path={`/products/${category.name.split(" ").join("-").toLowerCase()}`} 
+                                component={() => 
+                                    <Category 
+                                        name={category.name} 
+                                        categoryArray={this.whichCategory4Products(category.name)} 
+                                        subCompaniesArray={this.whichCategory4SubCompanies(category.name)} 
+                                    />} 
+                                />
+                            )
                     })  
                 } 
                 {  
-                    products.map((product, i) => {
+                    allProducts.map((product, i) => {
                         return (
                             <Route 
                                 key={i} 
