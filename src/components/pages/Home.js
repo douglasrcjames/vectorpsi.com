@@ -53,7 +53,7 @@ export default class Home extends Component {
             </MediaQuery>
             <div className="l-container">
                 <Partners />
-                <h1 className="s-margin-b">Products</h1>
+                <h1 className="s-margin-b">Product Categories</h1>
                 <br/>
                 <Categories />
             </div>

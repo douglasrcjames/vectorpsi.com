@@ -8,17 +8,17 @@ export default class Category extends Component {
         return (
             <div className="wrapper">
                 <Helmet>
-                    <title>Products - {this.props.name} | Vector PSI</title>
+                    <title>{this.props.name} Products | Vector PSI</title>
                 </Helmet>
                 <Link to={`/products/`}>
                     <button className="custom-btn btn-15"><i className="fas fa-arrow-left"/> Back to all products</button>
                 </Link>
-                <h1 className="s-margin-t-b">{this.props.name}</h1>
+                <h1 className="s-margin-t-b">{this.props.name} Products</h1>
                 <Grid fluid>
                     {this.props.categoryArray.map((product, index) => (
                         <Row className="m-margin-t-b" key={index}>
                             <Col sm={12} md={4} lg={2} className="center-text">
-                                <img src={product.picPath} alt="product" className="large responsive" />
+                                <img src={product.thumbPath} alt="product" className="large-fit responsive" />
                             </Col>
                             
                             <Col sm={12} md={8} lg={10} >
@@ -29,11 +29,14 @@ export default class Category extends Component {
                                             {product.description}
                                         </p>
                                         <div className="center-text">
-                                            <Link to={`/products/${this.props.name.split(" ").join("-").toLowerCase()}/${product.name.split(" ").join("-").toLowerCase()}`}>
-                                                <button className="custom-btn btn-11">Learn more</button>
-                                            </Link>
+                                           
                                         </div>
                                     </Col>
+                                </Row>
+                                <Row center="xs" className="s-margin-l">
+                                    <Link to={`/products/${this.props.name.split(" ").join("-").toLowerCase()}/${product.name.split(" ").join("-").toLowerCase()}`}>
+                                        <button className="custom-btn btn-11">Learn more</button>
+                                    </Link>
                                 </Row>
                             </Col>
                         </Row>

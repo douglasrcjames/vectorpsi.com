@@ -7,24 +7,24 @@ import { Page404 } from "./components/misc/Page404";
 import Home from './components/pages/Home'
 import AboutUs from './components/pages/AboutUs';
 import Industries from './components/pages/Industries';
-import Products from './components/pages/products/Products';
+import ProductCategories from './components/pages/products/ProductCategories';
 import Resources from './components/pages/Resources';
 
 import Category from './components/pages/products/Category';
-import Product from './components/pages/products/Product';
+import ProductLine from './components/pages/products/ProductLine';
 import { 
     categories, 
-    allProducts, 
-    controlProducts, 
-    isolationProducts, 
-    flowProducts, 
-    levelProducts, 
-    instrumentationProducts, 
-    automationProducts, 
-    filtrationProducts, 
-    pipingSystemsProducts, 
-    tanksPumpsProducts, 
-    systemAccessoriesProducts,
+    allProductLines, 
+    controlProductLines, 
+    isolationProductLines, 
+    flowProductLines, 
+    levelProductLines, 
+    instrumentationProductLines, 
+    automationProductLines, 
+    filtrationProductLines, 
+    pipingSystemsProductLines, 
+    tanksPumpsProductLines, 
+    systemAccessoriesProductLines,
     // Sub companies
     controlSubCompanies, 
     isolationSubCompanies, 
@@ -41,25 +41,25 @@ import {
 class Routes extends Component {
     whichCategory4Products(name){
         if(name === "Control"){
-            return controlProducts
+            return controlProductLines
         } else if(name === "Isolation"){
-            return isolationProducts
+            return isolationProductLines
         } else if(name === "Flow"){
-            return flowProducts
+            return flowProductLines
         } else if(name === "Level"){
-            return levelProducts
+            return levelProductLines
         } else if(name === "Instrumentation"){
-            return instrumentationProducts
+            return instrumentationProductLines
         } else if(name === "Automation"){
-            return automationProducts
+            return automationProductLines
         } else if(name === "Filtration"){
-            return filtrationProducts
+            return filtrationProductLines
         } else if(name === "Piping Systems"){
-            return pipingSystemsProducts
+            return pipingSystemsProductLines
         } else if(name === "Tanks & Pumps"){
-            return tanksPumpsProducts
+            return tanksPumpsProductLines
         } else if(name === "System Accessories"){
-            return systemAccessoriesProducts
+            return systemAccessoriesProductLines
         } 
     }
     
@@ -92,7 +92,7 @@ class Routes extends Component {
         return (
             <Switch>
                 <Route exact path="/" component={withTracker(Home)} />
-                <Route exact path="/products" component={withTracker(Products)} />
+                <Route exact path="/products" component={withTracker(ProductCategories)} />
                 {  
                     categories.map((category, i) => {
                         return (
@@ -111,18 +111,17 @@ class Routes extends Component {
                     })  
                 } 
                 {  
-                    allProducts.map((product, i) => {
+                    allProductLines.map((productLine, i) => {
                         return (
                             <Route 
                                 key={i} 
-                                exact path={`/products/${product.category.toLowerCase()}/${product.name.split(" ").join("-").toLowerCase()}`} 
+                                exact path={`/products/${productLine.category.toLowerCase()}/${productLine.name.split(" ").join("-").toLowerCase()}`} 
                                 component={() => 
-                                    <Product 
-                                        name={product.name} 
-                                        description={product.description} 
-                                        category={product.category} 
-                                        link={product.link}
-                                        picPath={product.picPath} />
+                                    <ProductLine 
+                                        name={productLine.name} 
+                                        category={productLine.category} 
+                                        productSets={productLine.productSets} 
+                                        />
                                     } 
                                 />
                         )

@@ -12,14 +12,12 @@ export default class Footer extends Component {
     render() {
         return (
             <footer>
-                <div className="s-padding-t-b">
+                <div className="f-container">
+                    <br/>
                     <hr />
                     <br/>
-                </div>
-                
-                <div className="f-container">
                     <div>
-                        <a className="blue" href="https://www.douglasrcjames.com" target="_blank" rel="noopener noreferrer"><i className="fas fa-tools"/> by douglasrcjames</a> 
+                        <a className="blue" href="https://www.douglasrcjames.com" target="_blank" rel="noopener noreferrer"><i className="fas fa-tools" /> by douglasrcjames</a> 
                     </div>
                     <div>
                         &copy;
@@ -28,6 +26,7 @@ export default class Footer extends Component {
                         {' '}
                         Vector Process Solutions
                     </div>
+                    <br/>
                 </div>
             </footer>
         )
