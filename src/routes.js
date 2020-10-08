@@ -115,7 +115,7 @@ class Routes extends Component {
                         return (
                             <Route 
                                 key={i} 
-                                exact path={`/products/${productLine.category.toLowerCase()}/${productLine.name.split(" ").join("-").toLowerCase()}`} 
+                                exact path={`/products/${productLine.category.split(" ").join("-").toLowerCase()}/${productLine.name.split(" ").join("-").toLowerCase()}`} 
                                 component={() => 
                                     <ProductLine 
                                         name={productLine.name} 

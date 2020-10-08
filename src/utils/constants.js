@@ -1,7 +1,7 @@
 export const categories = [
     {
         name: 'Control',
-        thumbPath: require("../assets/images/products/control/Research-Control-Valves-thumb.png")
+        thumbPath: require("../assets/images/products/control/control-thumb.png")
     },
     {
         name: 'Isolation',
@@ -49,24 +49,37 @@ export const controlProductLines = [
         category: 'Control',
         productSets: [
             {
-                description: `Our portfolio of control valves fall into three broad classes based on the severity of the application they serve: general service; semi-severe and severe service. Our portfolio includes several proven technology platforms, including BTG, ABJ®, DRAG®, Zikesch, IMI Bopp & Reuther and the valve technology acquired from Sulzer® Ltd. These technologies allow customers to balance the ease of installation against noise abatement, reliability and control. Our portfolio of pneumatic, hydraulic and electric actuators, also enhances control functions. ​`,
-                link: `http://www.imi-critical.com/products/Pages/Controls.aspx`,
+                subheader: "IMI-Truflo C-Rex",
+                description: `Our Ball Valves are designed as a solution for critical service applications, combining the advantages of main critical service valve designs while eliminating their weakness or design limitations. This makes them ideal to meet the most stringent requirements in critical applications such as oil and gas, chemical, petrochemical, mining, liquified natural gas (LNG)`,
+                link: `http://www.imi-critical.com/products/Pages/Product-C-Rex-Valve.aspx`,
+                picPaths: [
+                    require("../assets/images/products/control/imi-cci/IMI-CCI-1.jpg"),
+                    require("../assets/images/products/control/imi-cci/IMI-CCI-2.jpg"),
+                    require("../assets/images/products/control/imi-cci/IMI-CCI-3.jpg"),
+                ],
+            },
+            {
+                subheader: "Steam Attemperator",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
                     require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
                 ],
-            }
-        ]
-    },
-    {
-        name: 'IMI-Truflo C-Rex',
-        thumbPath: require("../assets/images/products/control/IMI-Truflo-C-Rex.png"),
-        description: `Our Ball Valves are designed as a solution for critical service applications, combining the advantages of main critical service valve designs while eliminating their weakness or design limitations. This makes them ideal to meet the most stringent requirements in critical applications such as oil and gas, chemical, petrochemical, mining, liquified natural gas (LNG).​`,
-        category: 'Control',
-        productSets: [
+            },
             {
-                description: `Our Ball Valves are designed as a solution for critical service applications, combining the advantages of main critical service valve designs while eliminating their weakness or design limitations. This makes them ideal to meet the most stringent requirements in critical applications such as oil and gas, chemical, petrochemical, mining, liquified natural gas (LNG).​`,
-                link: `http://www.imi-critical.com/products/Pages/Product-C-Rex-Valve.aspx`,
+                subheader: "General Service",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ],
+            },
+            {
+                subheader: "Fluid Kinetics Silencers",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
                     require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
@@ -77,12 +90,40 @@ export const controlProductLines = [
     {
         name: 'DFT Control Valves',
         thumbPath: require("../assets/images/products/control/hi-100.png"),
-        description: `The HI-100® features an in-line Straight-thru, venturi flow design. The seating element, a spherical ball, is contained by a cage that positions it relative to the downstream seat by means of linear stem travel. There are no close clearances between the moving parts (i.e. cage, ball and seat). These features enable the valve to operate smoothly and efficiently at high or low temperatures, and/or in fluids carrying suspended particles such as slurries. The Quick Change Trim feature permits in-line replacement of the internal trim (ball, stem, cage, seats, seat retainer cartridge and wear bushings). Interchangeability of the upstream and downstream seats and wear bushings extends the life of the valve, allowing for reduced operating costs when compared to competition.`,
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
         category: 'Control',
         productSets: [
             {
+                subheader: "HI-100",
                 description: `The HI-100® features an in-line Straight-thru, venturi flow design. The seating element, a spherical ball, is contained by a cage that positions it relative to the downstream seat by means of linear stem travel. There are no close clearances between the moving parts (i.e. cage, ball and seat). These features enable the valve to operate smoothly and efficiently at high or low temperatures, and/or in fluids carrying suspended particles such as slurries. The Quick Change Trim feature permits in-line replacement of the internal trim (ball, stem, cage, seats, seat retainer cartridge and wear bushings). Interchangeability of the upstream and downstream seats and wear bushings extends the life of the valve, allowing for reduced operating costs when compared to competition.`,
                 link: `https://catalog.dft-valves.com/item/control-and-block-valves/dft-hi-100-severe-service-control-valve/dft-sup-sup-hi-100-control-valve`,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ],
+            },
+            {
+                subheader: "Ultra-Trol",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ],
+            },
+            {
+                subheader: "LSV-100",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ],
+            },
+            {
+                subheader: "MSV-100",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
                     require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
@@ -92,18 +133,46 @@ export const controlProductLines = [
     },
     {
         name: 'Research Control Valves',
-        thumbPath: require("../assets/images/products/control/Research-Control-Valves.png"),
+        thumbPath: require("../assets/images/products/control/Research-Control-Valves-thumb.png"),
         description: `Processing plants, research facilities and government agencies worldwide rely on Research Control® Valves from Badger Meter for repeatable performance and durability. Built for applications two inches or smaller, our globe, angle and sanitary valves are integral components in systems ranging from petrochemical processing to pharmaceutical manufacturing.`,
         category: 'Control',
         productSets: [
             {
-                description: `Processing plants, research facilities and government agencies worldwide rely on Research Control® Valves from Badger Meter for repeatable performance and durability. Built for applications two inches or smaller, our globe, angle and sanitary valves are integral components in systems ranging from petrochemical processing to pharmaceutical manufacturing.`,
+                subheader: "Type 807 Low Control Valve",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
                 link: `https://www.badgermeter.com/flow-instrumentation/brands/research-control-valve/?page=2&amp;brands=research-control-valve&amp;sizeuniturlpart=millimeter&amp;temperatureuniturlpart=celsius&amp;pressureuniturlpart=bar`,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
                     require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
                 ],
-            }
+            },
+            {
+                subheader: "Type 808 Bellows Seal",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: `https://www.badgermeter.com/flow-instrumentation/brands/research-control-valve/?page=2&amp;brands=research-control-valve&amp;sizeuniturlpart=millimeter&amp;temperatureuniturlpart=celsius&amp;pressureuniturlpart=bar`,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ],
+            },
+            {
+                subheader: "PVDF Plastic Valve for Corrosive Service",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: `https://www.badgermeter.com/flow-instrumentation/brands/research-control-valve/?page=2&amp;brands=research-control-valve&amp;sizeuniturlpart=millimeter&amp;temperatureuniturlpart=celsius&amp;pressureuniturlpart=bar`,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ],
+            },
+            {
+                subheader: "SCV-85 Sanitary",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: `https://www.badgermeter.com/flow-instrumentation/brands/research-control-valve/?page=2&amp;brands=research-control-valve&amp;sizeuniturlpart=millimeter&amp;temperatureuniturlpart=celsius&amp;pressureuniturlpart=bar`,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ],
+            },
         ]
     },
     {
@@ -113,31 +182,50 @@ export const controlProductLines = [
         category: 'Control',
         productSets: [
             {
-                description: `Linear and rotary 2 way and 3 way globe control valves up to 12” for the commercial and industrial markets. Electric and pneumatic actuators allow us to serve our customer needs.`,
+                subheader: "1800 Series Industrial Globe",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
                 link: `http://www.warrencontrols.com/products/type/2/industrial_control_valve`,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
                     require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
                 ],
-            }
-        ]
-    },
-    {
-        name: 'Azbil Control Valves',
-        thumbPath: require("../assets/images/products/control/azbil-control-valves.png"),
-        description: `ACTIVAL, high performance control valve, realizes maximum energy efficiency, cost savings, and resource savings in HVAC facilities. Azbil, serves Building Automation for more than 110 years. ACTIVAL represents our rich experiences in this field as a control valve. Wide variety of lineup best matched for your needs.`,
-        category: 'Control',
-        productSets: [
+            },
             {
-                description: `ACTIVAL, high performance control valve, realizes maximum energy efficiency, cost savings, and resource savings in HVAC facilities. Azbil, serves Building Automation for more than 110 years. ACTIVAL represents our rich experiences in this field as a control valve. Wide variety of lineup best matched for your needs.`,
-                link: `https://us.azbil.com/actival/`,
+                subheader: "3800 Series Rotary E-ball",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: `http://www.warrencontrols.com/products/type/2/industrial_control_valve`,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
                     require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
                 ],
-            }
+            },
+            {
+                subheader: "ARIA Electric linear control",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: `http://www.warrencontrols.com/products/type/2/industrial_control_valve`,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ],
+            },
         ]
-    }
+    },
+    // {
+    //     name: 'Azbil Control Valves',
+    //     thumbPath: require("../assets/images/products/control/azbil-control-valves.png"),
+    //     description: `ACTIVAL, high performance control valve, realizes maximum energy efficiency, cost savings, and resource savings in HVAC facilities. Azbil, serves Building Automation for more than 110 years. ACTIVAL represents our rich experiences in this field as a control valve. Wide variety of lineup best matched for your needs.`,
+    //     category: 'Control',
+    //     productSets: [
+    //         {
+    //             description: `ACTIVAL, high performance control valve, realizes maximum energy efficiency, cost savings, and resource savings in HVAC facilities. Azbil, serves Building Automation for more than 110 years. ACTIVAL represents our rich experiences in this field as a control valve. Wide variety of lineup best matched for your needs.`,
+    //             link: `https://us.azbil.com/actival/`,
+    //             picPaths: [
+    //                 require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+    //                 require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+    //             ],
+    //         }
+    //     ]
+    // }
 ]
 
 export const isolationProductLines = [
@@ -148,13 +236,32 @@ export const isolationProductLines = [
         category: 'Isolation',
         productSets: [
             {
+                subheader: "IMI-Orton Butterfly",
                 description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
                 link: `http://www.imi-critical.com/products/Pages/Isolation.aspx`,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
                     require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
                 ],
-            }
+            },
+            {
+                subheader: "IMI-Truflo Ball Valves",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                link: `http://www.imi-critical.com/products/Pages/Isolation.aspx`,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ],
+            },
+            {
+                subheader: "IMI Z&J Gate Valves",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                link: `http://www.imi-critical.com/products/Pages/Isolation.aspx`,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ],
+            },
         ]
     },
     {
@@ -182,6 +289,15 @@ export const isolationProductLines = [
                     require("../assets/images/products/isolation/andronaco-composite-lined/plug/nilcorballvalve.png")
                 ]
             },
+            {
+                subheader: "Butterfly Valves",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
         ]
     },
     {
@@ -190,6 +306,15 @@ export const isolationProductLines = [
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
         category: 'Isolation',
         productSets: [
+            {
+                subheader: "IMI Remosa Check valves",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
             {
                 subheader: "DFT Check Valves",
                 description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
@@ -202,7 +327,7 @@ export const isolationProductLines = [
                 ]
             },
             {
-                subheader: "Andronaco Check Valves",
+                subheader: "Andronaco Composite and Lined Check Valves",
                 description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
                 link: `https://www.andronaco.com/products/valves/check_valves`,
                 picPaths: [
@@ -214,13 +339,24 @@ export const isolationProductLines = [
         ]
     },
     {
-        name: 'Delval Ball and Butterfly Valves',
+        name: 'Delval Flow Controls',
         thumbPath: require("../assets/images/products/isolation/delval/series21.png"),
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
         category: 'Isolation',
         productSets: [
             {
+                subheader: "Ball Valves",
                 description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                link: `https://www.delvalflow.com/product`,
+                picPaths: [
+                    require("../assets/images/products/isolation/delval/series21.png"),
+                    require("../assets/images/products/isolation/delval/floating-ball.png"),
+                    require("../assets/images/products/isolation/delval/resil-seed.png"),
+                ]
+            },
+            {
+                subheader: "Butterfly Valves",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
                 link: `https://www.delvalflow.com/product`,
                 picPaths: [
                     require("../assets/images/products/isolation/delval/series21.png"),
@@ -237,7 +373,17 @@ export const isolationProductLines = [
         category: 'Isolation',
         productSets: [
             {
-                description: `Rapid seal abrasion is inherent in the designs of most ball and gate valves. The double block-and-bleed (DBB) Cameron GENERAL VALVE Twin Seal plug valve reduces this constant wear by using two seating slips mounted independently on a tapered plug by dovetails, which mechanically retract from the seating surface prior to rotating. This provides a bubble-tight verifiable dual seal without seal abrasion.`,
+                subheader: "TruSeal",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: `https://www.energyproducts.us/`,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
+            {
+                subheader: "Pow-R-Seal",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
                 link: `https://www.energyproducts.us/`,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -472,12 +618,151 @@ export const instrumentationProductLines = [
 
 export const automationProductLines = [
     {
+        name: 'Rexa Electraulic Actuation',
+        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+        category: 'Automation',
+        productSets: [
+            {
+                subheader: "Linear Actuators",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
+            {
+                subheader: "Rotary Actuators",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
+            {
+                subheader: "Damper Drives",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
+        ]
+    },
+    {
+        name: 'IMI-STI',
+        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+        category: 'Automation',
+        productSets: [
+            {
+                subheader: "Linear Actuators",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
+            {
+                subheader: "Rotary Scotch Yoke",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
+            {
+                subheader: "Digital Positioners",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
+        ]
+    },
+    {
+        name: 'Badger Meter',
+        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+        category: 'Automation',
+        productSets: [
+            {
+                subheader: "SEVA Linear Electric",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
+            {
+                subheader: "SRD991 Intelligent Valve Positioner",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
+        ]
+    },
+    {
+        name: 'Delval Actuators',
+        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+        category: 'Automation',
+        productSets: [
+            {
+                subheader: "Rack & Pinion",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
+            {
+                subheader: "Scotch Yoke",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
+            {
+                subheader: "Series 2E Electric",
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
+        ]
+    },
+    {
         name: 'Clearguard Autorodder',
         thumbPath: require("../assets/images/products/automation/autorodders.png"),
         description: `Prevents partially plugged tapping points and ports, improving safety, efficiency and process measurement accuracy.`,
-        link: `http://clearguard.com/`,
-        category: 'Automation'
-    },
+        category: 'Automation',
+        productSets: [
+            {
+                description: `Prevents partially plugged tapping points and ports, improving safety, efficiency and process measurement accuracy.`,
+                link: `http://clearguard.com/`,
+                picPaths: [
+                    require("../assets/images/products/automation/autorodders.png"),
+                ]
+            },
+        ]
+    }
 ]
 
 export const filtrationProductLines = [
@@ -492,12 +777,69 @@ export const filtrationProductLines = [
 
 export const pipingSystemsProductLines = [
     {
-        name: 'Product 1',
-        thumbPath: require("../assets/images/products/filtration/oil-and-gas-spifil.png"),
-        description: `At SPIFIL Group, we create and deliver the ecological answer to your filtration needs. Our staff is highly prepared and motivated; we design and manufacture our products following high quality standards, and provide an exceptional technical service. We treasure more than 20 years of expertise in the field.`,
-        link: `http://spifil.com/en/industry/#div-petroleo`,
-        category: 'Piping Systems'
+        name: 'PTFE Lined Composite',
+        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+        category: 'Piping Systems',
+        productSets: [
+            {
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
+        ]
     },
+    {
+        name: 'PTFE Lined Alloys',
+        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+        category: 'Piping Systems',
+        productSets: [
+            {
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
+        ]
+    },
+    {
+        name: 'Composite',
+        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+        category: 'Piping Systems',
+        productSets: [
+            {
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
+        ]
+    },
+    {
+        name: 'Fiberglass and Dual Laminate',
+        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+        category: 'Piping Systems',
+        productSets: [
+            {
+                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
+        ]
+    }
 ]
 
 export const tanksPumpsProductLines = [
