@@ -45,11 +45,11 @@ export const controlProductLines = [
     {
         name: 'IMI-CCI Portfolio',
         thumbPath: require("../assets/images/products/control/IMI-Truflo-C-Rex.png"),
-        description: `Our portfolio of control valves fall into three broad classes based on the severity of the application they serve: general service; semi-severe and severe service. Our portfolio includes several proven technology platforms, including BTG, ABJ®, DRAG®, Zikesch, IMI Bopp & Reuther and the valve technology acquired from Sulzer® Ltd. These technologies allow customers to balance the ease of installation against noise abatement, reliability and control. Our portfolio of pneumatic, hydraulic and electric actuators, also enhances control functions. ​`,
+        description: `Our portfolio of control valves fall into three broad classes based on the severity of the application they serve: general service; semi-severe and severe service. Our portfolio includes several proven technology platforms, including BTG, ABJ®, DRAG®, Zikesch, IMI Bopp & Reuther and the valve technology acquired from Sulzer® Ltd. These technologies allow customers to balance the ease of installation against noise abatement, reliability and control. Our portfolio of pneumatic, hydraulic and electric actuators, also enhances control functions.​`,
         category: 'Control',
         productSets: [
             {
-                subheader: "IMI-Truflo C-Rex",
+                subheader: "Rotary DRAG with C-Rex",
                 description: `Our Ball Valves are designed as a solution for critical service applications, combining the advantages of main critical service valve designs while eliminating their weakness or design limitations. This makes them ideal to meet the most stringent requirements in critical applications such as oil and gas, chemical, petrochemical, mining, liquified natural gas (LNG)`,
                 link: `http://www.imi-critical.com/products/Pages/Product-C-Rex-Valve.aspx`,
                 picPaths: [
@@ -60,7 +60,7 @@ export const controlProductLines = [
             },
             {
                 subheader: "Steam Attemperator",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `“​​​​​​​​​​​​Ensuring power plants operate economically with daily cycling or reduced loads requires reliable superheat and reheat stages to optimise the heat recovery steam generators – and ensure the steam is near saturation. Too hot may damage equipment and too cold will result in excess water leading to loss of control and piping damage downstream. IMI Critical products reduce such failures and outages.`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -69,7 +69,7 @@ export const controlProductLines = [
             },
             {
                 subheader: "General Service",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `The 840 series cage-guided valve is specially designed using recent advances in control valve technology. It is used to control a wide variety of relatively clean liquids and gases at high pressure differentials.`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -78,7 +78,7 @@ export const controlProductLines = [
             },
             {
                 subheader: "Fluid Kinetics Silencers",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `In a safety relief system, the primary release of noise energy occurs at the open stack exit.  Our silencers use dissipative and reactive noise-reducing technology.  They can be installed either within the stack or at the stack outlet to intercept this noise before it escapes into the environment; providing the required attenuation for predominant, very high frequency noise.​`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -90,12 +90,12 @@ export const controlProductLines = [
     {
         name: 'DFT Control Valves',
         thumbPath: require("../assets/images/products/control/hi-100.png"),
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+        description: `DFT®’s top-of-the-line control valves feature a straight-thru design, allowing for an unobstructed flow with no abrupt changes in the flow path.`,
         category: 'Control',
         productSets: [
             {
                 subheader: "HI-100",
-                description: `The HI-100® features an in-line Straight-thru, venturi flow design. The seating element, a spherical ball, is contained by a cage that positions it relative to the downstream seat by means of linear stem travel. There are no close clearances between the moving parts (i.e. cage, ball and seat). These features enable the valve to operate smoothly and efficiently at high or low temperatures, and/or in fluids carrying suspended particles such as slurries. The Quick Change Trim feature permits in-line replacement of the internal trim (ball, stem, cage, seats, seat retainer cartridge and wear bushings). Interchangeability of the upstream and downstream seats and wear bushings extends the life of the valve, allowing for reduced operating costs when compared to competition.`,
+                description: `The HI-100® features an in-line Straight-thru, venturi flow design. The seating element, a spherical ball, is contained by a cage that positions it relative to the downstream seat by means of linear stem travel. There are no close clearances between the moving parts (i.e. cage, ball and seat). These features enable the valve to operate smoothly and efficiently at high or low temperatures, and/or in fluids carrying suspended particles such as slurries.`,
                 link: `https://catalog.dft-valves.com/item/control-and-block-valves/dft-hi-100-severe-service-control-valve/dft-sup-sup-hi-100-control-valve`,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -104,7 +104,7 @@ export const controlProductLines = [
             },
             {
                 subheader: "Ultra-Trol",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `The ULTRA-TROL® is designed for lined pipe applications requiring flanged end connections. The internal design features are similar to the HI-100™. They include the in-line through ported venturi flow shape and the contained spherical ball.`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -113,7 +113,7 @@ export const controlProductLines = [
             },
             {
                 subheader: "LSV-100",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `The LSV-100® Control Valve is an economical control valve designed for flanged applications. Trim is replaceable in the field through the bonnet. Construction is Carbon or Stainless Steel with stainless steel internals.`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -122,7 +122,7 @@ export const controlProductLines = [
             },
             {
                 subheader: "MSV-100",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `The MSV-100® Control Valve is designed for flanged applications where repairs are commonly made on the bench. The seat and internal design are based upon our Severe Service valves, providing the same rugged reliability for medium service applications. The MSV-100® can be used for on/off service or modulating control in gas, liquid and steam applications.`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -139,7 +139,7 @@ export const controlProductLines = [
         productSets: [
             {
                 subheader: "Type 807 Low Control Valve",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `Our Model 807 control valve is a market leader because of its reliability, flexibility and durability. If your application requires critical control of liquid or gas flow, the RCV 807/752 is a trusted, high performance solution. This model is available in ¼” thru 1” line sizes and a wide range of Cv’s and flow characteristics.`,
                 link: `https://www.badgermeter.com/flow-instrumentation/brands/research-control-valve/?page=2&amp;brands=research-control-valve&amp;sizeuniturlpart=millimeter&amp;temperatureuniturlpart=celsius&amp;pressureuniturlpart=bar`,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -148,7 +148,7 @@ export const controlProductLines = [
             },
             {
                 subheader: "Type 808 Bellows Seal",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `Bellows sealed globe control valve is especially suited to applications where the possibility of packing leakage cannot be tolerated. The bellows forms a flexible static seal that is virtually leak-free as long as the integrity of the bellows remains intact.`,
                 link: `https://www.badgermeter.com/flow-instrumentation/brands/research-control-valve/?page=2&amp;brands=research-control-valve&amp;sizeuniturlpart=millimeter&amp;temperatureuniturlpart=celsius&amp;pressureuniturlpart=bar`,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -157,7 +157,7 @@ export const controlProductLines = [
             },
             {
                 subheader: "PVDF Plastic Valve for Corrosive Service",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `The PVDF Plastic Control Valve for Corrosive Service is available in 1/4 in., 1/2 in., 3/4 in. and 1 in. sizes. Its compact design and light weight make it especially suited for modulating control of low to medium flow rates.`,
                 link: `https://www.badgermeter.com/flow-instrumentation/brands/research-control-valve/?page=2&amp;brands=research-control-valve&amp;sizeuniturlpart=millimeter&amp;temperatureuniturlpart=celsius&amp;pressureuniturlpart=bar`,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -166,7 +166,7 @@ export const controlProductLines = [
             },
             {
                 subheader: "SCV-85 Sanitary",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `SCV-85 Research Control Valves are compact control valves designed to meet the manufacturing standards established by the 3A Symbol Council. Valves of the SCV-85 type are well suited to automated control systems found in biotechnology, pharmaceutical and food processes.`,
                 link: `https://www.badgermeter.com/flow-instrumentation/brands/research-control-valve/?page=2&amp;brands=research-control-valve&amp;sizeuniturlpart=millimeter&amp;temperatureuniturlpart=celsius&amp;pressureuniturlpart=bar`,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -183,7 +183,7 @@ export const controlProductLines = [
         productSets: [
             {
                 subheader: "1800 Series Industrial Globe",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `Series 1800 commonly used for high pressure differentials, corrosive materials, liquids, gases, and steam. They are for modulating or on/off control in 2-way or 3-way mixing or diverting designs, available in steel & iron with a wide selection of trims, actuators, and accessory instrumentation.`,
                 link: `http://www.warrencontrols.com/products/type/2/industrial_control_valve`,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -192,7 +192,7 @@ export const controlProductLines = [
             },
             {
                 subheader: "3800 Series Rotary E-ball",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `Series 3800 incorporates the time-tested and proven Eccentric-Segmented Ball design (E-Ball), combining exceptionally tight control and range-ability (100:1), with superior trim wear characteristics inherent with the eccentric design. Available as completely automated valve assemblies with the highest quality actuators and accessories available or as bare stem product ready for your automation needs, the 3800 Series comes in a wide variety of standard options for body/trim materials and construction builds, from Class IV to Class VI shut off. The ever-popular TTZ Ceramic Trim is an off-the-shelf choice for erosive or corrosive fluids and a vast array of custom alloys can be selected for custom construction, engineered to your specific application needs.`,
                 link: `http://www.warrencontrols.com/products/type/2/industrial_control_valve`,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -201,7 +201,7 @@ export const controlProductLines = [
             },
             {
                 subheader: "ARIA Electric linear control",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `The ARIA Series actuators are designed as either Spring-Fail-Safe upon Loss of- Power, or as Fail-In-Place on Loss-of-Power, (model dependent.)`,
                 link: `http://www.warrencontrols.com/products/type/2/industrial_control_valve`,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -232,12 +232,12 @@ export const isolationProductLines = [
     {
         name: 'IMI Isolation Valves',
         thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+        description: `We offer a full range of rotary (ball and butterfly), slide and gate valve solutions ranging from ½ inch to ​​160 inch (12mm to 4000mm) engineered and manufactured for your critical application. Our portfolio includes top and side entry and segment ball valves from IMI Truflo Rona, double and triple eccentric butterfly valves for all on-off and flow control applications from IMI Orton. We are industry leading in cryogenic (LNG) and petrochemical applications.`,
         category: 'Isolation',
         productSets: [
             {
                 subheader: "IMI-Orton Butterfly",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                description: `​​​​​​​​A full range of designs with double and triple eccentric butterfly valves in non-return, on-off and modulating control service.  They come with lined or specialist materials to meet service requirements and seating/seal technologies to cover all customer requirements including cryogenic service.`,
                 link: `http://www.imi-critical.com/products/Pages/Isolation.aspx`,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -246,7 +246,7 @@ export const isolationProductLines = [
             },
             {
                 subheader: "IMI-Truflo Ball Valves",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                description: `An international leader in the design and manufacturing of high integrity ball valves focused on the needs of oil & gas, LNG, petrochemical and shipbuilding sectors. Our range includes trunnion mounted, with wedge or floating seats; double eccentric designs; and top and side entry configurations.​`,
                 link: `http://www.imi-critical.com/products/Pages/Isolation.aspx`,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -255,7 +255,7 @@ export const isolationProductLines = [
             },
             {
                 subheader: "IMI Z&J Gate Valves",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                description: `IMI Z&J have been a manufacturer of large diameter valves for more than 135 years, with thousands of double disc installations worldwide in severe refining and petrochemical applications such as Fluidised Catalytic Cracking, Ethylene and since 2004 Delayed Coking.`,
                 link: `http://www.imi-critical.com/products/Pages/Isolation.aspx`,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -267,12 +267,12 @@ export const isolationProductLines = [
     {
         name: 'Andronaco Composite and Lined Valves',
         thumbPath: require("../assets/images/products/isolation/andronaco-composite-lined/ball/400series.png"),
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+        description: `Andronaco has a full offering of ball, plug, and butterfly valves for corrosive service. Our expertise in fluoropolymers and chemicals will ensure optimum material compatibility.`,
         category: 'Isolation',
         productSets: [
             {
                 subheader: "Ball Valves",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                description: `Pureflex lined composite ball valves and Hills Mccanna Chemtite PFA lined DI valves can be provided as manual or fully automated assemblies to suit all of your chemical isolation needs.`,
                 link: `https://www.andronaco.com/products/valves/ball_valves`,
                 picPaths: [
                     require("../assets/images/products/isolation/andronaco-composite-lined/ball/400series.png"),
@@ -283,7 +283,7 @@ export const isolationProductLines = [
             },
             {
                 subheader: "Plug Valves",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                description: `Hills Mccanna Chemtite TFM PTFE/PFA lined DI plug valves can be provided as manual or fully automated assemblies to suit all of your chemical isolation needs.`,
                 link: `https://www.andronaco.com/products/valves/plug_valves`,
                 picPaths: [
                     require("../assets/images/products/isolation/andronaco-composite-lined/plug/nilcorballvalve.png")
@@ -291,7 +291,7 @@ export const isolationProductLines = [
             },
             {
                 subheader: "Butterfly Valves",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                description: `Pureflex 800 series and 890 series composite valves are the strongest, lightest, and most chemically resistant valves in the world.`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -303,12 +303,12 @@ export const isolationProductLines = [
     {
         name: 'Check Valves',
         thumbPath: require("../assets/images/products/isolation/check-valves/dft/ALC_DFT_check_valve.png"),
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
         category: 'Isolation',
         productSets: [
             {
                 subheader: "IMI Remosa Check valves",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                description: `IMI Remosa’s double clapet isolation valve is a new patented design (US6886594​) to​ guarantee a tight shut-off under the most extreme operating conditions, including temperature and pressure. Installed in the Fluidised Catalytic Cracker (FCC) power recovery unit, it allows the maintenance of the Expander while avoiding the shut-down of the FCC.`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -317,7 +317,7 @@ export const isolationProductLines = [
             },
             {
                 subheader: "DFT Check Valves",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                description: `DFT®'s silent check valves are known around the world as the valve to use for preventing or eliminating Water Hammer problems.`,
                 link: `https://www.dft-valves.com/check-valves/`,
                 picPaths: [
                     require("../assets/images/products/isolation/check-valves/dft/ALC_DFT_check_valve.png"),
@@ -328,7 +328,7 @@ export const isolationProductLines = [
             },
             {
                 subheader: "Andronaco Composite and Lined Check Valves",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                description: `Swing and ball check valves built to handle all corrosive environments.`,
                 link: `https://www.andronaco.com/products/valves/check_valves`,
                 picPaths: [
                     require("../assets/images/products/isolation/check-valves/andronaco/100series.png"),
@@ -341,12 +341,12 @@ export const isolationProductLines = [
     {
         name: 'Delval Flow Controls',
         thumbPath: require("../assets/images/products/isolation/delval/series21.png"),
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+        description: `DelVal Flow Controls provides a wide range of superior quality ball valves, butterfly valves, actuators and control accessories by implementing a robust quality management system compliant to ISO 9001-2015 and cultivating a knowledgeable staff.  Our products are fully integrated and cater to a wide spectrum of applications including Oil & Gas, Power Generation, Mining, Chemical Process, Marine, Pharmaceutical, Food & Beverage, Water and other industrial markets. Our global network of offices, distributors, channel partners and highly experienced sales and service staff are always ready to meet our customers’ most stringent requirements.`,
         category: 'Isolation',
         productSets: [
             {
                 subheader: "Ball Valves",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                description: `Three piece, trunnion mounted, floating ball, and flanged ball valves, manual or fully automated to meet your specifications.`,
                 link: `https://www.delvalflow.com/product`,
                 picPaths: [
                     require("../assets/images/products/isolation/delval/series21.png"),
@@ -356,7 +356,7 @@ export const isolationProductLines = [
             },
             {
                 subheader: "Butterfly Valves",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `Resilient seated, high performance, and triple offset butterfly valves.`,
                 link: `https://www.delvalflow.com/product`,
                 picPaths: [
                     require("../assets/images/products/isolation/delval/series21.png"),
@@ -369,12 +369,12 @@ export const isolationProductLines = [
     {
         name: 'Cameron Pipeline Valves',
         thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-        description: `Rapid seal abrasion is inherent in the designs of most ball and gate valves. The double block-and-bleed (DBB) Cameron GENERAL VALVE Twin Seal plug valve reduces this constant wear by using two seating slips mounted independently on a tapered plug by dovetails, which mechanically retract from the seating surface prior to rotating. This provides a bubble-tight verifiable dual seal without seal abrasion.`,
+        description: `Double Block & Bleed and Expanding Gate valves, in stock and ready to ship for all of your pipeline and terminal needs.`,
         category: 'Isolation',
         productSets: [
             {
-                subheader: "TruSeal",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                subheader: "Twin Seal",
+                description: `Rapid seal abrasion is inherent in the designs of most ball and gate valves. The double block-and-bleed (DBB) Cameron GENERAL VALVE Twin Seal plug valve reduces this constant wear by using two seating slips mounted independently on a tapered plug by dovetails, which mechanically retract from the seating surface prior to rotating. This provides a bubble-tight verifiable dual seal without seal abrasion.`,
                 link: `https://www.energyproducts.us/`,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -383,7 +383,7 @@ export const isolationProductLines = [
             },
             {
                 subheader: "Pow-R-Seal",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `60 years of worldwide service in oil, gas, chemicals, water, slurry, and multiproduct applications has established the Pow-R-Seal double expanding gate valve as one of the most trusted gate valves, especially where safety and seal reliability are critical. The positive, mechanical seating force of the lock-in-place seals holds with zero leakage through conditions of vibration, pressure change, and temperature excursion. The rigid, cast steel body resists pipeline bending moments. TFE seals on both faces of the valve provide drop-tight sealing even at low differential pressure, while metal-to-metal contact between the seals and gate mechanism provides fire-safe shutoff.`,
                 link: `https://www.energyproducts.us/`,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -620,12 +620,12 @@ export const automationProductLines = [
     {
         name: 'Rexa Electraulic Actuation',
         thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+        description: `Since 1981, REXA, Inc. has developed and manufactured a unique brand of actuation technology – Electraulic™ Actuation. Our industrial-grade Linear and Rotary actuators combine the simplicity of electric operation, power of hydraulics, reliability of solid state electronics and flexibility of user-configured control. REXA actuators fit any application requiring accurate positioning, hydraulic stability and high reliability with minimal maintenance in a variety of industries across the globe.`,
         category: 'Automation',
         productSets: [
             {
                 subheader: "Linear Actuators",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `The Xpac Linear Actuator utilizes a double acting hydraulic cylinder driven by one or more Electraulic™ Power Modules. It is configurable to fit a wide variety of control and isolation applications across many different industries. For both new equipment and retrofits, REXA manufactures the mounting bracket and stem adapter to fit any style valve, gate, damper or turbomachinery.`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -634,7 +634,7 @@ export const automationProductLines = [
             },
             {
                 subheader: "Rotary Actuators",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `REXA Rotary Actuators utilize a rack and pinion hydraulic cylinder driven by one or more Electraulic™ Power Modules. Rotary actuators are commonly used on ball and butterfly valve applications across many different industries. REXA manufactures the valve mounting bracket and stem adapter to suit any valve manufacturer or type.`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -643,7 +643,7 @@ export const automationProductLines = [
             },
             {
                 subheader: "Damper Drives",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `REXA Damper Drives can be configured to utilize a rack and pinion hydraulic cylinder or a double acting linear cylinder driven by one or more Electraulic™ Power Modules. Either configuration may be chosen to suit an application’s specific installation requirements. Our damper drives are commonly used on fan and stack dampers, burner tilts and other combustion control applications. REXA manufactures drive base and drive arm or mid/end pivot arrangement to suit any installation scenario.`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -655,12 +655,12 @@ export const automationProductLines = [
     {
         name: 'IMI-STI',
         thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+        description: `IMI STI's long experience and know how has been used to develop a range of quarter turn hydraulic and pneumatic actuators. They are designed for the most hostile environments suitable for all onshore and offshore applications for on-off and modulating control valves`,
         category: 'Automation',
         productSets: [
             {
                 subheader: "Linear Actuators",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `Our pneumatic linear piston actuators are designed to drive control valves for the most demanding applications in the power and oil and gas industries: such as turbine bypass; steam conditioning valves; desuperheaters; compressors and antisurge valves.  IMI STI linear actuators ensure smooth and precise valve operation without any maintenance for the whole operating life.`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -669,7 +669,7 @@ export const automationProductLines = [
             },
             {
                 subheader: "Rotary Scotch Yoke",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `Rotary actuators are designed for use with quarter turn valves such as ball or butterfly valves. Our rotary actuators are designed to withstand the most hostile environment conditions, and as such are suitable for all onshore and offshore applications, covering the general on-off and modulating valves.`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -678,7 +678,7 @@ export const automationProductLines = [
             },
             {
                 subheader: "Digital Positioners",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `IMI STI positioners such as FasTrak is a high-capacity, high-precision digital-pneumatic valve controller that replaces a conventional positioner with excellent dynamic performance and high flow, it is compatible with double and single acting actuators, with or without a spring, a piston or a diaphragm.​`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -690,12 +690,12 @@ export const automationProductLines = [
     {
         name: 'Badger Meter',
         thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+        description: `Research Control Valves offer both Pneumatic (Types 754, 755, 759, 766, PA35, PA58) and Electric (SEVA 100, SEVA 200, EVA-1), actuators.  Our Pneumatic actuators range from a small profile ¼ in. (7.5 in2) actuator to our new larger 2 in. (58 in2) actuator.  We have a full range of pneumatic solutions to precisely reflect the accuracy of our control valves.`,
         category: 'Automation',
         productSets: [
             {
                 subheader: "SEVA Linear Electric",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `The SEVA is our next generation Smart Electric Valve Actuator that provides our customers with an electric actuator with best-in-class features. This product was designed for extreme conditions with military grade components while providing the accuracy and repeatability the market demands.`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -704,7 +704,7 @@ export const automationProductLines = [
             },
             {
                 subheader: "SRD991 Intelligent Valve Positioner",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `Research Control® SRD smart valve positioners deliver actionable diagnostic information about valve performance and assist compliance with fugitive emissions regulations. SRI analog valve positioners are also available.`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -721,7 +721,7 @@ export const automationProductLines = [
         productSets: [
             {
                 subheader: "Rack & Pinion",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `Double acting and Spring return rack and pinion actuators delivering outputs up to 16,815 in lbs.`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -730,7 +730,7 @@ export const automationProductLines = [
             },
             {
                 subheader: "Scotch Yoke",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `Double acting and spring return scotch yoke actuators with ISO 5211 mounting and Namur topworks interface.`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -739,7 +739,7 @@ export const automationProductLines = [
             },
             {
                 subheader: "Series 2E Electric",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: `Direct mount quarter turn electric actuator with torque outputs up to 26,550 in lbs.`,
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/isolation/GeneralTwinSeal.png"),
