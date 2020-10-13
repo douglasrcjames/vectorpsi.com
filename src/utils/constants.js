@@ -44,7 +44,7 @@ export const categories = [
 export const controlProductLines = [
     {
         name: 'IMI-CCI Portfolio',
-        thumbPath: require("../assets/images/products/control/IMI-Truflo-C-Rex.png"),
+        thumbPath: require("../assets/images/products/control/imi-cci/rotary-drag/rotary-drag-1.png"),
         description: `Our portfolio of control valves fall into three broad classes based on the severity of the application they serve: general service; semi-severe and severe service. Our portfolio includes several proven technology platforms, including BTG, ABJ®, DRAG®, Zikesch, IMI Bopp & Reuther and the valve technology acquired from Sulzer® Ltd. These technologies allow customers to balance the ease of installation against noise abatement, reliability and control. Our portfolio of pneumatic, hydraulic and electric actuators, also enhances control functions.​`,
         category: 'Control',
         productSets: [
@@ -53,9 +53,10 @@ export const controlProductLines = [
                 description: `Our Ball Valves are designed as a solution for critical service applications, combining the advantages of main critical service valve designs while eliminating their weakness or design limitations. This makes them ideal to meet the most stringent requirements in critical applications such as oil and gas, chemical, petrochemical, mining, liquified natural gas (LNG)`,
                 link: `http://www.imi-critical.com/products/Pages/Product-C-Rex-Valve.aspx`,
                 picPaths: [
-                    require("../assets/images/products/control/imi-cci/IMI-CCI-1.jpg"),
-                    require("../assets/images/products/control/imi-cci/IMI-CCI-2.jpg"),
-                    require("../assets/images/products/control/imi-cci/IMI-CCI-3.jpg"),
+                    require("../assets/images/products/control/imi-cci/rotary-drag/rotary-drag-1.png"),
+                    require("../assets/images/products/control/imi-cci/rotary-drag/rotary-drag-2.png"),
+                    require("../assets/images/products/control/imi-cci/rotary-drag/rotary-drag-3.png"),
+                    require("../assets/images/products/control/imi-cci/rotary-drag/rotary-drag-4.png"),
                 ],
             },
             {
@@ -63,8 +64,8 @@ export const controlProductLines = [
                 description: `“​​​​​​​​​​​​Ensuring power plants operate economically with daily cycling or reduced loads requires reliable superheat and reheat stages to optimise the heat recovery steam generators – and ensure the steam is near saturation. Too hot may damage equipment and too cold will result in excess water leading to loss of control and piping damage downstream. IMI Critical products reduce such failures and outages.`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/control/imi-cci/steam-attemp/steam-attemp-1.png"),
+                    require("../assets/images/products/control/imi-cci/steam-attemp/steam-attemp-2.png"),
                 ],
             },
             {
@@ -72,8 +73,7 @@ export const controlProductLines = [
                 description: `The 840 series cage-guided valve is specially designed using recent advances in control valve technology. It is used to control a wide variety of relatively clean liquids and gases at high pressure differentials.`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/control/imi-cci/general-service/general-service-1.png"),
                 ],
             },
             {
@@ -81,15 +81,15 @@ export const controlProductLines = [
                 description: `In a safety relief system, the primary release of noise energy occurs at the open stack exit.  Our silencers use dissipative and reactive noise-reducing technology.  They can be installed either within the stack or at the stack outlet to intercept this noise before it escapes into the environment; providing the required attenuation for predominant, very high frequency noise.​`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/control/imi-cci/silencer/silencer-1.png"),
+                    require("../assets/images/products/control/imi-cci/silencer/silencer-2.png"),
                 ],
             }
         ]
     },
     {
         name: 'DFT Control Valves',
-        thumbPath: require("../assets/images/products/control/hi-100.png"),
+        thumbPath: require("../assets/images/products/control/dft/hi-100.png"),
         description: `DFT®’s top-of-the-line control valves feature a straight-thru design, allowing for an unobstructed flow with no abrupt changes in the flow path.`,
         category: 'Control',
         productSets: [
@@ -98,8 +98,7 @@ export const controlProductLines = [
                 description: `The HI-100® features an in-line Straight-thru, venturi flow design. The seating element, a spherical ball, is contained by a cage that positions it relative to the downstream seat by means of linear stem travel. There are no close clearances between the moving parts (i.e. cage, ball and seat). These features enable the valve to operate smoothly and efficiently at high or low temperatures, and/or in fluids carrying suspended particles such as slurries.`,
                 link: `https://catalog.dft-valves.com/item/control-and-block-valves/dft-hi-100-severe-service-control-valve/dft-sup-sup-hi-100-control-valve`,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/control/dft/hi-100.png"),
                 ],
             },
             {
@@ -107,8 +106,7 @@ export const controlProductLines = [
                 description: `The ULTRA-TROL® is designed for lined pipe applications requiring flanged end connections. The internal design features are similar to the HI-100™. They include the in-line through ported venturi flow shape and the contained spherical ball.`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/control/dft/ultratrol.png"),
                 ],
             },
             {
@@ -116,8 +114,8 @@ export const controlProductLines = [
                 description: `The LSV-100® Control Valve is an economical control valve designed for flanged applications. Trim is replaceable in the field through the bonnet. Construction is Carbon or Stainless Steel with stainless steel internals.`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/control/dft/LSV-100-1.png"),
+                    require("../assets/images/products/control/dft/LSV-100-2.png"),
                 ],
             },
             {
@@ -125,8 +123,7 @@ export const controlProductLines = [
                 description: `The MSV-100® Control Valve is designed for flanged applications where repairs are commonly made on the bench. The seat and internal design are based upon our Severe Service valves, providing the same rugged reliability for medium service applications. The MSV-100® can be used for on/off service or modulating control in gas, liquid and steam applications.`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/control/dft/MSV-100.png"),
                 ],
             }
         ]
@@ -142,8 +139,7 @@ export const controlProductLines = [
                 description: `Our Model 807 control valve is a market leader because of its reliability, flexibility and durability. If your application requires critical control of liquid or gas flow, the RCV 807/752 is a trusted, high performance solution. This model is available in ¼” thru 1” line sizes and a wide range of Cv’s and flow characteristics.`,
                 link: `https://www.badgermeter.com/flow-instrumentation/brands/research-control-valve/?page=2&amp;brands=research-control-valve&amp;sizeuniturlpart=millimeter&amp;temperatureuniturlpart=celsius&amp;pressureuniturlpart=bar`,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/control/badger/Type-807.png")
                 ],
             },
             {
@@ -151,8 +147,7 @@ export const controlProductLines = [
                 description: `Bellows sealed globe control valve is especially suited to applications where the possibility of packing leakage cannot be tolerated. The bellows forms a flexible static seal that is virtually leak-free as long as the integrity of the bellows remains intact.`,
                 link: `https://www.badgermeter.com/flow-instrumentation/brands/research-control-valve/?page=2&amp;brands=research-control-valve&amp;sizeuniturlpart=millimeter&amp;temperatureuniturlpart=celsius&amp;pressureuniturlpart=bar`,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/control/badger/Type-808.png")
                 ],
             },
             {
@@ -160,8 +155,7 @@ export const controlProductLines = [
                 description: `The PVDF Plastic Control Valve for Corrosive Service is available in 1/4 in., 1/2 in., 3/4 in. and 1 in. sizes. Its compact design and light weight make it especially suited for modulating control of low to medium flow rates.`,
                 link: `https://www.badgermeter.com/flow-instrumentation/brands/research-control-valve/?page=2&amp;brands=research-control-valve&amp;sizeuniturlpart=millimeter&amp;temperatureuniturlpart=celsius&amp;pressureuniturlpart=bar`,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/control/badger/PVDF-Valve.png")
                 ],
             },
             {
@@ -169,15 +163,14 @@ export const controlProductLines = [
                 description: `SCV-85 Research Control Valves are compact control valves designed to meet the manufacturing standards established by the 3A Symbol Council. Valves of the SCV-85 type are well suited to automated control systems found in biotechnology, pharmaceutical and food processes.`,
                 link: `https://www.badgermeter.com/flow-instrumentation/brands/research-control-valve/?page=2&amp;brands=research-control-valve&amp;sizeuniturlpart=millimeter&amp;temperatureuniturlpart=celsius&amp;pressureuniturlpart=bar`,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/control/badger/SCV-85.png")
                 ],
             },
         ]
     },
     {
         name: 'Warren Control Valves',
-        thumbPath: require("../assets/images/products/control/warren-control-valves.png"),
+        thumbPath: require("../assets/images/products/control/warren/1800.png"),
         description: `Linear and rotary 2 way and 3 way globe control valves up to 12” for the commercial and industrial markets. Electric and pneumatic actuators allow us to serve our customer needs.`,
         category: 'Control',
         productSets: [
@@ -186,8 +179,7 @@ export const controlProductLines = [
                 description: `Series 1800 commonly used for high pressure differentials, corrosive materials, liquids, gases, and steam. They are for modulating or on/off control in 2-way or 3-way mixing or diverting designs, available in steel & iron with a wide selection of trims, actuators, and accessory instrumentation.`,
                 link: `http://www.warrencontrols.com/products/type/2/industrial_control_valve`,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/control/warren/1800.png"),
                 ],
             },
             {
@@ -195,8 +187,7 @@ export const controlProductLines = [
                 description: `Series 3800 incorporates the time-tested and proven Eccentric-Segmented Ball design (E-Ball), combining exceptionally tight control and range-ability (100:1), with superior trim wear characteristics inherent with the eccentric design. Available as completely automated valve assemblies with the highest quality actuators and accessories available or as bare stem product ready for your automation needs, the 3800 Series comes in a wide variety of standard options for body/trim materials and construction builds, from Class IV to Class VI shut off. The ever-popular TTZ Ceramic Trim is an off-the-shelf choice for erosive or corrosive fluids and a vast array of custom alloys can be selected for custom construction, engineered to your specific application needs.`,
                 link: `http://www.warrencontrols.com/products/type/2/industrial_control_valve`,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/control/warren/3800.png"),
                 ],
             },
             {
@@ -204,8 +195,7 @@ export const controlProductLines = [
                 description: `The ARIA Series actuators are designed as either Spring-Fail-Safe upon Loss of- Power, or as Fail-In-Place on Loss-of-Power, (model dependent.)`,
                 link: `http://www.warrencontrols.com/products/type/2/industrial_control_valve`,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/control/warren/aria.png"),
                 ],
             },
         ]
