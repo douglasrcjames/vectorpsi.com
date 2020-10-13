@@ -231,7 +231,7 @@ export const controlProductLines = [
 export const isolationProductLines = [
     {
         name: 'IMI Isolation Valves',
-        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+        thumbPath: require("../assets/images/products/isolation/imi/IMI-Isolation-Valve-thumb.png"),
         description: `We offer a full range of rotary (ball and butterfly), slide and gate valve solutions ranging from ½ inch to ​​160 inch (12mm to 4000mm) engineered and manufactured for your critical application. Our portfolio includes top and side entry and segment ball valves from IMI Truflo Rona, double and triple eccentric butterfly valves for all on-off and flow control applications from IMI Orton. We are industry leading in cryogenic (LNG) and petrochemical applications.`,
         category: 'Isolation',
         productSets: [
@@ -240,8 +240,9 @@ export const isolationProductLines = [
                 description: `​​​​​​​​A full range of designs with double and triple eccentric butterfly valves in non-return, on-off and modulating control service.  They come with lined or specialist materials to meet service requirements and seating/seal technologies to cover all customer requirements including cryogenic service.`,
                 link: `http://www.imi-critical.com/products/Pages/Isolation.aspx`,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/isolation/imi/orton/orton-1.png"),
+                    require("../assets/images/products/isolation/imi/orton/orton-2.png"),
+                    require("../assets/images/products/isolation/imi/orton/orton-3.png"),
                 ],
             },
             {
@@ -249,8 +250,9 @@ export const isolationProductLines = [
                 description: `An international leader in the design and manufacturing of high integrity ball valves focused on the needs of oil & gas, LNG, petrochemical and shipbuilding sectors. Our range includes trunnion mounted, with wedge or floating seats; double eccentric designs; and top and side entry configurations.​`,
                 link: `http://www.imi-critical.com/products/Pages/Isolation.aspx`,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/isolation/imi/truflo/truflo-1.png"),
+                    require("../assets/images/products/isolation/imi/truflo/truflo-2.png"),
+                    require("../assets/images/products/isolation/imi/truflo/truflo-3.png"),
                 ],
             },
             {
@@ -258,15 +260,16 @@ export const isolationProductLines = [
                 description: `IMI Z&J have been a manufacturer of large diameter valves for more than 135 years, with thousands of double disc installations worldwide in severe refining and petrochemical applications such as Fluidised Catalytic Cracking, Ethylene and since 2004 Delayed Coking.`,
                 link: `http://www.imi-critical.com/products/Pages/Isolation.aspx`,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/isolation/imi/zj/zj-1.png"),
+                    require("../assets/images/products/isolation/imi/zj/zj-2.png"),
+                    require("../assets/images/products/isolation/imi/zj/zj-3.png"),
                 ],
             },
         ]
     },
     {
         name: 'Andronaco Composite and Lined Valves',
-        thumbPath: require("../assets/images/products/isolation/andronaco-composite-lined/ball/400series.png"),
+        thumbPath: require("../assets/images/products/isolation/andronaco-composite-lined/Andronaco-composite-Lined-valve-thumb.png"),
         description: `Andronaco has a full offering of ball, plug, and butterfly valves for corrosive service. Our expertise in fluoropolymers and chemicals will ensure optimum material compatibility.`,
         category: 'Isolation',
         productSets: [
@@ -275,10 +278,9 @@ export const isolationProductLines = [
                 description: `Pureflex lined composite ball valves and Hills Mccanna Chemtite PFA lined DI valves can be provided as manual or fully automated assemblies to suit all of your chemical isolation needs.`,
                 link: `https://www.andronaco.com/products/valves/ball_valves`,
                 picPaths: [
-                    require("../assets/images/products/isolation/andronaco-composite-lined/ball/400series.png"),
-                    require("../assets/images/products/isolation/andronaco-composite-lined/ball/ceramic.png"),
-                    require("../assets/images/products/isolation/andronaco-composite-lined/ball/chemtiteballvalve.png"),
-                    require("../assets/images/products/isolation/andronaco-composite-lined/ball/nilcorballvalve.png"),
+                    require("../assets/images/products/isolation/andronaco-composite-lined/ball/ball-valve-1.png"),
+                    require("../assets/images/products/isolation/andronaco-composite-lined/ball/ball-valve-2.png"),
+                    require("../assets/images/products/isolation/andronaco-composite-lined/ball/ball-valve-3.png"),
                 ]
             },
             {
@@ -294,8 +296,9 @@ export const isolationProductLines = [
                 description: `Pureflex 800 series and 890 series composite valves are the strongest, lightest, and most chemically resistant valves in the world.`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/isolation/andronaco-composite-lined/butterfly/butterfly-1.png"),
+                    require("../assets/images/products/isolation/andronaco-composite-lined/butterfly/butterfly-2.png"),
+                    require("../assets/images/products/isolation/andronaco-composite-lined/butterfly/butterfly-3.png"),
                 ]
             },
         ]
@@ -303,7 +306,7 @@ export const isolationProductLines = [
     {
         name: 'Check Valves',
         thumbPath: require("../assets/images/products/isolation/check-valves/dft/ALC_DFT_check_valve.png"),
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+        description: `Vector Process has check valves for all of your severe service and corrosive environment needs`,
         category: 'Isolation',
         productSets: [
             {
@@ -311,8 +314,8 @@ export const isolationProductLines = [
                 description: `IMI Remosa’s double clapet isolation valve is a new patented design (US6886594​) to​ guarantee a tight shut-off under the most extreme operating conditions, including temperature and pressure. Installed in the Fluidised Catalytic Cracker (FCC) power recovery unit, it allows the maintenance of the Expander while avoiding the shut-down of the FCC.`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/isolation/check-valves/imi/imi-remosa-1.png"),
+                    require("../assets/images/products/isolation/check-valves/imi/imi-remosa-2.png"),
                 ]
             },
             {
@@ -331,16 +334,16 @@ export const isolationProductLines = [
                 description: `Swing and ball check valves built to handle all corrosive environments.`,
                 link: `https://www.andronaco.com/products/valves/check_valves`,
                 picPaths: [
-                    require("../assets/images/products/isolation/check-valves/andronaco/100series.png"),
-                    require("../assets/images/products/isolation/check-valves/andronaco/200series.png"),
-                    require("../assets/images/products/isolation/check-valves/andronaco/chemtiteballcheck.png"),
+                    require("../assets/images/products/isolation/check-valves/andronaco/andronaco-check-1.png"),
+                    require("../assets/images/products/isolation/check-valves/andronaco/andronaco-check-2.png"),
+                    require("../assets/images/products/isolation/check-valves/andronaco/andronaco-check-3.png"),
                 ]
             },
         ]
     },
     {
         name: 'Delval Flow Controls',
-        thumbPath: require("../assets/images/products/isolation/delval/series21.png"),
+        thumbPath: require("../assets/images/products/isolation/delval/Delval-Flow-Controls-thumb.png"),
         description: `DelVal Flow Controls provides a wide range of superior quality ball valves, butterfly valves, actuators and control accessories by implementing a robust quality management system compliant to ISO 9001-2015 and cultivating a knowledgeable staff.  Our products are fully integrated and cater to a wide spectrum of applications including Oil & Gas, Power Generation, Mining, Chemical Process, Marine, Pharmaceutical, Food & Beverage, Water and other industrial markets. Our global network of offices, distributors, channel partners and highly experienced sales and service staff are always ready to meet our customers’ most stringent requirements.`,
         category: 'Isolation',
         productSets: [
@@ -349,9 +352,10 @@ export const isolationProductLines = [
                 description: `Three piece, trunnion mounted, floating ball, and flanged ball valves, manual or fully automated to meet your specifications.`,
                 link: `https://www.delvalflow.com/product`,
                 picPaths: [
-                    require("../assets/images/products/isolation/delval/series21.png"),
-                    require("../assets/images/products/isolation/delval/floating-ball.png"),
-                    require("../assets/images/products/isolation/delval/resil-seed.png"),
+                    require("../assets/images/products/isolation/delval/ball/ball-1.png"),
+                    require("../assets/images/products/isolation/delval/ball/ball-2.png"),
+                    require("../assets/images/products/isolation/delval/ball/ball-3.png"),
+                    require("../assets/images/products/isolation/delval/ball/ball-4.png"),
                 ]
             },
             {
@@ -359,9 +363,10 @@ export const isolationProductLines = [
                 description: `Resilient seated, high performance, and triple offset butterfly valves.`,
                 link: `https://www.delvalflow.com/product`,
                 picPaths: [
-                    require("../assets/images/products/isolation/delval/series21.png"),
-                    require("../assets/images/products/isolation/delval/floating-ball.png"),
-                    require("../assets/images/products/isolation/delval/resil-seed.png"),
+                    require("../assets/images/products/isolation/delval/butterfly/butterfly-1.png"),
+                    require("../assets/images/products/isolation/delval/butterfly/butterfly-2.png"),
+                    require("../assets/images/products/isolation/delval/butterfly/butterfly-3.png"),
+                    require("../assets/images/products/isolation/delval/butterfly/butterfly-4.png"),
                 ]
             },
         ]
@@ -417,9 +422,8 @@ export const flowProductLines = [
                 description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/check-valves/andronaco/100series.png"),
-                    require("../assets/images/products/isolation/check-valves/andronaco/200series.png"),
-                    require("../assets/images/products/isolation/check-valves/andronaco/chemtiteballcheck.png"),
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
                 ]
             },
         ]
@@ -457,9 +461,8 @@ export const flowProductLines = [
                 description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/check-valves/andronaco/100series.png"),
-                    require("../assets/images/products/isolation/check-valves/andronaco/200series.png"),
-                    require("../assets/images/products/isolation/check-valves/andronaco/chemtiteballcheck.png"),
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
                 ]
             },
             {
@@ -867,13 +870,13 @@ export const systemAccessoriesProductLines = [
 // Sub companies
 export const controlSubCompanies = [
     {
-        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+        picPath: require("../assets/images/external-logos/sub-companies/imi-cci.png")
     },
     {
-        picPath: require("../assets/images/external-logos/sub-companies/control/imi-truflo.png"),
+        picPath: require("../assets/images/external-logos/sub-companies/imi-truflo.png"),
     },
     {
-        picPath: require("../assets/images/external-logos/sub-companies/control/RCV.png"),
+        picPath: require("../assets/images/external-logos/sub-companies/RCV.png"),
     },
     {
         picPath: require("../assets/images/external-logos/warren-controls.png"),
@@ -885,55 +888,79 @@ export const controlSubCompanies = [
 
 export const isolationSubCompanies = [
     {
-        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+        picPath: require("../assets/images/external-logos/sub-companies/imi-orton.png"),
+    },
+    {
+        picPath: require("../assets/images/external-logos/sub-companies/imi-zj.png"),
+    },
+    {
+        picPath: require("../assets/images/external-logos/sub-companies/imi-truflo.png"),
+    },
+    {
+        picPath: require("../assets/images/external-logos/cameron.png"),
+    },
+    {
+        picPath: require("../assets/images/external-logos/dft.png"),
+    },
+    {
+        picPath: require("../assets/images/external-logos/sub-companies/pureflex.png"),
+    },
+    {
+        picPath: require("../assets/images/external-logos/sub-companies/chemtite.png"),
+    },
+    {
+        picPath: require("../assets/images/external-logos/sub-companies/conley.png"),
+    },
+    {
+        picPath: require("../assets/images/external-logos/delval.png"),
     },
 ]
 
 export const flowSubCompanies = [
     {
-        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+        picPath: require("../assets/images/external-logos/sub-companies/imi-cci.png")
     },
 ]
 
 export const levelSubCompanies = [
     {
-        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+        picPath: require("../assets/images/external-logos/sub-companies/imi-cci.png")
     },
 ]
 
 export const instrumentationSubCompanies = [
     {
-        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+        picPath: require("../assets/images/external-logos/sub-companies/imi-cci.png")
     },
 ]
 
 export const automationSubCompanies = [
     {
-        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+        picPath: require("../assets/images/external-logos/sub-companies/imi-cci.png")
     },
 ]
 
 export const filtrationSubCompanies = [
     {
-        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+        picPath: require("../assets/images/external-logos/sub-companies/imi-cci.png")
     },
 ]
 
 export const pipingSystemsSubCompanies = [
     {
-        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+        picPath: require("../assets/images/external-logos/sub-companies/imi-cci.png")
     },
 ]
 
 export const tanksPumpsSubCompanies = [
     {
-        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+        picPath: require("../assets/images/external-logos/sub-companies/imi-cci.png")
     },
 ]
 
 export const systemAccessoriesSubCompanies = [
     {
-        picPath: require("../assets/images/external-logos/sub-companies/control/imi-cci.png")
+        picPath: require("../assets/images/external-logos/sub-companies/imi-cci.png")
     },
 ]
 

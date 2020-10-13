@@ -51,10 +51,16 @@ img.xxlarge {
     max-width: 550px;
 }
 
+img.xmedium-fit {
+    width: 250px;
+    height: 250px;
+    object-fit: scale-down;
+}
+
 img.large-fit {
-    width:  300px;
+    width: 300px;
     height: 300px;
-    object-fit:scale-down;
+    object-fit: scale-down;
 }
 
 /* 
