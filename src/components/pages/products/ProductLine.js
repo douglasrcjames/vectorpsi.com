@@ -21,10 +21,15 @@ export default class ProductLine extends Component {
                                 {product.subheader && ( 
                                     <h2>{product.subheader}</h2>
                                 )}
-                                <p>{product.description}</p>
-                                <div className="center-text">
-                                    <a href={product.link} target="_blank" rel="noopener noreferrer"><button className="custom-btn btn-11">Go to manufacturer's site</button></a>
-                                </div>
+                                {product.description && ( 
+                                    <p>{product.description}</p>
+                                )}
+                                {product.link && (
+                                    <div className="center-text">
+                                        <a href={product.link} target="_blank" rel="noopener noreferrer"><button className="custom-btn btn-11">Go to manufacturer's site</button></a>
+                                    </div>
+                                )}
+                                
                                 {/* TODO: remove this condition when all filled in */}
                                 {product.picPaths && (
                                     <Grid fluid>

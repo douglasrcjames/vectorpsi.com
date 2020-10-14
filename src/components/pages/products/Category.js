@@ -18,32 +18,36 @@ export default class Category extends Component {
                     {this.props.categoryArray.map((product, index) => (
                         <Row className="m-margin-t-b" key={index}>
                             <Col sm={12} md={4} lg={2} className="center-text">
-                                <img src={product.thumbPath} alt="product" className="large-fit responsive" />
+                                {product.thumbPath && ( 
+                                    <img src={product.thumbPath} alt="product" className="large-fit responsive" />
+                                )}
                             </Col>
                             
                             <Col sm={12} md={8} lg={10} >
                                 <Row start="xs" className="s-margin-l">
                                     <Col>
                                         <h2>{product.name}</h2>
-                                        <p>
-                                            {product.description}
-                                        </p>
-                                        <div className="center-text">
-                                           
-                                        </div>
+                                        {product.description && ( 
+                                            <p>{product.description}</p>
+                                        )}
                                     </Col>
                                 </Row>
-                                <Row center="xs" className="s-margin-l">
-                                    <Link to={`/products/${this.props.name.split(" ").join("-").toLowerCase()}/${product.name.split(" ").join("-").toLowerCase()}`}>
-                                        <button className="custom-btn btn-11">Learn more</button>
-                                    </Link>
-                                </Row>
+                                {product.thumbPath && product.description && ( 
+                                     <Row center="xs" className="s-margin-l">
+                                        <Link to={`/products/${this.props.name.split(" ").join("-").toLowerCase()}/${product.name.split(" ").join("-").toLowerCase()}`}>
+                                            <button className="custom-btn btn-11">Learn more</button>
+                                        </Link>
+                                    </Row>
+                                )}
+                               
                             </Col>
                         </Row>
                     ))}
                 </Grid>
-                <h2 className="center-text">Product Manufacturers</h2>
-                {this.props.subCompaniesArray && (
+               
+                {this.props.subCompaniesArray && this.props.subCompaniesArray.length > 0 && (
+                    <>
+                    <h2 className="center-text">Product Manufacturers</h2>
                     <Grid fluid>
                         <Row center="xs">
                             {this.props.subCompaniesArray.map((company, index) => (
@@ -53,6 +57,7 @@ export default class Category extends Component {
                             ))}
                         </Row>
                     </Grid>
+                    </>
                 )}
                
             </div>

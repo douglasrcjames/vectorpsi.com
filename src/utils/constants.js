@@ -9,7 +9,7 @@ export const categories = [
     },
     {
         name: 'Automation',
-        thumbPath: require("../assets/images/products/automation/autorodders-thumb.png")
+        thumbPath: require("../assets/images/products/automation/automation-thumb.png")
     },
     {
         name: 'Piping Systems',
@@ -27,18 +27,18 @@ export const categories = [
         name: 'Instrumentation',
         thumbPath: require("../assets/images/products/instrumentation/Differential-Pressure-Transmitter-thumb.png")
     },
-    {
-        name: 'Tanks & Pumps',
-        thumbPath: require("../assets/images/products/tanks-pumps/tanks-pumps-thumb.png")
-    },
+    // {
+    //     name: 'Tanks & Pumps',
+    //     thumbPath: require("../assets/images/products/tanks-pumps/tanks-pumps-thumb.png")
+    // },
     {
         name: 'Filtration',
         thumbPath: require("../assets/images/products/filtration/oil-and-gas-spifil-thumb.png")
     },
-    {
-        name: 'System Accessories',
-        thumbPath: require("../assets/images/products/system-accessories/system-accessories-thumb.png")
-    },
+    // {
+    //     name: 'System Accessories',
+    //     thumbPath: require("../assets/images/products/system-accessories/system-accessories-thumb.png")
+    // },
 ]
 
 export const controlProductLines = [
@@ -372,8 +372,7 @@ export const isolationProductLines = [
                 description: `Rapid seal abrasion is inherent in the designs of most ball and gate valves. The double block-and-bleed (DBB) Cameron GENERAL VALVE Twin Seal plug valve reduces this constant wear by using two seating slips mounted independently on a tapered plug by dovetails, which mechanically retract from the seating surface prior to rotating. This provides a bubble-tight verifiable dual seal without seal abrasion.`,
                 link: `https://www.energyproducts.us/`,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png")
                 ]
             },
             {
@@ -381,7 +380,6 @@ export const isolationProductLines = [
                 description: `60 years of worldwide service in oil, gas, chemicals, water, slurry, and multiproduct applications has established the Pow-R-Seal double expanding gate valve as one of the most trusted gate valves, especially where safety and seal reliability are critical. The positive, mechanical seating force of the lock-in-place seals holds with zero leakage through conditions of vibration, pressure change, and temperature excursion. The rigid, cast steel body resists pipeline bending moments. TFE seals on both faces of the valve provide drop-tight sealing even at low differential pressure, while metal-to-metal contact between the seals and gate mechanism provides fire-safe shutoff.`,
                 link: `https://www.energyproducts.us/`,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
                     require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
                 ]
             },
@@ -393,7 +391,7 @@ export const flowProductLines = [
     {
         name: 'Azbil Flow Meters',
         thumbPath: require("../assets/images/products/flow/azbil/azbil-mag-meter.png"),
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+        description: ` `,
         category: 'Flow',
         productSets: [
             {
@@ -409,11 +407,10 @@ export const flowProductLines = [
             },
             {
                 subheader: "Vortek Flow Meters",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                description: ``,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+
                 ]
             },
         ]
@@ -421,12 +418,12 @@ export const flowProductLines = [
     {
         name: 'Badger Meter Flow',
         thumbPath: require("../assets/images/products/flow/badger/badger-meter-mag-meter.png"),
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+        description: ` `,
         category: 'Flow',
         productSets: [
             {
                 subheader: "Badger",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                description: ` `,
                 link: `https://www.badgermeter.com/flow-instrumentation/brands/modmag-m-series/`,
                 picPaths: [
                     require("../assets/images/products/flow/badger/badger-meter-mag-meter.png"),
@@ -448,11 +445,10 @@ export const flowProductLines = [
             },
             {
                 subheader: "Blancett",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                description: ` `,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+
                 ]
             },
             {
@@ -471,12 +467,12 @@ export const flowProductLines = [
     {
         name: 'Site Flow Indicators',
         thumbPath: require("../assets/images/products/flow/site-flow/bullseye/bullseye.png"),
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+        description: ` `,
         category: 'Flow',
         productSets: [
             {
                 subheader: "Bullseye",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                description: ` `,
                 link: `https://www.andronaco.com/products/sight_indicators/bullseye`,
                 picPaths: [
                     require("../assets/images/products/flow/site-flow/bullseye/bullseye.png"),
@@ -484,7 +480,7 @@ export const flowProductLines = [
             },
             {
                 subheader: "360 View",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                description: ` `,
                 link: `https://www.andronaco.com/products/sight_indicators/360`,
                 picPaths: [
                     require("../assets/images/products/flow/site-flow/360view/chemtitesitevue.png"),
@@ -495,7 +491,7 @@ export const flowProductLines = [
             },
             {
                 subheader: "FEP Unbreakable",
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+                description: ` `,
                 link: `https://www.andronaco.com/products/sight_indicators/puresite`,
                 picPaths: [
                     require("../assets/images/products/flow/site-flow/fep/puresite.png"),
@@ -531,36 +527,76 @@ export const levelProductLines = [
         name: 'Reflex and Transparent Glass Gauges',
         thumbPath: require("../assets/images/products/level/Large-Chamber-Gauge.png"),
         description: `Glass-Trac Gauges, formally Daniel Level Gauge & Valve, are available in three main types: Reflex, Transparent, & Tubular. These direct reading instruments are available in many different materials to meet your specific process conditions.`,
-        link: `https://www.questtecsolutions.com/product-line/glass-trac/`,
-        category: 'Level'
+        category: 'Level',
+        productSets: [
+            {
+                description: `Glass-Trac Gauges, formally Daniel Level Gauge & Valve, are available in three main types: Reflex, Transparent, & Tubular. These direct reading instruments are available in many different materials to meet your specific process conditions.`,
+                link: `https://www.questtecsolutions.com/product-line/glass-trac/`,
+                picPaths: [
+                    require("../assets/images/products/level/Large-Chamber-Gauge.png"),
+                ]
+            },
+        ]
     },
     {
         name: 'Magnetic Level Gauge',
         thumbPath: require("../assets/images/products/level/magne-trac-plus.png"),
         description: `Magne-Trac products are among the safest and most economical ways to measure liquid levels, excelling in applications of extreme pressure, temperature, vibration, and corrosive or hazardous materials.`,
-        link: `https://www.questtecsolutions.com/product-line/magne-trac/`,
-        category: 'Level'
+        category: 'Level',
+        productSets: [
+            {
+                description: `Magne-Trac products are among the safest and most economical ways to measure liquid levels, excelling in applications of extreme pressure, temperature, vibration, and corrosive or hazardous materials.`,
+                link: `https://www.questtecsolutions.com/product-line/magne-trac/`,
+                picPaths: [
+                    require("../assets/images/products/level/magne-trac-plus.png"),
+                ]
+            },
+        ]
     },
     {
         name: 'Flange mount DP level',
         thumbPath: require("../assets/images/products/level/Flange-mount.png"),
         description: `The AT9000 Flange Mount Level Transmitters provide a cost effective method of level measurement applications such as storage tanks, reactor vessels and distillation columns.`,
-        link: `https://us.azbil.com/product-series/at9000-flange-mount-transmitter-for-liquid-level-measurement/`,
-        category: 'Level'
+        category: 'Level',
+        productSets: [
+            {
+                description: `The AT9000 Flange Mount Level Transmitters provide a cost effective method of level measurement applications such as storage tanks, reactor vessels and distillation columns.`,
+                link: `https://us.azbil.com/product-series/at9000-flange-mount-transmitter-for-liquid-level-measurement/`,
+                picPaths: [
+                    require("../assets/images/products/level/Flange-mount.png"),
+                ]
+            },
+        ]
     },
     {
         name: 'Guided Wave Radar',
         thumbPath: require("../assets/images/products/level/Guided-Wave-Radar.png"),
         description: `The QTS Guided Wave Radar delivers an independent reading of liquid and solid levels. These top mount, direct insertion radars measure interface and direct level of liquids and solids, both of high and low pressures and temperatures.`,
-        link: `https://www.questtecsolutions.com/product-line/guided-wave-radar/`,
-        category: 'Level'
+        category: 'Level',
+        productSets: [
+            {
+                description: `The QTS Guided Wave Radar delivers an independent reading of liquid and solid levels. These top mount, direct insertion radars measure interface and direct level of liquids and solids, both of high and low pressures and temperatures.`,
+                link: `https://www.questtecsolutions.com/product-line/guided-wave-radar/`,
+                picPaths: [
+                    require("../assets/images/products/level/Guided-Wave-Radar.png"),
+                ]
+            },
+        ]
     },
     {
         name: 'Non Contact Microwave for liquids and solids',
         thumbPath: require("../assets/images/products/level/microwave.png"),
         description: `Azbil compact level transmitters feature higher performance for all kinds of fine powder, and bulk solids as well as liquid applications. They can be specified for optimal performance in high temperature, high pressure, corrosive, steam, airborne dust, and turbulence conditions.`,
-        link: `https://us.azbil.com/category/industrial-automation/level-management/`,
-        category: 'Level'
+        category: 'Level',
+        productSets: [
+            {
+                description: `Azbil compact level transmitters feature higher performance for all kinds of fine powder, and bulk solids as well as liquid applications. They can be specified for optimal performance in high temperature, high pressure, corrosive, steam, airborne dust, and turbulence conditions.`,
+                link: `https://us.azbil.com/category/industrial-automation/level-management/`,
+                picPaths: [
+                    require("../assets/images/products/level/microwave.png"),
+                ]
+            },
+        ]
     },
 ]
 
@@ -569,50 +605,98 @@ export const instrumentationProductLines = [
         name: 'Gauge Pressure Transmitter',
         thumbPath: require("../assets/images/products/instrumentation/Gauge-Pressure-Transmitter.png"),
         description: `The Advanced Gauge Pressure Transmitter is a microprocessor based smart transmitter that features high performance and excellent stability.  Capable of measuring gas, liquid, vapor, and liquid levels, it transmits 4 to 20 mA DC analog and and digital signals according to the measured pressure.  It can also execute two-way communications between the communicator, thus facilitating self diagnosis, range setting , and automatic zero adjustment.`,
-        link: `https://us.azbil.com/product-series/at9000-advanced-transmitter-for-gauge-pressure/`,
-        category: 'Instrumentation'
-    },
-    {
-        name: 'Differential Pressure Transmitter',
-        thumbPath: require("../assets/images/products/instrumentation/Differential-Pressure-Transmitter.png"),
-        description: `Users of the AT9000 Gauge Pressure transmitters can select either In-Line (Direct Mount) or Dual-Head style to fit their needs. Available ranges include -14.7 to 500 psig, -14.7 to 2000 psig and -14.7 to 6000 psig.`,
-        link: `https://us.azbil.com/product-series/at9000-advanced-transmitter-for-differential-pressure/`,
-        category: 'Instrumentation'
-    },
-    {
-        name: 'Direct Mount Transmitter',
-        thumbPath: require("../assets/images/products/instrumentation/Direct-Mount-Transmitter.png"),
-        description: `Users of the AT9000 Gauge Pressure transmitters can select either In-Line (Direct Mount) or Dual-Head style to fit their needs. Available ranges include -14.7 to 500 psig, -14.7 to 2000 psig and -14.7 to 6000 psig.`,
-        link: `https://us.azbil.com/product-series/at9000-advanced-direct-mount-pressure-transmitter/`,
-        category: 'Instrumentation'
-    },
-    {
-        name: 'Remote Seals',
-        thumbPath: require("../assets/images/products/instrumentation/remote-seals.png"),
-        description: `Paired with the Advanced Pressure Transmitter, Azbil North America is able to provide an extensive line of Remote Diaphragm Seals. From cryogenic to high-temperature applications, we can draw upon decades of experience designing and manufacturing remote diaphragm seals for process control to find a transmitter/remote seal system that fits your needs.`,
-        link: `https://us.azbil.com/product-series/at9000-advanced-pressure-transmitter-with-remote-diaphragm-seals/`,
-        category: 'Instrumentation'
+        category: 'Instrumentation',
+        productSets: [
+            {
+                description: `The Advanced Gauge Pressure Transmitter is a microprocessor based smart transmitter that features high performance and excellent stability.  Capable of measuring gas, liquid, vapor, and liquid levels, it transmits 4 to 20 mA DC analog and and digital signals according to the measured pressure.  It can also execute two-way communications between the communicator, thus facilitating self diagnosis, range setting , and automatic zero adjustment.`,
+                link: `https://us.azbil.com/product-series/at9000-advanced-transmitter-for-gauge-pressure/`,
+                picPaths: [
+                    require("../assets/images/products/instrumentation/Gauge-Pressure-Transmitter.png")
+                ]
+            },
+        ]
     },
     {
         name: 'Advanced Temperature Transmitter',
         thumbPath: require("../assets/images/products/instrumentation/Advanced-Temperature-Transmitter.png"),
         description: `Azbil’s ATT082 Advanced Temperature Transmitter provides a high level of functionality, versatility and safety for the most critical applications in your operation. The ATT082 can operate as a single or dual input device. In the dual input mode you can select between dual measurements, hot sensor back-up, differential temperature measurement, sensor drift detection or average temperature. It is certified by TUV to IEC1508 for use in Safety Instrumented Systems.`,
-        link: `https://us.azbil.com/product-series/att082-advanced-temperature-transmitter/`,
-        category: 'Instrumentation'
+        category: 'Instrumentation',
+        productSets: [
+            {
+                description: `Azbil’s ATT082 Advanced Temperature Transmitter provides a high level of functionality, versatility and safety for the most critical applications in your operation. The ATT082 can operate as a single or dual input device. In the dual input mode you can select between dual measurements, hot sensor back-up, differential temperature measurement, sensor drift detection or average temperature. It is certified by TUV to IEC1508 for use in Safety Instrumented Systems.`,
+                link: `https://us.azbil.com/product-series/att082-advanced-temperature-transmitter/`,
+                picPaths: [
+                    require("../assets/images/products/instrumentation/Advanced-Temperature-Transmitter.png"),
+                ]
+            },
+        ]
     },
     {
         name: 'RTD’s',
         thumbPath: require("../assets/images/products/instrumentation/RTD.png"),
         description: `The SPC625A is a platinum resistance temperature detector that uses a JIS JPt100ohm element, while the SPC625B uses a JIS Pt100ohm element. This is a screw-in temperature detector with a stainless steel protection tube. It is mainly used to detect the temperature of gas, liquid, and steam.`,
-        link: `https://us.azbil.com/product-series/spc625a-platinum-resistance-temperature-detector/`,
-        category: 'Instrumentation'
+        category: 'Instrumentation',
+        productSets: [
+            {
+                description: `The SPC625A is a platinum resistance temperature detector that uses a JIS JPt100ohm element, while the SPC625B uses a JIS Pt100ohm element. This is a screw-in temperature detector with a stainless steel protection tube. It is mainly used to detect the temperature of gas, liquid, and steam.`,
+                link: `https://us.azbil.com/product-series/spc625a-platinum-resistance-temperature-detector/`,
+                picPaths: [
+                    require("../assets/images/products/instrumentation/RTD.png"),
+                ]
+            },
+        ]
     },
+    {
+        name: 'Remote Seals',
+        thumbPath: require("../assets/images/products/instrumentation/remote-seals.png"),
+        description: `Paired with the Advanced Pressure Transmitter, Azbil North America is able to provide an extensive line of Remote Diaphragm Seals. From cryogenic to high-temperature applications, we can draw upon decades of experience designing and manufacturing remote diaphragm seals for process control to find a transmitter/remote seal system that fits your needs.`,
+        category: 'Instrumentation',
+        productSets: [
+            {
+                description: `Paired with the Advanced Pressure Transmitter, Azbil North America is able to provide an extensive line of Remote Diaphragm Seals. From cryogenic to high-temperature applications, we can draw upon decades of experience designing and manufacturing remote diaphragm seals for process control to find a transmitter/remote seal system that fits your needs.`,
+                link: `https://us.azbil.com/product-series/at9000-advanced-pressure-transmitter-with-remote-diaphragm-seals/`,
+                picPaths: [
+                    require("../assets/images/products/instrumentation/remote-seals.png"),
+                ]
+            },
+        ]
+    },
+    {
+        name: 'Direct Mount Transmitter',
+        thumbPath: require("../assets/images/products/instrumentation/Direct-Mount-Transmitter.png"),
+        description: `Users of the AT9000 Gauge Pressure transmitters can select either In-Line (Direct Mount) or Dual-Head style to fit their needs. Available ranges include -14.7 to 500 psig, -14.7 to 2000 psig and -14.7 to 6000 psig.`,
+        category: 'Instrumentation',
+        productSets: [
+            {
+                description: `Users of the AT9000 Gauge Pressure transmitters can select either In-Line (Direct Mount) or Dual-Head style to fit their needs. Available ranges include -14.7 to 500 psig, -14.7 to 2000 psig and -14.7 to 6000 psig.`,
+                link: `https://us.azbil.com/product-series/at9000-advanced-direct-mount-pressure-transmitter/`,
+                picPaths: [
+                    require("../assets/images/products/instrumentation/Direct-Mount-Transmitter.png"),
+                ]
+            },
+        ]
+    },
+    {
+        name: 'Differential Pressure Transmitter',
+        thumbPath: require("../assets/images/products/instrumentation/Differential-Pressure-Transmitter.png"),
+        description: `Users of the AT9000 Gauge Pressure transmitters can select either In-Line (Direct Mount) or Dual-Head style to fit their needs. Available ranges include -14.7 to 500 psig, -14.7 to 2000 psig and -14.7 to 6000 psig.`,
+        category: 'Instrumentation',
+        productSets: [
+            {
+                description: `Users of the AT9000 Gauge Pressure transmitters can select either In-Line (Direct Mount) or Dual-Head style to fit their needs. Available ranges include -14.7 to 500 psig, -14.7 to 2000 psig and -14.7 to 6000 psig.`,
+                link: `https://us.azbil.com/product-series/at9000-advanced-transmitter-for-differential-pressure/`,
+                picPaths: [
+                    require("../assets/images/products/instrumentation/Differential-Pressure-Transmitter.png"),
+                ]
+            },
+        ]
+    }
 ]
 
 export const automationProductLines = [
     {
         name: 'Rexa Electraulic Actuation',
-        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+        thumbPath: require("../assets/images/products/automation/rexa/rexa-electraulic.png"),
         description: `Since 1981, REXA, Inc. has developed and manufactured a unique brand of actuation technology – Electraulic™ Actuation. Our industrial-grade Linear and Rotary actuators combine the simplicity of electric operation, power of hydraulics, reliability of solid state electronics and flexibility of user-configured control. REXA actuators fit any application requiring accurate positioning, hydraulic stability and high reliability with minimal maintenance in a variety of industries across the globe.`,
         category: 'Automation',
         productSets: [
@@ -621,8 +705,7 @@ export const automationProductLines = [
                 description: `The Xpac Linear Actuator utilizes a double acting hydraulic cylinder driven by one or more Electraulic™ Power Modules. It is configurable to fit a wide variety of control and isolation applications across many different industries. For both new equipment and retrofits, REXA manufactures the mounting bracket and stem adapter to fit any style valve, gate, damper or turbomachinery.`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/automation/rexa/rexa-electraulic.png"),
                 ]
             },
             {
@@ -630,8 +713,7 @@ export const automationProductLines = [
                 description: `REXA Rotary Actuators utilize a rack and pinion hydraulic cylinder driven by one or more Electraulic™ Power Modules. Rotary actuators are commonly used on ball and butterfly valve applications across many different industries. REXA manufactures the valve mounting bracket and stem adapter to suit any valve manufacturer or type.`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/automation/rexa/rotary.png")
                 ]
             },
             {
@@ -639,15 +721,14 @@ export const automationProductLines = [
                 description: `REXA Damper Drives can be configured to utilize a rack and pinion hydraulic cylinder or a double acting linear cylinder driven by one or more Electraulic™ Power Modules. Either configuration may be chosen to suit an application’s specific installation requirements. Our damper drives are commonly used on fan and stack dampers, burner tilts and other combustion control applications. REXA manufactures drive base and drive arm or mid/end pivot arrangement to suit any installation scenario.`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/automation/rexa/damper.png")
                 ]
             },
         ]
     },
     {
         name: 'IMI-STI',
-        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+        thumbPath: require("../assets/images/products/automation/imi-sti/rotary-1.png"),
         description: `IMI STI's long experience and know how has been used to develop a range of quarter turn hydraulic and pneumatic actuators. They are designed for the most hostile environments suitable for all onshore and offshore applications for on-off and modulating control valves`,
         category: 'Automation',
         productSets: [
@@ -656,8 +737,7 @@ export const automationProductLines = [
                 description: `Our pneumatic linear piston actuators are designed to drive control valves for the most demanding applications in the power and oil and gas industries: such as turbine bypass; steam conditioning valves; desuperheaters; compressors and antisurge valves.  IMI STI linear actuators ensure smooth and precise valve operation without any maintenance for the whole operating life.`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/automation/imi-sti/linear.png")
                 ]
             },
             {
@@ -665,8 +745,10 @@ export const automationProductLines = [
                 description: `Rotary actuators are designed for use with quarter turn valves such as ball or butterfly valves. Our rotary actuators are designed to withstand the most hostile environment conditions, and as such are suitable for all onshore and offshore applications, covering the general on-off and modulating valves.`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/automation/imi-sti/rotary-1.png"),
+                    require("../assets/images/products/automation/imi-sti/rotary-2.png"),
+                    require("../assets/images/products/automation/imi-sti/rotary-3.png"),
+                    require("../assets/images/products/automation/imi-sti/rotary-4.png")
                 ]
             },
             {
@@ -674,15 +756,14 @@ export const automationProductLines = [
                 description: `IMI STI positioners such as FasTrak is a high-capacity, high-precision digital-pneumatic valve controller that replaces a conventional positioner with excellent dynamic performance and high flow, it is compatible with double and single acting actuators, with or without a spring, a piston or a diaphragm.​`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/automation/imi-sti/digital-positioners.png")
                 ]
             },
         ]
     },
     {
         name: 'Badger Meter',
-        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+        thumbPath: require("../assets/images/products/automation/badger/seva.png"),
         description: `Research Control Valves offer both Pneumatic (Types 754, 755, 759, 766, PA35, PA58) and Electric (SEVA 100, SEVA 200, EVA-1), actuators.  Our Pneumatic actuators range from a small profile ¼ in. (7.5 in2) actuator to our new larger 2 in. (58 in2) actuator.  We have a full range of pneumatic solutions to precisely reflect the accuracy of our control valves.`,
         category: 'Automation',
         productSets: [
@@ -691,8 +772,7 @@ export const automationProductLines = [
                 description: `The SEVA is our next generation Smart Electric Valve Actuator that provides our customers with an electric actuator with best-in-class features. This product was designed for extreme conditions with military grade components while providing the accuracy and repeatability the market demands.`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/automation/badger/seva.png")
                 ]
             },
             {
@@ -700,16 +780,15 @@ export const automationProductLines = [
                 description: `Research Control® SRD smart valve positioners deliver actionable diagnostic information about valve performance and assist compliance with fugitive emissions regulations. SRI analog valve positioners are also available.`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/automation/badger/SRD991.png")
                 ]
             },
         ]
     },
     {
         name: 'Delval Actuators',
-        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. `,
+        thumbPath: require("../assets/images/products/automation/delval/electric.png"),
+        description: `Delval Controls offers pneumatic and electric actuators with ISO mounting, allowing for direct mounting to our valves in many cases.`,
         category: 'Automation',
         productSets: [
             {
@@ -717,8 +796,7 @@ export const automationProductLines = [
                 description: `Double acting and Spring return rack and pinion actuators delivering outputs up to 16,815 in lbs.`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/automation/delval/rack-pinion.png"),
                 ]
             },
             {
@@ -726,8 +804,7 @@ export const automationProductLines = [
                 description: `Double acting and spring return scotch yoke actuators with ISO 5211 mounting and Namur topworks interface.`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/automation/delval/scotch-yoke.png"),
                 ]
             },
             {
@@ -735,8 +812,7 @@ export const automationProductLines = [
                 description: `Direct mount quarter turn electric actuator with torque outputs up to 26,550 in lbs.`,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                    require("../assets/images/products/automation/delval/electric.png"),
                 ]
             },
         ]
@@ -763,72 +839,75 @@ export const filtrationProductLines = [
         name: 'Oil & Gas Filtration',
         thumbPath: require("../assets/images/products/filtration/oil-and-gas-spifil.png"),
         description: `At SPIFIL Group, we create and deliver the ecological answer to your filtration needs. Our staff is highly prepared and motivated; we design and manufacture our products following high quality standards, and provide an exceptional technical service. We treasure more than 20 years of expertise in the field.`,
-        link: `http://spifil.com/en/industry/#div-petroleo`,
-        category: 'Filtration'
-    },
+        category: 'Filtration',
+        productSets: [
+            {
+                description: `At SPIFIL Group, we create and deliver the ecological answer to your filtration needs. Our staff is highly prepared and motivated; we design and manufacture our products following high quality standards, and provide an exceptional technical service. We treasure more than 20 years of expertise in the field.`,
+                link: `http://spifil.com/en/industry/#div-petroleo`,
+                picPaths: [
+                    require("../assets/images/products/filtration/oil-and-gas-spifil.png"),
+                ]
+            },
+        ]
+    }
 ]
 
 export const pipingSystemsProductLines = [
     {
         name: 'PTFE Lined Composite',
-        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+        thumbPath: ``,
+        description: ``,
         category: 'Piping Systems',
         productSets: [
             {
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: ``,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+
                 ]
             },
         ]
     },
     {
         name: 'PTFE Lined Alloys',
-        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+        thumbPath: ``,
+        description: ``,
         category: 'Piping Systems',
         productSets: [
             {
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: ``,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+
                 ]
             },
         ]
     },
     {
         name: 'Composite',
-        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+        thumbPath: ``,
+        description: ``,
         category: 'Piping Systems',
         productSets: [
             {
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: ``,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+
                 ]
             },
         ]
     },
     {
         name: 'Fiberglass and Dual Laminate',
-        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+        thumbPath: ``,
+        description: ``,
         category: 'Piping Systems',
         productSets: [
             {
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis ligula et dui viverra varius vitae sed odio. Fusce at velit ultrices turpis iaculis ornare. Integer varius porttitor pretium. Morbi non semper quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+                description: ``,
                 link: ``,
                 picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
                 ]
             },
         ]
@@ -836,23 +915,11 @@ export const pipingSystemsProductLines = [
 ]
 
 export const tanksPumpsProductLines = [
-    {
-        name: 'Product 1',
-        thumbPath: require("../assets/images/products/filtration/oil-and-gas-spifil.png"),
-        description: `At SPIFIL Group, we create and deliver the ecological answer to your filtration needs. Our staff is highly prepared and motivated; we design and manufacture our products following high quality standards, and provide an exceptional technical service. We treasure more than 20 years of expertise in the field.`,
-        link: `http://spifil.com/en/industry/#div-petroleo`,
-        category: 'Tanks & Pumps'
-    },
+
 ]
 
 export const systemAccessoriesProductLines = [
-    {
-        name: 'Product 1',
-        thumbPath: require("../assets/images/products/filtration/oil-and-gas-spifil.png"),
-        description: `At SPIFIL Group, we create and deliver the ecological answer to your filtration needs. Our staff is highly prepared and motivated; we design and manufacture our products following high quality standards, and provide an exceptional technical service. We treasure more than 20 years of expertise in the field.`,
-        link: `http://spifil.com/en/industry/#div-petroleo`,
-        category: 'System Accessories'
-    },
+
 ]
 
 
@@ -907,51 +974,49 @@ export const isolationSubCompanies = [
 ]
 
 export const flowSubCompanies = [
-    {
-        picPath: require("../assets/images/external-logos/sub-companies/imi-cci.png")
-    },
+
 ]
 
 export const levelSubCompanies = [
-    {
-        picPath: require("../assets/images/external-logos/sub-companies/imi-cci.png")
-    },
+
 ]
 
 export const instrumentationSubCompanies = [
-    {
-        picPath: require("../assets/images/external-logos/sub-companies/imi-cci.png")
-    },
+
 ]
 
 export const automationSubCompanies = [
     {
-        picPath: require("../assets/images/external-logos/sub-companies/imi-cci.png")
+        picPath: require("../assets/images/external-logos/sub-companies/imi-sti.png")
+    },
+    {
+        picPath: require("../assets/images/external-logos/badger-meter.png")
+    },
+    {
+        picPath: require("../assets/images/external-logos/delval.png")
+    },
+    {
+        picPath: require("../assets/images/external-logos/rexa.png")
+    },
+    {
+        picPath: require("../assets/images/external-logos/clearguard.png")
     },
 ]
 
 export const filtrationSubCompanies = [
-    {
-        picPath: require("../assets/images/external-logos/sub-companies/imi-cci.png")
-    },
+
 ]
 
 export const pipingSystemsSubCompanies = [
-    {
-        picPath: require("../assets/images/external-logos/sub-companies/imi-cci.png")
-    },
+
 ]
 
 export const tanksPumpsSubCompanies = [
-    {
-        picPath: require("../assets/images/external-logos/sub-companies/imi-cci.png")
-    },
+
 ]
 
 export const systemAccessoriesSubCompanies = [
-    {
-        picPath: require("../assets/images/external-logos/sub-companies/imi-cci.png")
-    },
+
 ]
 
 
@@ -962,7 +1027,7 @@ export const allProductLines = controlProductLines.concat(
         flowProductLines, 
         levelProductLines, 
         instrumentationProductLines, 
-        tanksPumpsProductLines, 
+        // tanksPumpsProductLines, 
         filtrationProductLines, 
-        systemAccessoriesProductLines
+        // systemAccessoriesProductLines
     );
