@@ -13,13 +13,10 @@ export default class Footer extends Component {
         return (
             <footer>
                 <div className="f-container">
-                    <br/>
-                    <hr />
-                    <br/>
                     <div>
-                        <a className="blue" href="https://www.douglasrcjames.com" target="_blank" rel="noopener noreferrer"><i className="fas fa-tools" /> by douglasrcjames</a> 
+                        <a className="white text-hover-red" href="https://www.douglasrcjames.com" target="_blank" rel="noopener noreferrer"><i className="fas fa-tools" /> by douglasrcjames</a> 
                     </div>
-                    <div>
+                    <div className="white">
                         &copy;
                         {' '}
                         {this.state.year}
