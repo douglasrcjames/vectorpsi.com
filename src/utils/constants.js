@@ -331,36 +331,36 @@ export const isolationProductLines = [
             },
         ]
     },
-    {
-        name: 'Delval Flow Controls',
-        thumbPath: require("../assets/images/products/isolation/delval/Delval-Flow-Controls-thumb.png"),
-        description: `DelVal Flow Controls provides a wide range of superior quality ball valves, butterfly valves, actuators and control accessories by implementing a robust quality management system compliant to ISO 9001-2015 and cultivating a knowledgeable staff.  Our products are fully integrated and cater to a wide spectrum of applications including Oil & Gas, Power Generation, Mining, Chemical Process, Marine, Pharmaceutical, Food & Beverage, Water and other industrial markets. Our global network of offices, distributors, channel partners and highly experienced sales and service staff are always ready to meet our customers’ most stringent requirements.`,
-        category: 'Isolation',
-        productSets: [
-            {
-                subheader: "Ball Valves",
-                description: `Three piece, trunnion mounted, floating ball, and flanged ball valves, manual or fully automated to meet your specifications.`,
-                link: `https://www.delvalflow.com/product`,
-                picPaths: [
-                    require("../assets/images/products/isolation/delval/ball/ball-1.png"),
-                    require("../assets/images/products/isolation/delval/ball/ball-2.png"),
-                    require("../assets/images/products/isolation/delval/ball/ball-3.png"),
-                    require("../assets/images/products/isolation/delval/ball/ball-4.png"),
-                ]
-            },
-            {
-                subheader: "Butterfly Valves",
-                description: `Resilient seated, high performance, and triple offset butterfly valves.`,
-                link: `https://www.delvalflow.com/product`,
-                picPaths: [
-                    require("../assets/images/products/isolation/delval/butterfly/butterfly-1.png"),
-                    require("../assets/images/products/isolation/delval/butterfly/butterfly-2.png"),
-                    require("../assets/images/products/isolation/delval/butterfly/butterfly-3.png"),
-                    require("../assets/images/products/isolation/delval/butterfly/butterfly-4.png"),
-                ]
-            },
-        ]
-    },
+    // {
+    //     name: 'Delval Flow Controls',
+    //     thumbPath: require("../assets/images/products/isolation/delval/Delval-Flow-Controls-thumb.png"),
+    //     description: `DelVal Flow Controls provides a wide range of superior quality ball valves, butterfly valves, actuators and control accessories by implementing a robust quality management system compliant to ISO 9001-2015 and cultivating a knowledgeable staff.  Our products are fully integrated and cater to a wide spectrum of applications including Oil & Gas, Power Generation, Mining, Chemical Process, Marine, Pharmaceutical, Food & Beverage, Water and other industrial markets. Our global network of offices, distributors, channel partners and highly experienced sales and service staff are always ready to meet our customers’ most stringent requirements.`,
+    //     category: 'Isolation',
+    //     productSets: [
+    //         {
+    //             subheader: "Ball Valves",
+    //             description: `Three piece, trunnion mounted, floating ball, and flanged ball valves, manual or fully automated to meet your specifications.`,
+    //             link: `https://www.delvalflow.com/product`,
+    //             picPaths: [
+    //                 require("../assets/images/products/isolation/delval/ball/ball-1.png"),
+    //                 require("../assets/images/products/isolation/delval/ball/ball-2.png"),
+    //                 require("../assets/images/products/isolation/delval/ball/ball-3.png"),
+    //                 require("../assets/images/products/isolation/delval/ball/ball-4.png"),
+    //             ]
+    //         },
+    //         {
+    //             subheader: "Butterfly Valves",
+    //             description: `Resilient seated, high performance, and triple offset butterfly valves.`,
+    //             link: `https://www.delvalflow.com/product`,
+    //             picPaths: [
+    //                 require("../assets/images/products/isolation/delval/butterfly/butterfly-1.png"),
+    //                 require("../assets/images/products/isolation/delval/butterfly/butterfly-2.png"),
+    //                 require("../assets/images/products/isolation/delval/butterfly/butterfly-3.png"),
+    //                 require("../assets/images/products/isolation/delval/butterfly/butterfly-4.png"),
+    //             ]
+    //         },
+    //     ]
+    // },
     {
         name: 'Cameron Pipeline Valves',
         thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
@@ -785,38 +785,38 @@ export const automationProductLines = [
             },
         ]
     },
-    {
-        name: 'Delval Actuators',
-        thumbPath: require("../assets/images/products/automation/delval/electric.png"),
-        description: `Delval Controls offers pneumatic and electric actuators with ISO mounting, allowing for direct mounting to our valves in many cases.`,
-        category: 'Automation',
-        productSets: [
-            {
-                subheader: "Rack & Pinion",
-                description: `Double acting and Spring return rack and pinion actuators delivering outputs up to 16,815 in lbs.`,
-                link: ``,
-                picPaths: [
-                    require("../assets/images/products/automation/delval/rack-pinion.png"),
-                ]
-            },
-            {
-                subheader: "Scotch Yoke",
-                description: `Double acting and spring return scotch yoke actuators with ISO 5211 mounting and Namur topworks interface.`,
-                link: ``,
-                picPaths: [
-                    require("../assets/images/products/automation/delval/scotch-yoke.png"),
-                ]
-            },
-            {
-                subheader: "Series 2E Electric",
-                description: `Direct mount quarter turn electric actuator with torque outputs up to 26,550 in lbs.`,
-                link: ``,
-                picPaths: [
-                    require("../assets/images/products/automation/delval/electric.png"),
-                ]
-            },
-        ]
-    },
+    // {
+    //     name: 'Delval Actuators',
+    //     thumbPath: require("../assets/images/products/automation/delval/electric.png"),
+    //     description: `Delval Controls offers pneumatic and electric actuators with ISO mounting, allowing for direct mounting to our valves in many cases.`,
+    //     category: 'Automation',
+    //     productSets: [
+    //         {
+    //             subheader: "Rack & Pinion",
+    //             description: `Double acting and Spring return rack and pinion actuators delivering outputs up to 16,815 in lbs.`,
+    //             link: ``,
+    //             picPaths: [
+    //                 require("../assets/images/products/automation/delval/rack-pinion.png"),
+    //             ]
+    //         },
+    //         {
+    //             subheader: "Scotch Yoke",
+    //             description: `Double acting and spring return scotch yoke actuators with ISO 5211 mounting and Namur topworks interface.`,
+    //             link: ``,
+    //             picPaths: [
+    //                 require("../assets/images/products/automation/delval/scotch-yoke.png"),
+    //             ]
+    //         },
+    //         {
+    //             subheader: "Series 2E Electric",
+    //             description: `Direct mount quarter turn electric actuator with torque outputs up to 26,550 in lbs.`,
+    //             link: ``,
+    //             picPaths: [
+    //                 require("../assets/images/products/automation/delval/electric.png"),
+    //             ]
+    //         },
+    //     ]
+    // },
     {
         name: 'Clearguard Autorodder',
         thumbPath: require("../assets/images/products/automation/autorodders.png"),
@@ -968,9 +968,9 @@ export const isolationSubCompanies = [
     {
         picPath: require("../assets/images/external-logos/sub-companies/conley.png"),
     },
-    {
-        picPath: require("../assets/images/external-logos/delval.png"),
-    },
+    // {
+    //     picPath: require("../assets/images/external-logos/delval.png"),
+    // },
 ]
 
 export const flowSubCompanies = [
@@ -992,9 +992,9 @@ export const automationSubCompanies = [
     {
         picPath: require("../assets/images/external-logos/badger-meter.png")
     },
-    {
-        picPath: require("../assets/images/external-logos/delval.png")
-    },
+    // {
+    //     picPath: require("../assets/images/external-logos/delval.png")
+    // },
     {
         picPath: require("../assets/images/external-logos/rexa.png")
     },

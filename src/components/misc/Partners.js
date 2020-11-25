@@ -206,11 +206,11 @@ const partners = [
         picPath: require("../../assets/images/external-logos/dft.png"),
         picSize: "medium"
     },
-    {
-        webUrl: `https://www.delvalflow.com/`,
-        picPath: require("../../assets/images/external-logos/delval.png"),
-        picSize: "small"
-    },
+    // {
+    //     webUrl: `https://www.delvalflow.com/`,
+    //     picPath: require("../../assets/images/external-logos/delval.png"),
+    //     picSize: "small"
+    // },
     {
         webUrl: `https://www.contdisc.com/`,
         picPath: require("../../assets/images/external-logos/contdisc.png"),
