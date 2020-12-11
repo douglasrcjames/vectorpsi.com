@@ -258,37 +258,41 @@ export const isolationProductLines = [
         ]
     },
     {
-        name: 'Andronaco Composite and Lined Valves',
-        thumbPath: require("../assets/images/products/isolation/andronaco-composite-lined/Andronaco-composite-Lined-valve-thumb.png"),
-        description: `Andronaco has a full offering of ball, plug, and butterfly valves for corrosive service. Our expertise in fluoropolymers and chemicals will ensure optimum material compatibility.`,
+        name: 'Bray',
+        thumbPath: require("../assets/images/products/isolation/bray/butterfly/trilok.png"),
+        description: `Bray has a comprehensive offering of isolation valves, including resilient seated, high performance, and triple offset butterfly valves, as well as 2 & 3 piece ball valves, flanged valves, and metal seated valves for the severe service industry`,
         category: 'Isolation',
         productSets: [
             {
                 subheader: "Ball Valves",
-                description: `Pureflex lined composite ball valves and Hills Mccanna Chemtite PFA lined DI valves can be provided as manual or fully automated assemblies to suit all of your chemical isolation needs.`,
-                link: `https://www.andronaco.com/products/valves/ball_valves`,
+                description: `Our comprehensive offering of industrial ball valves can be used in isolation, modulating, and severe service conditions. `,
+                link: `https://www.bray.com/solutions/integrated-solutions/isolation-valves?Product%20Type=ball-valve&page=1`,
                 picPaths: [
-                    require("../assets/images/products/isolation/andronaco-composite-lined/ball/ball-valve-1.png"),
-                    require("../assets/images/products/isolation/andronaco-composite-lined/ball/ball-valve-2.png"),
-                    require("../assets/images/products/isolation/andronaco-composite-lined/ball/ball-valve-3.png"),
-                ]
-            },
-            {
-                subheader: "Plug Valves",
-                description: `Hills Mccanna Chemtite TFM PTFE/PFA lined DI plug valves can be provided as manual or fully automated assemblies to suit all of your chemical isolation needs.`,
-                link: `https://www.andronaco.com/products/valves/plug_valves`,
-                picPaths: [
-                    require("../assets/images/products/isolation/andronaco-composite-lined/plug/nilcorballvalve.png")
+                    require("../assets/images/products/isolation/bray/ball/dm7000.png"),
+                    require("../assets/images/products/isolation/bray/ball/m1.png"),
+                    require("../assets/images/products/isolation/bray/ball/triad-hp.png"),
+                    require("../assets/images/products/isolation/bray/ball/trunnion.png"),
                 ]
             },
             {
                 subheader: "Butterfly Valves",
-                description: `Pureflex 800 series and 890 series composite valves are the strongest, lightest, and most chemically resistant valves in the world.`,
-                link: ``,
+                description: `An industry leader in resilient seated, high performance, and triple offset technologies offering faster service and lower cost of ownership.`,
+                link: `https://www.bray.com/solutions/integrated-solutions/isolation-valves?Product%20Type=butterfly-valve&page=1`,
                 picPaths: [
-                    require("../assets/images/products/isolation/andronaco-composite-lined/butterfly/butterfly-1.png"),
-                    require("../assets/images/products/isolation/andronaco-composite-lined/butterfly/butterfly-2.png"),
-                    require("../assets/images/products/isolation/andronaco-composite-lined/butterfly/butterfly-3.png"),
+                    require("../assets/images/products/isolation/bray/butterfly/metal-seated.png"),
+                    require("../assets/images/products/isolation/bray/butterfly/series-22-23.png"),
+                    require("../assets/images/products/isolation/bray/butterfly/trilok.png"),
+                    require("../assets/images/products/isolation/bray/butterfly/series-35f.png"),
+                ]
+            },
+            {
+                subheader: "Knife Gates",
+                description: `Rugged knife gates for standard industrial, slurry, and high pressure applications.`,
+                link: `https://www.bray.com/valves-actuators-controls/knife-gate-valves?page=1`,
+                picPaths: [
+                    require("../assets/images/products/isolation/bray/knife/series-740.png"),
+                    require("../assets/images/products/isolation/bray/knife/series-762.png"),
+                    require("../assets/images/products/isolation/bray/knife/series-767.png"),
                 ]
             },
         ]
@@ -331,6 +335,66 @@ export const isolationProductLines = [
             },
         ]
     },
+    {
+        name: 'Cameron Pipeline Valves',
+        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
+        description: `Double Block & Bleed and Expanding Gate valves, in stock and ready to ship for all of your pipeline and terminal needs.`,
+        category: 'Isolation',
+        productSets: [
+            {
+                subheader: "Twin Seal",
+                description: `Rapid seal abrasion is inherent in the designs of most ball and gate valves. The double block-and-bleed (DBB) Cameron GENERAL VALVE Twin Seal plug valve reduces this constant wear by using two seating slips mounted independently on a tapered plug by dovetails, which mechanically retract from the seating surface prior to rotating. This provides a bubble-tight verifiable dual seal without seal abrasion.`,
+                link: `https://www.energyproducts.us/`,
+                picPaths: [
+                    require("../assets/images/products/isolation/GeneralTwinSeal.png")
+                ]
+            },
+            {
+                subheader: "Pow-R-Seal",
+                description: `60 years of worldwide service in oil, gas, chemicals, water, slurry, and multiproduct applications has established the Pow-R-Seal double expanding gate valve as one of the most trusted gate valves, especially where safety and seal reliability are critical. The positive, mechanical seating force of the lock-in-place seals holds with zero leakage through conditions of vibration, pressure change, and temperature excursion. The rigid, cast steel body resists pipeline bending moments. TFE seals on both faces of the valve provide drop-tight sealing even at low differential pressure, while metal-to-metal contact between the seals and gate mechanism provides fire-safe shutoff.`,
+                link: `https://www.energyproducts.us/`,
+                picPaths: [
+                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
+                ]
+            },
+        ]
+    },
+    {
+        name: 'Andronaco Composite and Lined Valves',
+        thumbPath: require("../assets/images/products/isolation/andronaco-composite-lined/Andronaco-composite-Lined-valve-thumb.png"),
+        description: `Andronaco has a full offering of ball, plug, and butterfly valves for corrosive service. Our expertise in fluoropolymers and chemicals will ensure optimum material compatibility.`,
+        category: 'Isolation',
+        productSets: [
+            {
+                subheader: "Ball Valves",
+                description: `Pureflex lined composite ball valves and Hills Mccanna Chemtite PFA lined DI valves can be provided as manual or fully automated assemblies to suit all of your chemical isolation needs.`,
+                link: `https://www.andronaco.com/products/valves/ball_valves`,
+                picPaths: [
+                    require("../assets/images/products/isolation/andronaco-composite-lined/ball/ball-valve-1.png"),
+                    require("../assets/images/products/isolation/andronaco-composite-lined/ball/ball-valve-2.png"),
+                    require("../assets/images/products/isolation/andronaco-composite-lined/ball/ball-valve-3.png"),
+                ]
+            },
+            {
+                subheader: "Plug Valves",
+                description: `Hills Mccanna Chemtite TFM PTFE/PFA lined DI plug valves can be provided as manual or fully automated assemblies to suit all of your chemical isolation needs.`,
+                link: `https://www.andronaco.com/products/valves/plug_valves`,
+                picPaths: [
+                    require("../assets/images/products/isolation/andronaco-composite-lined/plug/nilcorballvalve.png")
+                ]
+            },
+            {
+                subheader: "Butterfly Valves",
+                description: `Pureflex 800 series and 890 series composite valves are the strongest, lightest, and most chemically resistant valves in the world.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/isolation/andronaco-composite-lined/butterfly/butterfly-1.png"),
+                    require("../assets/images/products/isolation/andronaco-composite-lined/butterfly/butterfly-2.png"),
+                    require("../assets/images/products/isolation/andronaco-composite-lined/butterfly/butterfly-3.png"),
+                ]
+            },
+        ]
+    },
     // {
     //     name: 'Delval Flow Controls',
     //     thumbPath: require("../assets/images/products/isolation/delval/Delval-Flow-Controls-thumb.png"),
@@ -361,30 +425,6 @@ export const isolationProductLines = [
     //         },
     //     ]
     // },
-    {
-        name: 'Cameron Pipeline Valves',
-        thumbPath: require("../assets/images/products/isolation/GeneralTwinSeal.png"),
-        description: `Double Block & Bleed and Expanding Gate valves, in stock and ready to ship for all of your pipeline and terminal needs.`,
-        category: 'Isolation',
-        productSets: [
-            {
-                subheader: "Twin Seal",
-                description: `Rapid seal abrasion is inherent in the designs of most ball and gate valves. The double block-and-bleed (DBB) Cameron GENERAL VALVE Twin Seal plug valve reduces this constant wear by using two seating slips mounted independently on a tapered plug by dovetails, which mechanically retract from the seating surface prior to rotating. This provides a bubble-tight verifiable dual seal without seal abrasion.`,
-                link: `https://www.energyproducts.us/`,
-                picPaths: [
-                    require("../assets/images/products/isolation/GeneralTwinSeal.png")
-                ]
-            },
-            {
-                subheader: "Pow-R-Seal",
-                description: `60 years of worldwide service in oil, gas, chemicals, water, slurry, and multiproduct applications has established the Pow-R-Seal double expanding gate valve as one of the most trusted gate valves, especially where safety and seal reliability are critical. The positive, mechanical seating force of the lock-in-place seals holds with zero leakage through conditions of vibration, pressure change, and temperature excursion. The rigid, cast steel body resists pipeline bending moments. TFE seals on both faces of the valve provide drop-tight sealing even at low differential pressure, while metal-to-metal contact between the seals and gate mechanism provides fire-safe shutoff.`,
-                link: `https://www.energyproducts.us/`,
-                picPaths: [
-                    require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
-                ]
-            },
-        ]
-    },
 ]
 
 export const flowProductLines = [
@@ -727,6 +767,94 @@ export const automationProductLines = [
         ]
     },
     {
+        name: 'Bray Actuators',
+        thumbPath: require("../assets/images/products/automation/bray/scotch-yoke.png"),
+        description: `Bray offers actuators and automation accessories for industries including Oil & Gas, Mining, Power & FGD, Petrochemicals, Water & Wastewater, and more.`,
+        category: 'Automation',
+        productSets: [
+            {
+                subheader: "Scotch Yoke",
+                description: `Bray's engineering excellence and precision manufacturing have produced the Series 98 pneumatic actuator, part of our modular, fully configurable product line optimized for direct mounting on Bray valves for flexibility and efficiency at reduced cost. `,
+                link: `https://www.bray.com/valves-actuators-controls/actuators/pneumatic-actuator/series-98-scotch-yoke-pneumatic-actuator`,
+                picPaths: [
+                    require("../assets/images/products/automation/bray/scotch-yoke.png"),
+                ]
+            },
+            {
+                subheader: "Rack & Pinion",
+                description: `Styling, strength, compactness, and simplicity of design have been combined to produce the Bray Series 92 direct acting and the Series 93 spring return pneumatic actuators.`,
+                link: `https://www.bray.com/valves-actuators-controls/actuators/pneumatic-actuator/series-92-93-pneumatic-actuator`,
+                picPaths: [
+                    require("../assets/images/products/automation/bray/rack-pinion.png"),
+                ]
+            },
+            {
+                subheader: "Electric Series 70",
+                description: `Decades of Bray's proven success in electric actuation, combined with innovative engineering, has produced the Series 70 electric actuator. `,
+                link: `https://www.bray.com/valves-actuators-controls/actuators/electric-actuator/series-70`,
+                picPaths: [
+                    require("../assets/images/products/automation/bray/electric.png"),
+                ]
+            },
+        ]
+    },
+    {
+        name: 'QTRCO',
+        thumbPath: require("../assets/images/products/automation/qtrco/q-series.jpg"),
+        description: `High quality valve actuators for a variety of industries including oil & gas, chemical & petrochemical, food & beverage and pulp & paper. Through the combination of our mechanically sound design, and premium materials of construction we are able to provide valve actuators that offer exceptional value to our customers.`,
+        category: 'Automation',
+        productSets: [
+            {
+                subheader: "Q Series",
+                description: `Offset cylinders align the piston axis with the pinion gear pitch circle diameter, eliminating the cantilever forces inherent in rack and pinion type actuators. Low friction rollers maintain correct engagement of the stainless steel gearing for absolutely exceptional cycle life.`,
+                link: `http://www.qtrco.com/q-series-rack-and-gear-valve-actuators.html`,
+                picPaths: [
+                    require("../assets/images/products/automation/qtrco/q-series.jpg"),
+                ]
+            },
+            {
+                subheader: "F series",
+                description: `A unique slotted body concept absorbs 100% of the yoke mechanism's side loading forces leaving the piston rod completely free of bending stresses while allowing termination of the rod at the yoke, and the addition of a weight and force balancing second force module diagonally offset from the first.`,
+                link: `http://www.qtrco.com/f-series-flatyoke-valve-actuators.html`,
+                picPaths: [
+                    require("../assets/images/products/automation/qtrco/f-series.jpg")
+                ]
+            },
+            {
+                subheader: "L series",
+                description: `Using captured springs and the linear components of our rotary, our L Series Actuators provide a safe, long lasting, low friction, stainless steel substitute for diaphragm types in a smaller package for resistance to corrosion and vibration.`,
+                link: `http://www.qtrco.com/l-series-linear-valve-actuators.html`,
+                picPaths: [
+                    require("../assets/images/products/automation/qtrco/l-series.jpg")
+                ]
+            },
+        ]
+    },
+    {
+        name: 'Badger Meter',
+        thumbPath: require("../assets/images/products/automation/badger/seva.png"),
+        description: `Research Control Valves offer both Pneumatic (Types 754, 755, 759, 766, PA35, PA58) and Electric (SEVA 100, SEVA 200, EVA-1), actuators.  Our Pneumatic actuators range from a small profile ¼ in. (7.5 in2) actuator to our new larger 2 in. (58 in2) actuator.  We have a full range of pneumatic solutions to precisely reflect the accuracy of our control valves.`,
+        category: 'Automation',
+        productSets: [
+            {
+                subheader: "SEVA Linear Electric",
+                description: `The SEVA is our next generation Smart Electric Valve Actuator that provides our customers with an electric actuator with best-in-class features. This product was designed for extreme conditions with military grade components while providing the accuracy and repeatability the market demands.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/automation/badger/seva.png")
+                ]
+            },
+            {
+                subheader: "SRD991 Intelligent Valve Positioner",
+                description: `Research Control® SRD smart valve positioners deliver actionable diagnostic information about valve performance and assist compliance with fugitive emissions regulations. SRI analog valve positioners are also available.`,
+                link: ``,
+                picPaths: [
+                    require("../assets/images/products/automation/badger/SRD991.png")
+                ]
+            },
+        ]
+    },
+    {
         name: 'IMI-STI',
         thumbPath: require("../assets/images/products/automation/imi-sti/rotary-1.png"),
         description: `IMI STI's long experience and know how has been used to develop a range of quarter turn hydraulic and pneumatic actuators. They are designed for the most hostile environments suitable for all onshore and offshore applications for on-off and modulating control valves`,
@@ -757,30 +885,6 @@ export const automationProductLines = [
                 link: ``,
                 picPaths: [
                     require("../assets/images/products/automation/imi-sti/digital-positioners.png")
-                ]
-            },
-        ]
-    },
-    {
-        name: 'Badger Meter',
-        thumbPath: require("../assets/images/products/automation/badger/seva.png"),
-        description: `Research Control Valves offer both Pneumatic (Types 754, 755, 759, 766, PA35, PA58) and Electric (SEVA 100, SEVA 200, EVA-1), actuators.  Our Pneumatic actuators range from a small profile ¼ in. (7.5 in2) actuator to our new larger 2 in. (58 in2) actuator.  We have a full range of pneumatic solutions to precisely reflect the accuracy of our control valves.`,
-        category: 'Automation',
-        productSets: [
-            {
-                subheader: "SEVA Linear Electric",
-                description: `The SEVA is our next generation Smart Electric Valve Actuator that provides our customers with an electric actuator with best-in-class features. This product was designed for extreme conditions with military grade components while providing the accuracy and repeatability the market demands.`,
-                link: ``,
-                picPaths: [
-                    require("../assets/images/products/automation/badger/seva.png")
-                ]
-            },
-            {
-                subheader: "SRD991 Intelligent Valve Positioner",
-                description: `Research Control® SRD smart valve positioners deliver actionable diagnostic information about valve performance and assist compliance with fugitive emissions regulations. SRI analog valve positioners are also available.`,
-                link: ``,
-                picPaths: [
-                    require("../assets/images/products/automation/badger/SRD991.png")
                 ]
             },
         ]
@@ -968,6 +1072,9 @@ export const isolationSubCompanies = [
     {
         picPath: require("../assets/images/external-logos/sub-companies/conley.png"),
     },
+    {
+        picPath: require("../assets/images/external-logos/bray.png"),
+    },
     // {
     //     picPath: require("../assets/images/external-logos/delval.png"),
     // },
@@ -1000,6 +1107,12 @@ export const automationSubCompanies = [
     },
     {
         picPath: require("../assets/images/external-logos/clearguard.png")
+    },
+    {
+        picPath: require("../assets/images/external-logos/QTRCO.png"),
+    },
+    {
+        picPath: require("../assets/images/external-logos/bray.png"),
     },
 ]
 

@@ -219,6 +219,16 @@ const partners = [
         webUrl: `https://www.controlair.com/`,
         picPath: require("../../assets/images/external-logos/controlair.png"),
         picSize: "xmedium"
-    }
+    },
+    {
+        webUrl: `https://www.bray.com/`,
+        picPath: require("../../assets/images/external-logos/bray.png"),
+        picSize: "medium"
+    },
+    {
+        webUrl: `http://www.qtrco.com/`,
+        picPath: require("../../assets/images/external-logos/QTRCO.png"),
+        picSize: "medium"
+    },
 ]
 
