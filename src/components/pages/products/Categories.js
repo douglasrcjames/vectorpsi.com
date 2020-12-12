@@ -11,7 +11,7 @@ export default class Categories extends Component {
                     {categories.map((category, index) => (
                         <Col sm={12} md={6} lg={3} className="center-text" key={index}>
                             <img src={category.thumbPath} alt="product type" className="medium responsive" />
-                            <h2 className="no-padding s-margin-t">{category.name}</h2>
+                            <h3 className="no-padding s-margin-t">{category.name}</h3>
                             <Link to={`/products/${category.name.split(" ").join("-").toLowerCase()}`}>
                                 <button className="custom-btn btn-11">View products</button>
                             </Link>

@@ -17,7 +17,7 @@ export default class ProductLine extends Component {
                 {  
                     this.props.productSets.map((product, i) => {
                         return (
-                            <div>
+                            <div key={i}>
                                 {product.subheader && ( 
                                     <h2>{product.subheader}</h2>
                                 )}

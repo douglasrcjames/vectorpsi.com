@@ -495,8 +495,9 @@
   
   /**** BTN No. 13 ****/
   .btn-13 {
-    border: 2px solid #000;
+    border: 2px solid #C92C3D;
     z-index: 1;
+    color: #C92C3D;
   }
   .btn-13:after {
     position: absolute;
@@ -506,7 +507,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background: #000;
+    background: #C92C3D;
     transition: all 0.3s ease;
   }
   .btn-13:hover {

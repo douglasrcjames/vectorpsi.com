@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import '../../assets/css/Header.css'
 import MediaQuery from "react-responsive";
 import { NavLink, withRouter } from 'react-router-dom';
+import lineSheet from '../../assets/pdfs/VectorPSI_LineSheetCF-reduced.pdf'
 
 class Header extends Component {
     constructor(props) {
@@ -38,7 +39,7 @@ class Header extends Component {
                                 </span>
                             </span>
                         </NavLink>
-                        <MediaQuery minWidth={1001}>
+                        <MediaQuery minWidth={1351}>
                             <div className="nav-links">
                                 <ul>
                                     {  menuArray.map((val, index)=>{
@@ -55,10 +56,11 @@ class Header extends Component {
                                             )
                                         })
                                     }
+                                    <li><a href={lineSheet} download><button className="nav-btn-wrapper nav-btn">Download Our Line Sheet</button></a></li>
                                 </ul>
                             </div>
                         </MediaQuery>
-                        <MediaQuery maxWidth={1000}>
+                        <MediaQuery maxWidth={1350}>
                             <div className="menu-wrap">
                                 <input type="checkbox" ref={this.toggler} onClick={() => this.toggleMenu()} className="toggler"/>
                                 <div className="hamburger"><div></div></div>
@@ -80,6 +82,7 @@ class Header extends Component {
                                                         )
                                                     })
                                                 }
+                                                <li><a href={lineSheet} download><button className="nav-btn-wrapper nav-btn">Download Our Line Sheet</button></a></li>
                                             </ul>
                                         </div>
                                     </div>
