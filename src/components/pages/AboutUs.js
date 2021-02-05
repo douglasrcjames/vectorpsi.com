@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ContactForm from '../misc/ContactForm';
 import SimpleMap from '../misc/SimpleMap';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 export default class AboutUs extends Component {
     render() {

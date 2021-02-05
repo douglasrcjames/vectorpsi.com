@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import MediaQuery from 'react-responsive'
 import Partners from '../misc/Partners';
 import Categories from './products/Categories';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 export default class Home extends Component {
     render() {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Categories from './Categories'
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async'
 
 export default class ProductsCategories extends Component {
     render() {

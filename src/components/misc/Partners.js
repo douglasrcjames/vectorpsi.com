@@ -24,6 +24,8 @@ export default class Partners extends Component {
                 <div className="center-text">Loading...</div>
             )
         } else {
+            console.log("partners.length: ")
+            console.log(partners.length)
             return (
                 <div className="slider-container">
                     <div className="m-margin-b">

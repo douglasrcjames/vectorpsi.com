@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async'
 import lineSheet from '../../assets/pdfs/VectorPSI_LineSheetCF-reduced.pdf'
 export default class Resources extends Component {
     render() {
