@@ -137,7 +137,6 @@ const settings1 = {
 //                     Clearguard - http://clearguard.com/
 //                     Bray International - https://bray.com/
 //                     Rexa - https://www.rexa.com/
-//                     Andronaco - https://www.andronaco.com/
 
 
 const partners = [
@@ -190,11 +189,6 @@ const partners = [
         webUrl: `http://www.imi-critical.com/Pages/default.aspx`,
         picPath: require("../../assets/images/external-logos/imi.png"),
         picSize: "small"
-    },
-    {
-        webUrl: `https://www.andronaco.com/`,
-        picPath: require("../../assets/images/external-logos/andronaco.png"),
-        picSize: "medium"
     },
     {
         webUrl: `https://reotemp.com/`,

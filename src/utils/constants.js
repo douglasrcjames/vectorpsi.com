@@ -12,10 +12,6 @@ export const categories = [
         thumbPath: require("../assets/images/products/automation/automation-thumb.png")
     },
     {
-        name: 'Piping Systems',
-        thumbPath: require("../assets/images/products/piping-systems/piping-systems-thumb.png")
-    },
-    {
         name: 'Flow',
         thumbPath: require("../assets/images/products/flow/vortex-flow-meter-thumb.png")
     },
@@ -322,17 +318,7 @@ export const isolationProductLines = [
                     require("../assets/images/products/isolation/check-valves/dft/Restrictor_DFT_check_valve.png"),
                     require("../assets/images/products/isolation/check-valves/dft/SCV_DFT_check_valve.png"),
                 ]
-            },
-            {
-                subheader: "Andronaco Composite and Lined Check Valves",
-                description: `Swing and ball check valves built to handle all corrosive environments.`,
-                link: `https://www.andronaco.com/products/valves/check_valves`,
-                picPaths: [
-                    require("../assets/images/products/isolation/check-valves/andronaco/andronaco-check-1.png"),
-                    require("../assets/images/products/isolation/check-valves/andronaco/andronaco-check-2.png"),
-                    require("../assets/images/products/isolation/check-valves/andronaco/andronaco-check-3.png"),
-                ]
-            },
+            }
         ]
     },
     {
@@ -355,42 +341,6 @@ export const isolationProductLines = [
                 link: `https://www.energyproducts.us/`,
                 picPaths: [
                     require("../assets/images/products/isolation/WKM-Pow-R-Seal.png")
-                ]
-            },
-        ]
-    },
-    {
-        name: 'Andronaco Composite and Lined Valves',
-        thumbPath: require("../assets/images/products/isolation/andronaco-composite-lined/Andronaco-composite-Lined-valve-thumb.png"),
-        description: `Andronaco has a full offering of ball, plug, and butterfly valves for corrosive service. Our expertise in fluoropolymers and chemicals will ensure optimum material compatibility.`,
-        category: 'Isolation',
-        productSets: [
-            {
-                subheader: "Ball Valves",
-                description: `Pureflex lined composite ball valves and Hills Mccanna Chemtite PFA lined DI valves can be provided as manual or fully automated assemblies to suit all of your chemical isolation needs.`,
-                link: `https://www.andronaco.com/products/valves/ball_valves`,
-                picPaths: [
-                    require("../assets/images/products/isolation/andronaco-composite-lined/ball/ball-valve-1.png"),
-                    require("../assets/images/products/isolation/andronaco-composite-lined/ball/ball-valve-2.png"),
-                    require("../assets/images/products/isolation/andronaco-composite-lined/ball/ball-valve-3.png"),
-                ]
-            },
-            {
-                subheader: "Plug Valves",
-                description: `Hills Mccanna Chemtite TFM PTFE/PFA lined DI plug valves can be provided as manual or fully automated assemblies to suit all of your chemical isolation needs.`,
-                link: `https://www.andronaco.com/products/valves/plug_valves`,
-                picPaths: [
-                    require("../assets/images/products/isolation/andronaco-composite-lined/plug/nilcorballvalve.png")
-                ]
-            },
-            {
-                subheader: "Butterfly Valves",
-                description: `Pureflex 800 series and 890 series composite valves are the strongest, lightest, and most chemically resistant valves in the world.`,
-                link: ``,
-                picPaths: [
-                    require("../assets/images/products/isolation/andronaco-composite-lined/butterfly/butterfly-1.png"),
-                    require("../assets/images/products/isolation/andronaco-composite-lined/butterfly/butterfly-2.png"),
-                    require("../assets/images/products/isolation/andronaco-composite-lined/butterfly/butterfly-3.png"),
                 ]
             },
         ]
@@ -503,42 +453,7 @@ export const flowProductLines = [
                 ]
             },
         ]
-    },
-    {
-        name: 'Site Flow Indicators',
-        thumbPath: require("../assets/images/products/flow/site-flow/bullseye/bullseye.png"),
-        description: ` `,
-        category: 'Flow',
-        productSets: [
-            {
-                subheader: "Bullseye",
-                description: ` `,
-                link: `https://www.andronaco.com/products/sight_indicators/bullseye`,
-                picPaths: [
-                    require("../assets/images/products/flow/site-flow/bullseye/bullseye.png"),
-                ]
-            },
-            {
-                subheader: "360 View",
-                description: ` `,
-                link: `https://www.andronaco.com/products/sight_indicators/360`,
-                picPaths: [
-                    require("../assets/images/products/flow/site-flow/360view/chemtitesitevue.png"),
-                    require("../assets/images/products/flow/site-flow/360view/doublesure.png"),
-                    require("../assets/images/products/flow/site-flow/360view/pure-vu.png"),
-                    require("../assets/images/products/flow/site-flow/360view/puresite.png"),
-                ]
-            },
-            {
-                subheader: "FEP Unbreakable",
-                description: ` `,
-                link: `https://www.andronaco.com/products/sight_indicators/puresite`,
-                picPaths: [
-                    require("../assets/images/products/flow/site-flow/fep/puresite.png"),
-                ]
-            },
-        ]
-    },
+    }
     // {
     //     name: 'Vortex Flow Meter',
     //     thumbPath: require("../assets/images/products/flow/vortex-flow-meter-thumb.png"),
@@ -956,68 +871,6 @@ export const filtrationProductLines = [
     }
 ]
 
-export const pipingSystemsProductLines = [
-    {
-        name: 'PTFE Lined Composite',
-        thumbPath: ``,
-        description: ``,
-        category: 'Piping Systems',
-        productSets: [
-            {
-                description: ``,
-                link: ``,
-                picPaths: [
-
-                ]
-            },
-        ]
-    },
-    {
-        name: 'PTFE Lined Alloys',
-        thumbPath: ``,
-        description: ``,
-        category: 'Piping Systems',
-        productSets: [
-            {
-                description: ``,
-                link: ``,
-                picPaths: [
-
-                ]
-            },
-        ]
-    },
-    {
-        name: 'Composite',
-        thumbPath: ``,
-        description: ``,
-        category: 'Piping Systems',
-        productSets: [
-            {
-                description: ``,
-                link: ``,
-                picPaths: [
-
-                ]
-            },
-        ]
-    },
-    {
-        name: 'Fiberglass and Dual Laminate',
-        thumbPath: ``,
-        description: ``,
-        category: 'Piping Systems',
-        productSets: [
-            {
-                description: ``,
-                link: ``,
-                picPaths: [
-                ]
-            },
-        ]
-    }
-]
-
 export const tanksPumpsProductLines = [
 
 ]
@@ -1120,10 +973,6 @@ export const filtrationSubCompanies = [
 
 ]
 
-export const pipingSystemsSubCompanies = [
-
-]
-
 export const tanksPumpsSubCompanies = [
 
 ]
@@ -1135,8 +984,7 @@ export const systemAccessoriesSubCompanies = [
 
 export const allProductLines = controlProductLines.concat(
         isolationProductLines, 
-        automationProductLines, 
-        pipingSystemsProductLines, 
+        automationProductLines,
         flowProductLines, 
         levelProductLines, 
         instrumentationProductLines, 

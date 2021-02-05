@@ -21,8 +21,7 @@ import {
     levelProductLines, 
     instrumentationProductLines, 
     automationProductLines, 
-    filtrationProductLines, 
-    pipingSystemsProductLines, 
+    filtrationProductLines,
     tanksPumpsProductLines, 
     systemAccessoriesProductLines,
     // Sub companies
@@ -33,7 +32,6 @@ import {
     instrumentationSubCompanies, 
     automationSubCompanies, 
     filtrationSubCompanies, 
-    pipingSystemsSubCompanies, 
     tanksPumpsSubCompanies, 
     systemAccessoriesSubCompanies
  } from './utils/constants'
@@ -54,8 +52,6 @@ class Routes extends Component {
             return automationProductLines
         } else if(name === "Filtration"){
             return filtrationProductLines
-        } else if(name === "Piping Systems"){
-            return pipingSystemsProductLines
         } else if(name === "Tanks & Pumps"){
             return tanksPumpsProductLines
         } else if(name === "System Accessories"){
@@ -79,8 +75,6 @@ class Routes extends Component {
             return automationSubCompanies
         } else if(name === "Filtration"){
             return filtrationSubCompanies
-        } else if(name === "Piping Systems"){
-            return pipingSystemsSubCompanies
         } else if(name === "Tanks & Pumps"){
             return tanksPumpsSubCompanies
         } else if(name === "System Accessories"){

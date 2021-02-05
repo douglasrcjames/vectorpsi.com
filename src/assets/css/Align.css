@@ -14,11 +14,10 @@ body {
 /* 
 * Responsive Containers
 */
-/* Large */
 .wrapper { 
-    padding-top: 100px !important; 
+    padding-top: 110px !important; 
 }
-
+/* Large */
 @media screen and (min-width: 1181px) {
     .wrapper {
         margin: 0 auto;
