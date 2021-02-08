@@ -275,6 +275,7 @@ hr {
 
 .slick-track {
     padding: 0;
+    will-change: transform;
 }
 
 .slider-container {
