@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../assets/css/Header.css'
 import MediaQuery from "react-responsive";
 import { NavLink, withRouter } from 'react-router-dom';
-import lineSheet from '../../assets/pdfs/VectorPSI_LineSheetCF-reduced.pdf'
+import lineSheet from '../../assets/pdfs/VectorPSI_LineSheetFinal-Reduced.pdf'
 
 class Header extends Component {
     constructor(props) {

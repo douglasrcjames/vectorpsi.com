@@ -94,7 +94,6 @@ img.xl-em {
 }
 
 .bg-media {
-    height: auto;
     vertical-align: middle;
     width: 100vw;
     height: 70vh;
@@ -150,9 +149,6 @@ img.xl-em {
       -webkit-backdrop-filter: blur(10px);
       backdrop-filter: blur(10px);
       background-color: rgba(255, 255, 255, 0.5);  
-    }
-    .warning {
-      display: none;
     }
   }
 
