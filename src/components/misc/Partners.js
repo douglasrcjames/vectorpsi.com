@@ -226,5 +226,15 @@ const partners = [
         picPath: require("../../assets/images/external-logos/QTRCO.png"),
         picSize: "medium"
     },
+    {
+        webUrl: `https://taylorvalve.com/`,
+        picPath: require("../../assets/images/external-logos/taylor-valve.png"),
+        picSize: "medium"
+    },
+    {
+        webUrl: `https://jflowcontrols.com/`,
+        picPath: require("../../assets/images/external-logos/jflow-controls.png"),
+        picSize: "medium"
+    },
 ]
 
